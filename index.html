@@ -149,6 +149,43 @@
   /* subtle entrance */
   @keyframes fadein{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
   .lr,.rr{animation:fadein .25s ease both}
+
+  /* ---- mobile / small screens: flow normally, scroll the whole page ---- */
+  @media(max-width:920px){
+    html,body{height:auto;overflow-y:auto;overflow-x:hidden;-webkit-text-size-adjust:100%}
+    .tv{height:auto;min-height:0;overflow:visible;padding:12px 12px 36px;gap:10px}
+    .main{display:flex;flex-direction:column;gap:12px;min-width:0}
+    .bar,.champ,.ticker{min-width:0}
+    .tile{min-height:0;min-width:0;max-width:100%}
+    .tile::before{height:3px}
+    .scrolly{overflow:visible;flex:none;max-height:none}
+    #board{grid-template-columns:1fr;gap:8px}
+    /* stop grid/flex children forcing tracks wider than the screen */
+    #board .lr,.lr .body,.chips,.rr,.rr .s{min-width:0}
+    .lr .body{overflow:hidden}
+    .chips{width:100%}
+    .tchip{max-width:100%}
+    .tchip .nm{overflow:hidden;text-overflow:ellipsis}
+    .rightcol{display:flex;flex-direction:column}
+    .halfpanel{flex:none;min-height:0}
+    .halfpanel .scrolly{overflow:visible;max-height:none}
+    #fixtures{max-height:none}
+    .bar{gap:8px}
+    .ttl h1{font-size:22px}
+    .ttl{gap:8px}
+    .hstats{gap:8px;flex-wrap:wrap}
+    .clock{font-size:11px}
+    .ticker{white-space:normal;line-height:1.5}
+    .lr .rank{font-size:18px}
+    .lr .pname{font-size:16px}
+  }
+  @media(max-width:430px){
+    .lr{flex-wrap:wrap}
+    .lr .top{flex-wrap:wrap;gap:6px}
+    .tchip input,.team input{max-width:46vw}
+    .rr .s .nm{font-size:13px}
+    .ttl h1{font-size:20px}
+  }
 </style>
 </head>
 <body>
