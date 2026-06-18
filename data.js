@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T22:17:39",
+ "updated": "2026-06-18T23:10:05",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -20,7 +20,7 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
+     "position": 3,
      "points": 1,
      "gd": -3,
      "played": 2,
@@ -423,8 +423,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 2,
-     "gd": 0,
+     "points": 4,
+     "gd": 3,
      "played": 2,
      "in": true
     }
@@ -433,8 +433,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": 0
+   "totalPoints": 5,
+   "totalGd": 3
   },
   {
    "name": "Barry",
@@ -627,9 +627,9 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": 0,
+     "position": 4,
+     "points": 1,
+     "gd": -3,
      "played": 2,
      "in": true
     }
@@ -638,8 +638,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 1
+   "totalPoints": 4,
+   "totalGd": -2
   },
   {
    "name": "Paul K",
@@ -1154,35 +1154,35 @@ window.DATA = {
    "totalGd": 3
   },
   {
-   "name": "Barry B",
+   "name": "David",
    "teams": [
     {
-     "display": "Ivory Coast",
-     "name": "Ivory Coast",
+     "display": "Morocco",
+     "name": "Morocco",
      "matched": true,
-     "tla": "CIV",
-     "crest": "https://crests.football-data.org/787.svg",
-     "group": "E",
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
-     "gd": 1,
+     "points": 1,
+     "gd": 0,
      "played": 1,
      "in": true
     },
     {
-     "display": "Qatar",
-     "name": "Qatar",
+     "display": "Canada",
+     "name": "Canada",
      "matched": true,
-     "tla": "QAT",
-     "crest": "https://crests.football-data.org/8030.svg",
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": 0,
+     "position": 2,
+     "points": 4,
+     "gd": 3,
      "played": 2,
      "in": true
     }
@@ -1192,7 +1192,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 5,
-   "totalGd": 1
+   "totalGd": 3
   },
   {
    "name": "Jack",
@@ -1316,6 +1316,47 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 4,
    "totalGd": 2
+  },
+  {
+   "name": "Barry B",
+   "teams": [
+    {
+     "display": "Ivory Coast",
+     "name": "Ivory Coast",
+     "matched": true,
+     "tla": "CIV",
+     "crest": "https://crests.football-data.org/787.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 1,
+     "played": 1,
+     "in": true
+    },
+    {
+     "display": "Qatar",
+     "name": "Qatar",
+     "matched": true,
+     "tla": "QAT",
+     "crest": "https://crests.football-data.org/8030.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -3,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -2
   },
   {
    "name": "Rooney",
@@ -1498,47 +1539,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": 1
-  },
-  {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Canada",
-     "name": "Canada",
-     "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": 0
   },
   {
    "name": "Paul K",
@@ -1943,7 +1943,7 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
+     "position": 3,
      "points": 1,
      "gd": -3,
      "played": 2,
@@ -2352,7 +2352,7 @@ window.DATA = {
    },
    "away": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "utc": "2026-06-15T22:00:00Z",
@@ -2544,7 +2544,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2572,8 +2572,8 @@ window.DATA = {
    },
    "utc": "2026-06-18T22:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
+   "status": "PAUSED",
+   "hs": 3,
    "as": 0,
    "note": "FT"
   }
@@ -2665,32 +2665,32 @@ window.DATA = {
       "crest": "https://crests.football-data.org/canada.svg"
      },
      "p": 2,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 0,
-     "gd": 0,
-     "pts": 2
+     "gd": 3,
+     "pts": 4
     },
     {
      "pos": 3,
      "team": {
-      "name": "Qatar",
-      "tla": "QAT",
-      "crest": "https://crests.football-data.org/8030.svg"
+      "name": "Bosnia-Herzegovina",
+      "tla": "BIH",
+      "crest": "https://crests.football-data.org/bosnia.svg"
      },
      "p": 2,
      "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
+     "d": 1,
+     "l": 1,
+     "gd": -3,
+     "pts": 1
     },
     {
      "pos": 4,
      "team": {
-      "name": "Bosnia-Herzegovina",
-      "tla": "BIH",
-      "crest": "https://crests.football-data.org/bosnia.svg"
+      "name": "Qatar",
+      "tla": "QAT",
+      "crest": "https://crests.football-data.org/8030.svg"
      },
      "p": 2,
      "w": 0,
