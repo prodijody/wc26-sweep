@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T09:14:27",
+ "updated": "2026-06-18T09:29:19",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -396,7 +396,7 @@ window.DATA = {
    "totalGd": 1
   },
   {
-   "name": "David Clarke",
+   "name": "David",
    "teams": [
     {
      "display": "Morocco",
@@ -478,7 +478,7 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Cami",
+   "name": "Chris",
    "teams": [
     {
      "display": "Saudi Arabia",
@@ -750,7 +750,7 @@ window.DATA = {
    "totalGd": -3
   },
   {
-   "name": "Johnny",
+   "name": "Jonny",
    "teams": [
     {
      "display": "Croatia",
@@ -832,7 +832,7 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Shelley",
+   "name": "Shelly",
    "teams": [
     {
      "display": "Scotland",
@@ -962,7 +962,7 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Cara McM",
+   "name": "Laura McM",
    "teams": [
     {
      "display": "Egypt",
@@ -988,7 +988,7 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Sambo",
+   "name": "Jambo",
    "teams": [
     {
      "display": "Haiti",
@@ -1433,7 +1433,7 @@ window.DATA = {
    "totalGd": 1
   },
   {
-   "name": "Shelley",
+   "name": "Shelly",
    "teams": [
     {
      "display": "Scotland",
@@ -1582,7 +1582,7 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "David Clarke",
+   "name": "David",
    "teams": [
     {
      "display": "Morocco",
@@ -1664,32 +1664,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Cara McM",
-   "teams": [
-    {
-     "display": "Egypt",
-     "name": "Egypt",
-     "matched": true,
-     "tla": "EGY",
-     "crest": "https://crests.football-data.org/825.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": 0
-  },
-  {
    "name": "Finlay",
    "teams": [
     {
@@ -1742,6 +1716,32 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Laura McM",
+   "teams": [
+    {
+     "display": "Egypt",
+     "name": "Egypt",
+     "matched": true,
+     "tla": "EGY",
+     "crest": "https://crests.football-data.org/825.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 1,
+   "totalGd": 0
+  },
+  {
    "name": "Nicole",
    "teams": [
     {
@@ -1768,7 +1768,7 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Sambo",
+   "name": "Jambo",
    "teams": [
     {
      "display": "Haiti",
@@ -1809,7 +1809,7 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Cami",
+   "name": "Chris",
    "teams": [
     {
      "display": "Saudi Arabia",
@@ -1850,7 +1850,7 @@ window.DATA = {
    "totalGd": -2
   },
   {
-   "name": "Johnny",
+   "name": "Jonny",
    "teams": [
     {
      "display": "Croatia",
@@ -2314,7 +2314,7 @@ window.DATA = {
    },
    "away": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "utc": "2026-06-15T22:00:00Z",
