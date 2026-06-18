@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T20:19:57",
+ "updated": "2026-06-18T21:19:48",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -20,9 +20,9 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
+     "position": 3,
+     "points": 1,
+     "gd": -3,
      "played": 2,
      "in": true
     }
@@ -31,8 +31,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": 0
+   "totalPoints": 1,
+   "totalGd": -3
   },
   {
    "name": "Mark",
@@ -422,7 +422,7 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
+     "position": 2,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -587,8 +587,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 2,
-     "gd": 0,
+     "points": 4,
+     "gd": 3,
      "played": 2,
      "in": true
     }
@@ -597,8 +597,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": 0
+   "totalPoints": 5,
+   "totalGd": 3
   },
   {
    "name": "Barry B",
@@ -1113,6 +1113,47 @@ window.DATA = {
    "totalGd": 10
   },
   {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 3,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 5,
+   "totalGd": 3
+  },
+  {
    "name": "Jack",
    "teams": [
     {
@@ -1459,47 +1500,6 @@ window.DATA = {
    "totalGd": 1
   },
   {
-   "name": "Brandon B",
-   "teams": [
-    {
-     "display": "Netherlands",
-     "name": "Netherlands",
-     "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": 0
-  },
-  {
    "name": "Paul K",
    "teams": [
     {
@@ -1608,7 +1608,7 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
+     "position": 2,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -1660,32 +1660,6 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": 0
-  },
-  {
-   "name": "Finlay",
-   "teams": [
-    {
-     "display": "Bosnia-Herzegovina",
-     "name": "Bosnia-Herzegovina",
-     "matched": true,
-     "tla": "BIH",
-     "crest": "https://crests.football-data.org/bosnia.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
    "totalPoints": 2,
    "totalGd": 0
   },
@@ -1958,6 +1932,32 @@ window.DATA = {
    "totalGd": -3
   },
   {
+   "name": "Finlay",
+   "teams": [
+    {
+     "display": "Bosnia-Herzegovina",
+     "name": "Bosnia-Herzegovina",
+     "matched": true,
+     "tla": "BIH",
+     "crest": "https://crests.football-data.org/bosnia.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 1,
+     "gd": -3,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 1,
+   "totalGd": -3
+  },
+  {
    "name": "Ross",
    "teams": [
     {
@@ -2134,6 +2134,25 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Group B",
+   "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "utc": "2026-06-18T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 4,
+   "as": 1,
+   "note": "FT"
+  },
   {
    "stage": "Group A",
    "home": {
@@ -2333,29 +2352,10 @@ window.DATA = {
    },
    "away": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "utc": "2026-06-15T22:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Group G",
-   "home": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-06-15T19:00:00Z",
    "sweep": true,
    "status": "FINISHED",
    "hs": 1,
@@ -2557,27 +2557,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group B",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-06-18T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2651,28 +2631,14 @@ window.DATA = {
       "crest": "https://crests.football-data.org/788.svg"
      },
      "p": 2,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 0,
-     "gd": 0,
-     "pts": 2
+     "gd": 3,
+     "pts": 4
     },
     {
      "pos": 2,
-     "team": {
-      "name": "Bosnia-Herzegovina",
-      "tla": "BIH",
-      "crest": "https://crests.football-data.org/bosnia.svg"
-     },
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
-    },
-    {
-     "pos": 3,
      "team": {
       "name": "Canada",
       "tla": "CAN",
@@ -2683,6 +2649,20 @@ window.DATA = {
      "d": 1,
      "l": 0,
      "gd": 0,
+     "pts": 1
+    },
+    {
+     "pos": 3,
+     "team": {
+      "name": "Bosnia-Herzegovina",
+      "tla": "BIH",
+      "crest": "https://crests.football-data.org/bosnia.svg"
+     },
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gd": -3,
      "pts": 1
     },
     {
