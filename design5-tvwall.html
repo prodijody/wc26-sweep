@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WC26 Sweep · Design 5 · TV Wall</title>
+<style>
+  :root{--bg:#070b18;--tile:#10182b;--tile2:#0c1322;--line:#1f2a44;--txt:#f0f4ff;--mut:#7e8cb0;
+        --acc:#5b8cff;--green:#2ee6a6;--gold:#ffd54a;--red:#ff647c}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"Segoe UI",system-ui,sans-serif;background:
+      radial-gradient(900px 500px at 85% -5%,#16224a 0,transparent 55%),var(--bg);color:var(--txt);overflow:hidden}
+  .tv{height:100vh;display:flex;flex-direction:column;padding:18px 22px;gap:14px}
+  /* top bar */
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:18px}
+  .ttl{display:flex;align-items:baseline;gap:14px}
+  .ttl h1{font-size:30px;font-weight:800;letter-spacing:-.5px}
+  .ttl .ph{color:var(--gold);font-weight:700;font-size:15px}
+  .demo{background:rgba(255,100,124,.16);color:var(--red);border:1px solid rgba(255,100,124,.4);padding:4px 12px;border-radius:999px;font-size:12px;font-weight:700}
+  .clock{color:var(--mut);font-size:13px}
+  /* main grid */
+  .main{flex:1;display:grid;grid-template-columns:1.15fr 1.3fr 1fr;gap:14px;min-height:0}
+  .tile{background:linear-gradient(180deg,var(--tile),var(--tile2));border:1px solid var(--line);border-radius:16px;
+        padding:16px 16px 6px;display:flex;flex-direction:column;min-height:0}
+  .tile h2{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mut);margin-bottom:12px;flex:none;
+           display:flex;align-items:center;gap:8px}
+  .tile h2::before{content:"";width:4px;height:14px;background:var(--acc);border-radius:2px}
+  .scrolly{overflow:hidden;flex:1}
+  /* hero still-in */
+  .hero{text-align:center;background:linear-gradient(180deg,rgba(46,230,166,.12),transparent);
+        border:1px solid rgba(46,230,166,.3);border-radius:14px;padding:16px;margin-bottom:14px;flex:none}
+  .hero .big{font-size:64px;font-weight:900;color:var(--green);line-height:1}
+  .hero .lab{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--mut)}
+  .finalist{display:flex;align-items:center;gap:10px;background:rgba(255,213,74,.08);border:1px solid rgba(255,213,74,.35);
+            border-radius:12px;padding:10px 12px;margin-bottom:8px}
+  .finalist img{width:30px;height:30px;object-fit:contain}
+  .finalist b{font-size:16px}
+  .finalist small{color:var(--gold);font-size:12px;display:block}
+  /* leaderboard rows */
+  .lr{display:flex;align-items:center;gap:11px;padding:9px 8px;border-radius:10px;margin-bottom:4px}
+  .lr.in{background:rgba(46,230,166,.08)}
+  .lr.out{opacity:.5}
+  .lr .p{width:24px;text-align:center;font-weight:800;color:var(--gold);font-size:15px}
+  .lr .nm{flex:1;font-weight:700;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .lr .sg{font-size:12px;color:var(--mut)}
+  .lr .pl{font-size:10px;font-weight:800;padding:3px 9px;border-radius:999px}
+  .lr.in .pl{background:var(--green);color:#06251a}
+  .lr.out .pl{background:rgba(255,255,255,.08);color:var(--mut)}
+  /* results */
+  .rr{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+  .rr:last-child{border:0}
+  .rr .s{display:flex;align-items:center;gap:7px;font-size:14px}
+  .rr .s.r{justify-content:flex-end;text-align:right}
+  .rr .s img{width:22px;height:22px;object-fit:contain}
+  .rr .sc{font-weight:800;font-size:16px;background:#000a;border:1px solid var(--line);border-radius:7px;padding:2px 9px;min-width:50px;text-align:center}
+  .rr .sc.t{color:var(--gold)}
+  .rr .stg{grid-column:1/-1;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--acc)}
+  .ticker{flex:none;background:#000a;border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-size:13px;color:var(--mut);
+          white-space:nowrap;overflow:hidden}
+  .ticker b{color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="tv">
+  <div class="bar">
+    <div class="ttl"><h1 id="title"></h1><span class="ph" id="phase"></span></div>
+    <div style="display:flex;gap:12px;align-items:center"><span class="demo">DEMO DATA</span><span class="clock" id="clock"></span></div>
+  </div>
+
+  <div class="main">
+    <!-- col 1: who's in -->
+    <div class="tile">
+      <h2>Who's still in</h2>
+      <div class="hero"><div class="big" id="pin"></div><div class="lab">players still standing</div></div>
+      <div class="scrolly" id="finalists"></div>
+    </div>
+    <!-- col 2: leaderboard -->
+    <div class="tile">
+      <h2>Leaderboard — last team standing</h2>
+      <div class="scrolly" id="board"></div>
+    </div>
+    <!-- col 3: results + fixtures -->
+    <div class="tile">
+      <h2>Latest results</h2>
+      <div class="scrolly" id="recent"></div>
+      <h2 style="margin-top:10px">Still to play</h2>
+      <div id="fixtures" style="flex:none"></div>
+    </div>
+  </div>
+
+  <div class="ticker" id="ticker"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const D=window.DATA;
+const cr=(t,s=22)=>t.crest?`<img src="${t.crest}" width="${s}" height="${s}" onerror="this.style.display='none'">`:'';
+title.textContent=D.title;
+phase.textContent='· '+D.phase;
+clock.textContent='Updated '+new Date(D.updated).toLocaleString();
+pin.textContent=D.playersIn;
+
+finalists.innerHTML=D.leaderboard.filter(p=>p.in).map(p=>{
+  const t=p.teams.find(x=>x.in)||p.teams[0];
+  return `<div class="finalist">${cr(t,30)}<div><b>${p.name}</b><small>${t.display} · ${t.stageLabel}</small></div></div>`;
+}).join('')+'<div class="lr" style="margin-top:6px;color:var(--mut);font-size:12px">Everyone else is knocked out — ranked by how far they got →</div>';
+
+board.innerHTML=D.leaderboard.map((p,i)=>`
+  <div class="lr ${p.in?'in':'out'}">
+    <div class="p">${i+1}</div>
+    <div class="nm">${p.name}<div class="sg">${p.teams.map(t=>t.display).join(', ')}</div></div>
+    <div class="sg">${p.bestStageLabel}</div>
+    <span class="pl">${p.in?'IN':'OUT'}</span>
+  </div>`).join('');
+
+recent.innerHTML=D.recent.map(r=>`
+  <div class="rr"><div class="stg">${r.stage}</div>
+    <div class="s r">${r.home.name} ${cr(r.home)}</div>
+    <div class="sc">${r.hs}–${r.as}</div>
+    <div class="s">${cr(r.away)} ${r.away.name}</div></div>`).join('');
+
+fixtures.innerHTML=D.fixtures.map(f=>`
+  <div class="rr"><div class="stg">${f.stage} · ${f.date}</div>
+    <div class="s r">${f.home.name} ${cr(f.home)}</div>
+    <div class="sc t">${f.time}</div>
+    <div class="s">${cr(f.away)} ${f.away.name}</div></div>`).join('');
+
+ticker.innerHTML='<b>FINAL:</b> '+D.fixtures[0].home.name+' vs '+D.fixtures[0].away.name+
+  ' &nbsp;·&nbsp; <b>'+D.playersIn+'</b> players still in &nbsp;·&nbsp; Leader: <b>'+D.leaderboard[0].name+
+  '</b> &nbsp;·&nbsp; '+D.players.filter(p=>!p.in).length+' knocked out';
+</script>
+</body>
+</html>

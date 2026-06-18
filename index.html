@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WC 2026 Office Sweep</title>
+<style>
+  :root{--bg:#f4f6fb;--tile:#ffffff;--line:#e6e9f2;--ink:#1a2233;--mut:#6b7488;
+        --acc:#2f6df6;--accbg:#eaf1ff;--green:#10b981;--greenbg:#e7f8f1;--greenln:#bdebd6;
+        --gold:#d9930a;--goldbg:#fff5e0;--red:#ef4444}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--ink);overflow:hidden}
+  .tv{height:100vh;display:flex;flex-direction:column;padding:16px 20px;gap:12px}
+  /* header */
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+  .ttl{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .ttl h1{font-size:26px;font-weight:800;letter-spacing:-.5px}
+  .ttl .ph{color:var(--gold);font-weight:700;font-size:15px}
+  .hstats{display:flex;align-items:center;gap:10px}
+  .pill-stat{display:flex;align-items:center;gap:7px;background:var(--greenbg);border:1px solid var(--greenln);
+             border-radius:999px;padding:6px 14px;font-weight:700;font-size:14px;color:var(--green)}
+  .pill-stat b{font-size:18px}
+  .pill-stat.muted{background:#eef0f6;border-color:var(--line);color:var(--mut)}
+  .demo{background:var(--goldbg);color:var(--gold);border:1px solid #f3d79a;padding:5px 12px;border-radius:999px;font-size:12px;font-weight:700}
+  .clock{color:var(--mut);font-size:12px;white-space:nowrap}
+  .champ{background:linear-gradient(90deg,var(--goldbg),#fff);border:1px solid #f3d79a;border-radius:12px;
+         padding:10px 16px;display:flex;align-items:center;gap:12px;font-size:16px;flex:none}
+  .champ img{width:34px;height:34px;object-fit:contain}
+  .champ b{color:var(--gold)}
+  /* main 2-col */
+  .main{flex:1;display:grid;grid-template-columns:1.75fr 1fr;gap:12px;min-height:0}
+  @media(max-width:920px){.main{grid-template-columns:1fr}.tv{overflow:auto;height:auto;min-height:100vh}}
+  .tile{background:var(--tile);border:1px solid var(--line);border-radius:16px;padding:14px 14px 8px;
+        display:flex;flex-direction:column;min-height:0;box-shadow:0 1px 3px rgba(20,30,60,.05)}
+  .tile h2{font-size:12px;text-transform:uppercase;letter-spacing:1.1px;color:var(--mut);margin-bottom:10px;flex:none;
+           font-weight:700;display:flex;align-items:center;gap:8px}
+  .tile h2 .sub{margin-left:auto;text-transform:none;letter-spacing:0;font-weight:600;color:var(--mut)}
+  .tile h2::before{content:"";width:4px;height:14px;background:var(--acc);border-radius:2px}
+  .scrolly{overflow:auto;flex:1}
+  /* leaderboard as two columns of compact cards */
+  #board{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-content:start}
+  @media(max-width:1180px){#board{grid-template-columns:1fr}}
+  .lr{display:flex;gap:11px;padding:9px 11px;border-radius:12px;border:1px solid transparent;align-items:flex-start}
+  #board .lr{margin-bottom:0}
+  .lr.in{background:var(--greenbg);border-color:var(--greenln)}
+  .lr.out{background:#fafbfe;border-color:var(--line)}
+  .lr .rank{font-size:20px;font-weight:800;color:var(--acc);width:30px;text-align:center;flex:none;line-height:1.5}
+  .lr.out .rank{color:var(--mut)}
+  .lr .body{flex:1;min-width:0}
+  .lr .top{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+  .lr .pname{font-size:17px;font-weight:700}
+  .lr.out .pname{color:var(--mut)}
+  .lr .meta{font-size:12px;color:var(--mut)}
+  .lr .pl{margin-left:auto;font-size:10px;font-weight:800;padding:3px 10px;border-radius:999px;flex:none}
+  .lr.in .pl{background:var(--green);color:#fff}
+  .lr.out .pl{background:#eef0f6;color:var(--mut)}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .tchip{display:inline-flex;align-items:center;gap:7px;padding:5px 11px 5px 7px;border-radius:999px;font-size:13px;
+         background:#fff;border:1px solid var(--line);font-weight:600}
+  .tchip img{width:20px;height:20px;object-fit:contain;flex:none;border-radius:3px}
+  .tchip small{font-weight:600;color:var(--mut);font-size:11px}
+  .tchip.alive{border-color:var(--greenln);background:var(--greenbg)}
+  .tchip.alive small{color:var(--green)}
+  .tchip.dead{opacity:.5}
+  .tchip.dead .nm{text-decoration:line-through}
+  .tchip.na{border-style:dashed;color:var(--mut)}
+  /* match rows */
+  .rr{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid var(--line)}
+  .rr:last-child{border:0}
+  .rr.sw{background:var(--accbg);border-radius:9px;padding:9px 9px;border:0;margin:2px 0}
+  .rr .s{display:flex;align-items:center;gap:7px;font-size:14px;min-width:0}
+  .rr .s.r{justify-content:flex-end;text-align:right}
+  .rr .s img{width:22px;height:22px;object-fit:contain;flex:none}
+  .rr .s .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:flex;flex-direction:column;line-height:1.2}
+  .rr .s.r .nm{align-items:flex-end}
+  .own{font-size:10px;font-weight:700;color:var(--acc)}
+  .own::before{content:"●";font-size:7px;vertical-align:middle;margin-right:3px}
+  .rr .sc{font-weight:800;font-size:15px;background:#f1f3f8;border:1px solid var(--line);border-radius:7px;padding:3px 10px;min-width:50px;text-align:center}
+  .rr .sc.t{background:var(--accbg);color:var(--acc)}
+  .rr .sc.live{background:var(--red);color:#fff;border-color:var(--red)}
+  .rr .stg{grid-column:1/-1;font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--acc);font-weight:600;display:flex;justify-content:space-between}
+  .rr.sw .stg{color:var(--acc)}
+  .swdot{color:var(--acc);font-weight:800;margin-left:5px}
+  .livedot{width:7px;height:7px;border-radius:50%;background:var(--red);display:inline-block;margin-right:5px;animation:pl 1.4s infinite;vertical-align:middle}
+  @keyframes pl{0%{box-shadow:0 0 0 0 rgba(239,68,68,.6)}70%{box-shadow:0 0 0 7px rgba(239,68,68,0)}}
+  .sec+.sec{margin-top:6px}
+  .ticker{flex:none;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-size:13px;color:var(--mut);white-space:nowrap;overflow:hidden;box-shadow:0 1px 3px rgba(20,30,60,.05)}
+  .ticker b{color:var(--ink)}
+  .empty{color:var(--mut);font-size:13px;padding:6px}
+  .legend{flex:none;font-size:11px;color:var(--mut);padding:6px 2px 2px;display:flex;gap:14px;flex-wrap:wrap}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dotg{width:9px;height:9px;border-radius:50%;background:var(--green);display:inline-block}
+  .dotr{width:9px;height:9px;border-radius:3px;background:#cfd6e6;display:inline-block}
+
+  /* ---- visual flair ---- */
+  body{background:
+        radial-gradient(1100px 520px at 100% -8%, #e7eefc 0, transparent 60%),
+        radial-gradient(900px 480px at -5% 110%, #e9f7f1 0, transparent 55%),
+        var(--bg)}
+  .ttl h1{background:linear-gradient(90deg,#1a2233,#2f6df6 70%,#10b981);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .ttl h1::before{content:"🏆 ";-webkit-text-fill-color:initial}
+  .pill-stat{box-shadow:0 1px 2px rgba(20,30,60,.05)}
+  #statin:not(.muted){animation:inglow 2.6s ease-in-out infinite}
+  @keyframes inglow{0%,100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}50%{box-shadow:0 0 0 5px rgba(16,185,129,.12)}}
+  /* gradient accent strip on each tile */
+  .tile{position:relative;overflow:hidden}
+  .tile::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;
+                background:linear-gradient(90deg,var(--acc),#7aa7ff 45%,var(--green))}
+  .tile h2 .ic{margin-right:2px;filter:saturate(1.1)}
+  /* medal ranks */
+  .rank.medal{border-radius:50%;width:30px;height:30px;line-height:30px;color:#fff;font-size:15px;
+              box-shadow:0 2px 7px rgba(20,30,60,.22);text-shadow:0 1px 1px rgba(0,0,0,.25)}
+  .m1{background:linear-gradient(160deg,#ffe07a,#f5a623)}
+  .m2{background:linear-gradient(160deg,#e3eaf3,#9fadc2)}
+  .m3{background:linear-gradient(160deg,#f2bd92,#c9783f)}
+  /* card depth + hover lift */
+  .lr{transition:transform .14s ease, box-shadow .14s ease}
+  .lr.in{background:linear-gradient(180deg,#effaf4,#e2f6ec);box-shadow:0 1px 2px rgba(16,185,129,.08)}
+  .lr:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(20,30,60,.10)}
+  .tchip{transition:transform .12s ease}
+  .lr:hover .tchip.alive{transform:translateY(-1px)}
+  /* sweep match emphasis */
+  .rr.sw{border-left:3px solid var(--acc);padding-left:9px;box-shadow:inset 0 0 0 1px rgba(47,109,246,.06)}
+  /* right column even 50/50 split, as two distinct tinted blocks */
+  .rightcol{gap:10px}
+  .halfpanel{flex:1;min-height:0;display:flex;flex-direction:column;border-radius:13px;padding:9px 11px 4px;border:1px solid}
+  .halfpanel .scrolly{flex:1;overflow:auto}
+  .halfpanel h2{margin-bottom:8px}
+  #livewrap{flex:none}
+  /* "Still to play" — warm amber / upcoming */
+  .halfpanel.up{background:linear-gradient(180deg,#fff7e8,#fffdf8);border-color:#f4e0b6}
+  .halfpanel.up h2{color:#b9770a}
+  .halfpanel.up h2::before{background:linear-gradient(180deg,#f7c34a,#e0950c)}
+  .sc.up{background:linear-gradient(180deg,#fff0cf,#ffe2a6);color:#9a6406;border-color:#e7c878;font-size:13px;box-shadow:0 1px 2px rgba(217,147,10,.18)}
+  .rr.fix{border-bottom-color:#f3e6c8}
+  .rr.fix.sw{border-left-color:#e0950c;box-shadow:inset 0 0 0 1px rgba(224,149,12,.08)}
+  .rr.fix .stg{color:#b9770a}
+  /* "Latest results" — cool green / scoreboard */
+  .halfpanel.done{background:linear-gradient(180deg,#ecf9f3,#fbfffd);border-color:#c9ebda}
+  .halfpanel.done h2{color:#0c8f63}
+  .halfpanel.done h2::before{background:linear-gradient(180deg,#37e0a0,#0e9e6e)}
+  .sc.done{background:linear-gradient(180deg,#27324d,#161d30);color:#fff;border-color:#141b2c;letter-spacing:1px;font-size:15px;box-shadow:0 2px 5px rgba(20,30,60,.25)}
+  .rr.done{border-bottom-color:#d6efe3}
+  .rr.done .stg{color:#0c8f63}
+  .rr.done .win{font-weight:800;color:var(--ink)}
+  .rr.done .lose{color:var(--mut);font-weight:600}
+  .ftpill{background:#e7f8f1;color:#0c8f63;border:1px solid #bfe9d6;border-radius:999px;padding:1px 8px;font-weight:800;font-size:9px;letter-spacing:.5px}
+  /* subtle entrance */
+  @keyframes fadein{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .lr,.rr{animation:fadein .25s ease both}
+</style>
+</head>
+<body>
+<div class="tv">
+  <div class="bar">
+    <div class="ttl"><h1 id="title">WC 2026 Office Sweep</h1><span class="ph" id="phase"></span></div>
+    <div class="hstats">
+      <span class="demo" id="demo" style="display:none">DEMO DATA</span>
+      <span class="pill-stat" id="statin"><b id="pin">–</b> still in</span>
+      <span class="pill-stat muted"><b id="ptot">–</b>&nbsp;players</span>
+      <span class="clock" id="clock"></span>
+    </div>
+  </div>
+  <div class="champ" id="champ" style="display:none"></div>
+
+  <div class="main">
+    <div class="tile">
+      <h2><span class="ic">🏆</span>Leaderboard <span class="sub" id="lbsub"></span></h2>
+      <div class="scrolly" id="board"></div>
+      <div class="legend">
+        <span><span class="dotg"></span> team still in</span>
+        <span><span class="dotr"></span> knocked out</span>
+        <span>chips show each player's teams &amp; how far they've got</span>
+      </div>
+    </div>
+    <div class="tile rightcol">
+      <div id="livewrap" style="display:none">
+        <h2><span class="livedot"></span>Live now</h2>
+        <div id="live"></div>
+      </div>
+      <div class="halfpanel up">
+        <h2><span class="ic">🕒</span>Still to play</h2>
+        <div class="scrolly" id="fixtures"></div>
+      </div>
+      <div class="halfpanel done">
+        <h2><span class="ic">⚽</span>Latest results</h2>
+        <div class="scrolly" id="recent"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker" id="ticker"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const cr = (t,s=20) => t && t.crest ? `<img src="${t.crest}" width="${s}" height="${s}" onerror="this.style.display='none'">` : '';
+const dt = u => { try{ const d=new Date(u); return d.toLocaleDateString([], {weekday:'short', day:'numeric', month:'short'})+' '+d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}); }catch(e){ return ''; } };
+function ord(n){ if(!n) return ''; const s=["th","st","nd","rd"], v=n%100; return n+(s[(v-20)%10]||s[v]||s[0]); }
+
+// short label under each team chip: group+position now, knockout stage later
+function teamTag(t){
+  if(!t.matched) return 'not in cup';
+  if(t.stage===0) return 'Grp ' + (t.group||'?') + (t.position ? ' · ' + ord(t.position) : '');
+  return t.stageLabel;
+}
+function chip(t){
+  const cls = !t.matched ? 'na' : (t.in ? 'alive' : 'dead');
+  return `<span class="tchip ${cls}">${cr(t,20)}<span class="nm">${t.display}</span> <small>${teamTag(t)}</small></span>`;
+}
+
+let OWNER = {};
+function render(D){
+  if(!D){ $('clock').textContent='Waiting for data — run update.py'; return; }
+  OWNER = {};
+  D.players.forEach(p => p.teams.forEach(t => { if(t.name) OWNER[t.name] = p.name; }));
+  $('title').textContent = D.title;
+  $('phase').textContent = '· ' + D.phase;
+  $('demo').style.display = D.demo ? '' : 'none';
+  $('clock').textContent = 'Updated ' + new Date(D.updated).toLocaleString();
+  $('pin').textContent = D.playersIn;
+  $('ptot').textContent = D.playersTotal;
+  if(D.playersIn===0) $('statin').classList.add('muted'); else $('statin').classList.remove('muted');
+
+  // champion banner
+  if(D.champion){
+    const owner = D.players.find(p => p.teams.some(t => t.name===D.champion));
+    const crest = (D.recent.concat(D.fixtures).flatMap(m=>[m.home,m.away]).find(t=>t.name===D.champion))||{};
+    $('champ').style.display='';
+    $('champ').innerHTML = `${cr(crest,34)}<div>🏆 <b>${D.champion}</b> are World Champions — winner: <b>${owner?owner.name:'—'}</b></div>`;
+  } else $('champ').style.display='none';
+
+  // leaderboard sub-note
+  $('lbsub').textContent = D.champion ? 'final standings'
+      : (D.phase.startsWith('Group') ? 'group stage — ranked by points' : 'last team standing');
+
+  // rich leaderboard (also shows who's in/out, with flags)
+  $('board').innerHTML = D.leaderboard.map((p,i) => {
+    const meta = p.bestStage===0
+      ? `${p.totalPoints} pt${p.totalPoints===1?'':'s'} · GD ${p.totalGd>=0?'+':''}${p.totalGd}`
+      : 'Best: ' + p.bestStageLabel;
+    return `<div class="lr ${p.in?'in':'out'}">
+      <div class="rank ${i<3?'medal m'+(i+1):''}">${i+1}</div>
+      <div class="body">
+        <div class="top">
+          <span class="pname">${p.name}</span>
+          <span class="meta">${meta}</span>
+          <span class="pl">${p.in?'IN':'OUT'}</span>
+        </div>
+        <div class="chips">${p.teams.map(chip).join('')}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // live
+  if(D.live && D.live.length){
+    $('livewrap').style.display=''; $('live').innerHTML = D.live.map(m => row(m,'live')).join('');
+  } else { $('livewrap').style.display='none'; $('live').innerHTML=''; }
+
+  $('recent').innerHTML = D.recent.length ? D.recent.map(m => row(m,'done')).join('') : '<div class="empty">No results yet.</div>';
+  $('fixtures').innerHTML = D.fixtures.length ? D.fixtures.map(m => row(m,'fix')).join('') : '<div class="empty">No fixtures.</div>';
+
+  const lead = D.leaderboard[0];
+  const next = D.fixtures[0];
+  $('ticker').innerHTML = (D.champion ? `🏆 <b>${D.champion}</b> win the World Cup &nbsp;·&nbsp; ` : '')
+    + (next ? `<b>Next:</b> ${next.home.name} vs ${next.away.name} (${next.stage}) &nbsp;·&nbsp; ` : '')
+    + `<b>${D.playersIn}</b> of ${D.playersTotal} players still in &nbsp;·&nbsp; Leading: <b>${lead?lead.name:'—'}</b> (${lead?(lead.bestStage===0?lead.totalPoints+' pts':lead.bestStageLabel):''})`;
+}
+
+const ownTag = t => OWNER[t.name] ? `<span class="own">${OWNER[t.name]}</span>` : '';
+function row(m, kind){
+  const oh = OWNER[m.home.name], oa = OWNER[m.away.name];
+  const versus = (oh || oa) ? `<span class="swdot">${oh||'—'} v ${oa||'—'}</span>` : '';
+  let scoreCls = 'sc', mid, tail, hCls = 'nm', aCls = 'nm';
+  if(kind==='fix'){
+    scoreCls = 'sc up'; mid = dt(m.utc).split(' ').slice(-1)[0]; tail = dt(m.utc);
+  } else if(kind==='live'){
+    scoreCls = 'sc live'; mid = `${m.hs}–${m.as}`; tail = '<span class="livedot"></span>LIVE';
+  } else {
+    scoreCls = 'sc done'; mid = `${m.hs}–${m.as}`; tail = `<span class="ftpill">${m.note}</span>`;
+    if(m.hs > m.as){ hCls='nm win'; aCls='nm lose'; }
+    else if(m.as > m.hs){ hCls='nm lose'; aCls='nm win'; }
+  }
+  return `<div class="rr ${kind} ${m.sweep?'sw':''}">
+    <div class="stg"><span>${m.stage}${versus}</span><span>${tail}</span></div>
+    <div class="s r"><span class="${hCls}">${m.home.name}${ownTag(m.home)}</span> ${cr(m.home)}</div>
+    <div class="${scoreCls}">${mid}</div>
+    <div class="s">${cr(m.away)} <span class="${aCls}">${m.away.name}${ownTag(m.away)}</span></div></div>`;
+}
+
+render(window.DATA);
+async function refresh(){
+  try{
+    const r = await fetch('data.js?_=' + Date.now(), {cache:'no-store'});
+    const txt = await r.text();
+    render(JSON.parse(txt.replace(/^\s*window\.DATA\s*=\s*/, '').replace(/;\s*$/, '')));
+  }catch(e){ /* file:// or offline — keep current data */ }
+}
+setInterval(refresh, 60000);
+</script>
+</body>
+</html>

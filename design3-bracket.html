@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WC26 Sweep · Design 3 · Progression Bracket</title>
+<style>
+  :root{--bg:#0d1117;--col:#161b26;--line:#252c3a;--txt:#e8edf6;--mut:#7d879c;
+        --green:#3fd07e;--gold:#ffcf3f;--red:#ff5f6d}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh}
+  .wrap{max-width:1400px;margin:0 auto;padding:24px 20px 70px}
+  header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:22px}
+  h1{font-size:26px;font-weight:800}
+  .sub{color:var(--mut);font-size:13px;margin-top:3px}
+  .demo{background:rgba(255,95,109,.15);color:var(--red);border:1px solid rgba(255,95,109,.4);padding:4px 11px;border-radius:999px;font-size:12px;font-weight:700}
+  .hint{color:var(--mut);font-size:13px;margin-bottom:14px}
+  .arrow{color:var(--green);font-weight:700}
+  .scroll{overflow-x:auto;padding-bottom:14px}
+  .cols{display:grid;grid-template-columns:repeat(6,minmax(200px,1fr));gap:12px;min-width:1100px}
+  .col{background:var(--col);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column}
+  .col h3{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--mut);margin-bottom:12px;
+          display:flex;justify-content:space-between;align-items:center}
+  .col.final h3{color:var(--gold)}
+  .col h3 .c{background:rgba(255,255,255,.06);border-radius:999px;padding:1px 8px;font-size:11px}
+  .chip{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;margin-bottom:8px;
+        background:rgba(255,255,255,.03);border:1px solid var(--line)}
+  .chip.alive{border-color:var(--green);background:rgba(63,208,126,.1);box-shadow:0 0 14px rgba(63,208,126,.12)}
+  .chip .cr{width:22px;height:22px;flex:none;object-fit:contain;border-radius:3px}
+  .chip .tx{min-width:0;flex:1}
+  .chip .tm{font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .chip .ow{font-size:11px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .chip.alive .ow{color:var(--green)}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex:none;animation:p 1.6s infinite}
+  @keyframes p{0%{box-shadow:0 0 0 0 rgba(63,208,126,.6)}70%{box-shadow:0 0 0 7px rgba(63,208,126,0)}}
+  .col.dim .chip{opacity:.7}
+  /* bottom: leaderboard strip */
+  .lb{display:flex;gap:10px;overflow-x:auto;margin-top:24px;padding-bottom:8px}
+  .lcard{flex:none;width:150px;background:var(--col);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+  .lcard.in{border-color:var(--green)}
+  .lcard .r{font-size:11px;color:var(--mut)}
+  .lcard .n{font-weight:800;font-size:15px;margin:4px 0}
+  .lcard .s{font-size:11px;color:var(--gold);font-weight:700}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--mut);margin:26px 0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div style="display:flex;align-items:center;gap:10px"><h1 id="title"></h1><span class="demo">DEMO DATA</span></div>
+      <div class="sub" id="sub"></div>
+    </div>
+    <div class="sub"><b style="color:var(--green);font-size:22px">{{in}}</b> still in of {{tot}}</div>
+  </header>
+  <div class="hint">Each team sits in the round it reached. Further <span class="arrow">right →</span> = doing better. Glowing chips are still alive.</div>
+
+  <div class="scroll"><div class="cols" id="cols"></div></div>
+
+  <h2>Leaderboard</h2>
+  <div class="lb" id="lb"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const D=window.DATA;
+title.textContent=D.title;
+sub.textContent='Last team standing · '+D.phase+' · updated '+new Date(D.updated).toLocaleString();
+document.querySelector('header .sub:last-child').innerHTML=
+  `<b style="color:var(--green);font-size:22px">${D.playersIn}</b> still in of ${D.playersTotal}`;
+
+const order=D.stageOrder; // GROUP..FINAL
+// gather all owned teams with owner + stage
+const items={}; order.forEach(s=>items[s]=[]);
+D.players.forEach(p=>p.teams.forEach(t=>{
+  if(!t.matched||!t.stage)return;
+  items[t.stage].push({team:t,owner:p.name});
+}));
+const cols=document.getElementById('cols');
+order.forEach(s=>{
+  const list=items[s].sort((a,b)=>(b.team.in-a.team.in));
+  const col=document.createElement('div');
+  col.className='col'+(s==='FINAL'?' final':'')+(s==='GROUP'?' dim':'');
+  col.innerHTML=`<h3>${D.stageLabel[s]} <span class="c">${list.length}</span></h3>`+
+    list.map(it=>`<div class="chip ${it.team.in?'alive':''}">
+        ${it.team.crest?`<img class="cr" src="${it.team.crest}" onerror="this.style.display='none'">`:''}
+        <div class="tx"><div class="tm">${it.team.display}</div><div class="ow">${it.owner}</div></div>
+        ${it.team.in?'<span class="dot"></span>':''}
+      </div>`).join('') || '<div class="ow" style="color:var(--mut);font-size:12px">—</div>';
+  cols.appendChild(col);
+});
+
+lb.innerHTML=D.leaderboard.map((p,i)=>`
+  <div class="lcard ${p.in?'in':''}">
+    <div class="r">#${i+1}</div><div class="n">${p.name}</div>
+    <div class="s">${p.in?'● IN':p.bestStageLabel}</div>
+  </div>`).join('');
+</script>
+</body>
+</html>
