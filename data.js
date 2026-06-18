@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T23:10:05",
+ "updated": "2026-06-18T23:53:55",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -422,9 +422,9 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 1,
      "points": 4,
-     "gd": 3,
+     "gd": 4,
      "played": 2,
      "in": true
     }
@@ -434,7 +434,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 5,
-   "totalGd": 3
+   "totalGd": 4
   },
   {
    "name": "Barry",
@@ -586,7 +586,7 @@ window.DATA = {
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 4,
      "gd": 3,
      "played": 2,
@@ -629,7 +629,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 4,
      "points": 1,
-     "gd": -3,
+     "gd": -4,
      "played": 2,
      "in": true
     }
@@ -639,7 +639,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 4,
-   "totalGd": -2
+   "totalGd": -3
   },
   {
    "name": "Paul K",
@@ -1113,47 +1113,6 @@ window.DATA = {
    "totalGd": 10
   },
   {
-   "name": "Brandon B",
-   "teams": [
-    {
-     "display": "Netherlands",
-     "name": "Netherlands",
-     "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 3,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 3
-  },
-  {
    "name": "David",
    "teams": [
     {
@@ -1177,6 +1136,47 @@ window.DATA = {
      "matched": true,
      "tla": "CAN",
      "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 4,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 5,
+   "totalGd": 4
+  },
+  {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
      "group": "B",
      "stage": 0,
      "stageLabel": "Group stage",
@@ -1346,7 +1346,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 4,
      "points": 1,
-     "gd": -3,
+     "gd": -4,
      "played": 2,
      "in": true
     }
@@ -1356,7 +1356,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 4,
-   "totalGd": -2
+   "totalGd": -3
   },
   {
    "name": "Rooney",
@@ -2572,8 +2572,8 @@ window.DATA = {
    },
    "utc": "2026-06-18T22:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
-   "hs": 3,
+   "status": "IN_PLAY",
+   "hs": 5,
    "as": 0,
    "note": "FT"
   }
@@ -2646,23 +2646,23 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "Switzerland",
-      "tla": "SUI",
-      "crest": "https://crests.football-data.org/788.svg"
+      "name": "Canada",
+      "tla": "CAN",
+      "crest": "https://crests.football-data.org/canada.svg"
      },
      "p": 2,
      "w": 1,
      "d": 1,
      "l": 0,
-     "gd": 3,
+     "gd": 4,
      "pts": 4
     },
     {
      "pos": 2,
      "team": {
-      "name": "Canada",
-      "tla": "CAN",
-      "crest": "https://crests.football-data.org/canada.svg"
+      "name": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://crests.football-data.org/788.svg"
      },
      "p": 2,
      "w": 1,
@@ -2696,7 +2696,7 @@ window.DATA = {
      "w": 0,
      "d": 1,
      "l": 1,
-     "gd": -3,
+     "gd": -4,
      "pts": 1
     }
    ]
