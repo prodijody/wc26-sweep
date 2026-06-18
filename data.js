@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T16:01:33",
+ "updated": "2026-06-18T17:23:20",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -505,8 +505,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 1,
-     "gd": -2,
+     "points": 0,
+     "gd": -3,
      "played": 2,
      "in": true
     }
@@ -515,8 +515,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -2
+   "totalPoints": 1,
+   "totalGd": -3
   },
   {
    "name": "Jess",
@@ -870,8 +870,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 1,
-     "gd": -1,
+     "points": 3,
+     "gd": 0,
      "played": 2,
      "in": true
     }
@@ -880,8 +880,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -1
+   "totalPoints": 3,
+   "totalGd": 0
   },
   {
    "name": "Martin M",
@@ -1459,6 +1459,32 @@ window.DATA = {
    "totalGd": 1
   },
   {
+   "name": "Tony T",
+   "teams": [
+    {
+     "display": "Czechia",
+     "name": "Czechia",
+     "matched": true,
+     "tla": "CZE",
+     "crest": "https://crests.football-data.org/798.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": 0
+  },
+  {
    "name": "Paul K",
    "teams": [
     {
@@ -1664,47 +1690,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Chris",
-   "teams": [
-    {
-     "display": "Saudi Arabia",
-     "name": "Saudi Arabia",
-     "matched": true,
-     "tla": "KSA",
-     "crest": "https://crests.football-data.org/saudi_arabia.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "South Africa",
-     "name": "South Africa",
-     "matched": true,
-     "tla": "RSA",
-     "crest": "https://crests.football-data.org/9396.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -2,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -2
-  },
-  {
    "name": "Finlay",
    "teams": [
     {
@@ -1850,32 +1835,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Tony T",
-   "teams": [
-    {
-     "display": "Czechia",
-     "name": "Czechia",
-     "matched": true,
-     "tla": "CZE",
-     "crest": "https://crests.football-data.org/798.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": -1,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -1
-  },
-  {
    "name": "Jonny",
    "teams": [
     {
@@ -1915,6 +1874,47 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 1,
    "totalGd": -2
+  },
+  {
+   "name": "Chris",
+   "teams": [
+    {
+     "display": "Saudi Arabia",
+     "name": "Saudi Arabia",
+     "matched": true,
+     "tla": "KSA",
+     "crest": "https://crests.football-data.org/saudi_arabia.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true
+    },
+    {
+     "display": "South Africa",
+     "name": "South Africa",
+     "matched": true,
+     "tla": "RSA",
+     "crest": "https://crests.football-data.org/9396.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 1,
+   "totalGd": -3
   },
   {
    "name": "Sammy",
@@ -2365,22 +2365,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "utc": "2026-06-18T16:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group B",
    "home": {
     "name": "Switzerland",
@@ -2555,9 +2539,45 @@ window.DATA = {
    "utc": "2026-06-21T04:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group H",
+   "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://crests.football-data.org/saudi_arabia.svg"
+   },
+   "utc": "2026-06-21T16:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "crest": "https://crests.football-data.org/798.svg"
+   },
+   "away": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "crest": "https://crests.football-data.org/9396.svg"
+   },
+   "utc": "2026-06-18T16:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2598,11 +2618,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/798.svg"
      },
      "p": 2,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 1,
-     "gd": -1,
-     "pts": 1
+     "gd": 0,
+     "pts": 3
     },
     {
      "pos": 4,
@@ -2613,10 +2633,10 @@ window.DATA = {
      },
      "p": 2,
      "w": 0,
-     "d": 1,
-     "l": 1,
-     "gd": -2,
-     "pts": 1
+     "d": 0,
+     "l": 2,
+     "gd": -3,
+     "pts": 0
     }
    ]
   },
