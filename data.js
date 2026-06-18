@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-18T19:20:31",
+ "updated": "2026-06-18T20:19:57",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2333,7 +2333,7 @@ window.DATA = {
    },
    "away": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "utc": "2026-06-15T22:00:00Z",
@@ -2364,22 +2364,6 @@ window.DATA = {
   }
  ],
  "fixtures": [
-  {
-   "stage": "Group B",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-06-18T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
   {
    "stage": "Group B",
    "home": {
@@ -2555,9 +2539,45 @@ window.DATA = {
    "utc": "2026-06-21T16:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "away": {
+    "name": "Iran",
+    "tla": "IRN",
+    "crest": "https://crests.football-data.org/iran.svg"
+   },
+   "utc": "2026-06-21T19:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group B",
+   "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "utc": "2026-06-18T19:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
