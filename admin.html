@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweep Admin — edit players & teams</title>
+<style>
+  :root{--bg:#f4f6fb;--tile:#fff;--line:#e6e9f2;--ink:#1a2233;--mut:#6b7488;
+        --acc:#2f6df6;--accbg:#eaf1ff;--green:#10b981;--greenbg:#e7f8f1;--greenln:#bdebd6;
+        --gold:#d9930a;--goldbg:#fff5e0;--red:#ef4444;--redbg:#fdecec}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,sans-serif;background:
+       radial-gradient(1100px 520px at 100% -8%,#e7eefc 0,transparent 60%),var(--bg);color:var(--ink);min-height:100vh}
+  .wrap{max-width:920px;margin:0 auto;padding:26px 20px 80px}
+  h1{font-size:26px;font-weight:800;letter-spacing:-.4px}
+  h1::before{content:"🔒 "}
+  .sub{color:var(--mut);font-size:14px;margin:6px 0 22px}
+  a{color:var(--acc)}
+  .card{background:var(--tile);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 1px 3px rgba(20,30,60,.05)}
+  /* lock screen */
+  #lock{max-width:380px;margin:8vh auto 0;text-align:center}
+  #lock h2{font-size:18px;margin-bottom:6px}
+  #lock p{color:var(--mut);font-size:13px;margin-bottom:16px}
+  input,button,select{font-family:inherit;font-size:14px}
+  .field{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+  .field:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px var(--accbg)}
+  .btn{border:0;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer;background:var(--acc);color:#fff}
+  .btn:hover{filter:brightness(1.06)}
+  .btn.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}
+  .btn.green{background:var(--green)}
+  .btn.sm{padding:5px 10px;font-size:13px;border-radius:8px}
+  .err{color:var(--red);font-size:13px;margin-top:10px;min-height:18px}
+  /* editor */
+  #editor{display:none}
+  .bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+  .bar .spacer{flex:1}
+  .note{background:var(--goldbg);border:1px solid #f3d79a;color:#8a5d06;border-radius:12px;padding:12px 14px;font-size:13px;line-height:1.6;margin-bottom:16px}
+  .note b{color:#6d4a05}
+  .note ol{margin:6px 0 0 18px}
+  .player{border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px;background:#fcfdff}
+  .ptop{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .ptop .pname{flex:1;font-weight:700;font-size:15px;padding:9px 11px}
+  .teams{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .team{display:flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px 4px 3px 10px}
+  .team input{border:0;padding:5px 2px;width:150px}
+  .team input:focus{outline:none}
+  .team.bad{border-color:var(--red);background:var(--redbg)}
+  .team .x{border:0;background:#eef0f6;color:var(--mut);border-radius:50%;width:22px;height:22px;cursor:pointer;font-weight:700;line-height:1}
+  .team .x:hover{background:var(--red);color:#fff}
+  .team .tick{font-size:12px;width:16px;text-align:center}
+  .addteam{border:1px dashed var(--line);background:#fff;color:var(--acc);border-radius:999px;padding:6px 12px;cursor:pointer;font-weight:600}
+  .delp{border:0;background:var(--redbg);color:var(--red);border-radius:8px;padding:7px 11px;cursor:pointer;font-weight:600;font-size:13px}
+  .warnline{color:var(--red);font-size:12px;margin-top:8px;display:none}
+  details{margin-top:18px}
+  summary{cursor:pointer;color:var(--mut);font-size:13px}
+  pre{background:#0f1426;color:#cdd6f4;border-radius:12px;padding:14px;overflow:auto;font-size:12px;margin-top:10px;max-height:340px}
+  .ok{color:var(--green);font-size:13px;margin-left:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Sweep Admin</h1>
+  <div class="sub">Edit the players and their teams for the WC 2026 office sweep.</div>
+
+  <!-- LOCK -->
+  <div id="lock" class="card">
+    <h2>Enter password</h2>
+    <p>This page lets you edit the sweep entries.</p>
+    <input id="pw" class="field" type="password" placeholder="Password" autocomplete="off"
+           onkeydown="if(event.key==='Enter')unlock()">
+    <div style="margin-top:12px"><button class="btn" onclick="unlock()">Unlock</button></div>
+    <div class="err" id="lerr"></div>
+  </div>
+
+  <!-- EDITOR -->
+  <div id="editor">
+    <div class="bar">
+      <button class="btn ghost sm" onclick="addPlayer()">＋ Add player</button>
+      <span class="spacer"></span>
+      <button class="btn green" onclick="copyJSON()">📋 Copy JSON</button>
+      <button class="btn ghost" onclick="downloadJSON()">⬇ Download</button>
+      <a class="btn" id="ghlink" href="#" target="_blank" rel="noopener" style="text-decoration:none">Open on GitHub ↗</a>
+      <span class="ok" id="okmsg"></span>
+    </div>
+
+    <div class="note">
+      <b>How to save your changes</b>
+      <ol>
+        <li>Edit players/teams below.</li>
+        <li>Click <b>Copy JSON</b> (or Download).</li>
+        <li>Click <b>Open on GitHub</b>, paste over the whole file (or upload the downloaded file), and <b>Commit changes</b>.</li>
+        <li>The board updates on the next refresh (within ~15 min, or run the Action manually).</li>
+      </ol>
+      Teams should match official names — start typing for suggestions. Teams highlighted <span style="color:var(--red)">red</span> won't be found.
+    </div>
+
+    <div id="players"></div>
+    <div class="warnline" id="warn"></div>
+
+    <details>
+      <summary>Preview sweep.json</summary>
+      <pre id="jsonout"></pre>
+    </details>
+  </div>
+</div>
+
+<datalist id="teamlist"></datalist>
+
+<script>
+const REPO_EDIT = "https://github.com/prodijody/wc26-sweep/edit/main/sweep.json";
+let ORIGINAL = { title: "WC 2026 Office Sweep", aliases: {}, players: [] };
+let CANON = [];           // official team names for autocomplete + validation
+const $ = id => document.getElementById(id);
+
+/* ---- password gate (light client-side deterrent, not real security) ---- */
+function unlock(){
+  const v = $('pw').value;
+  if(v === atob('ODUyMCE=')){           // "8520!"
+    sessionStorage.setItem('wcadmin','1');
+    showEditor();
+  } else {
+    $('lerr').textContent = 'Wrong password.';
+    $('pw').value = '';
+  }
+}
+function showEditor(){
+  $('lock').style.display = 'none';
+  $('editor').style.display = 'block';
+  $('ghlink').href = REPO_EDIT;
+  load();
+}
+
+/* ---- load current config + valid team names ---- */
+async function load(){
+  try{
+    const s = await fetch('sweep.json?_='+Date.now(), {cache:'no-store'});
+    ORIGINAL = await s.json();
+    if(!ORIGINAL.players) ORIGINAL.players = [];
+  }catch(e){ /* keep default empty */ }
+  try{
+    const d = await fetch('data.js?_='+Date.now(), {cache:'no-store'});
+    const D = JSON.parse((await d.text()).replace(/^\s*window\.DATA\s*=\s*/,'').replace(/;\s*$/,''));
+    const set = new Set();
+    (D.groups||[]).forEach(g => g.table.forEach(r => set.add(r.team.name)));
+    CANON = [...set].sort();
+  }catch(e){ CANON = []; }
+  $('teamlist').innerHTML = CANON.map(n => `<option value="${n}">`).join('');
+  renderPlayers();
+}
+
+/* ---- render ---- */
+function renderPlayers(){
+  $('players').innerHTML = '';
+  ORIGINAL.players.forEach(p => $('players').appendChild(playerEl(p.name, p.teams||[])));
+  refresh();
+}
+function playerEl(name, teams){
+  const el = document.createElement('div');
+  el.className = 'player';
+  el.innerHTML = `
+    <div class="ptop">
+      <input class="field pname" value="${esc(name)}" placeholder="Player name">
+      <button class="delp" onclick="this.closest('.player').remove();refresh()">Remove player</button>
+    </div>
+    <div class="teams"></div>`;
+  const tw = el.querySelector('.teams');
+  teams.forEach(t => tw.appendChild(teamEl(t)));
+  const add = document.createElement('button');
+  add.className = 'addteam'; add.textContent = '＋ team';
+  add.onclick = () => { tw.insertBefore(teamEl(''), add); refresh(); tw.lastChild; };
+  tw.appendChild(add);
+  return el;
+}
+function teamEl(val){
+  const el = document.createElement('span');
+  el.className = 'team';
+  el.innerHTML = `<span class="tick"></span>
+    <input list="teamlist" value="${esc(val)}" placeholder="Team" oninput="refresh()">
+    <button class="x" onclick="this.closest('.team').remove();refresh()">×</button>`;
+  return el;
+}
+const esc = s => (s==null?'':String(s)).replace(/"/g,'&quot;').replace(/</g,'&lt;');
+
+/* ---- collect + validate + preview ---- */
+function collect(){
+  const players = [];
+  document.querySelectorAll('.player').forEach(pc => {
+    const name = pc.querySelector('.pname').value.trim();
+    const teams = [...pc.querySelectorAll('.team input')].map(i => i.value.trim()).filter(Boolean);
+    if(name || teams.length) players.push({ name, teams });
+  });
+  return players;
+}
+function refresh(){
+  let bad = 0;
+  document.querySelectorAll('.team').forEach(t => {
+    const inp = t.querySelector('input'), tick = t.querySelector('.tick');
+    const v = inp.value.trim();
+    const known = CANON.length===0 || !v || CANON.includes(v) || (ORIGINAL.aliases && Object.keys(ORIGINAL.aliases).includes(v));
+    t.classList.toggle('bad', !!v && !known);
+    tick.textContent = !v ? '' : (known ? '✓' : '!');
+    tick.style.color = known ? 'var(--green)' : 'var(--red)';
+    if(v && !known) bad++;
+  });
+  $('warn').style.display = bad ? 'block' : 'none';
+  $('warn').textContent = bad ? `${bad} team name(s) won't match a WC 2026 side — fix or add to "aliases" before saving.` : '';
+  const out = Object.assign({}, ORIGINAL, { players: collect() });
+  $('jsonout').textContent = JSON.stringify(out, null, 2);
+  return out;
+}
+function addPlayer(){ $('players').appendChild(playerEl('', [''])); refresh(); window.scrollTo(0,document.body.scrollHeight); }
+
+/* ---- save actions ---- */
+function buildBlobText(){ return JSON.stringify(refresh(), null, 2) + '\n'; }
+function flash(m){ $('okmsg').textContent = m; setTimeout(()=>$('okmsg').textContent='', 2500); }
+async function copyJSON(){
+  try{ await navigator.clipboard.writeText(buildBlobText()); flash('Copied! Now paste it on GitHub →'); }
+  catch(e){ downloadJSON(); }
+}
+function downloadJSON(){
+  const blob = new Blob([buildBlobText()], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = 'sweep.json'; a.click();
+  URL.revokeObjectURL(a.href); flash('Downloaded — upload it to the repo →');
+}
+
+if(sessionStorage.getItem('wcadmin')==='1') showEditor();
+</script>
+</body>
+</html>
