@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T18:55:42",
+ "updated": "2026-06-19T19:38:49",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -304,9 +304,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 3,
-     "gd": 3,
-     "played": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 2,
      "in": true
     }
    ],
@@ -314,8 +314,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 3
+   "totalPoints": 6,
+   "totalGd": 4
   },
   {
    "name": "Brandon",
@@ -331,8 +331,8 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 2,
-     "played": 1,
+     "gd": 1,
+     "played": 2,
      "in": true
     }
    ],
@@ -341,7 +341,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": 2
+   "totalGd": 1
   },
   {
    "name": "Ross",
@@ -1113,6 +1113,32 @@ window.DATA = {
    "totalGd": 10
   },
   {
+   "name": "Rooney",
+   "teams": [
+    {
+     "display": "United States",
+     "name": "United States",
+     "matched": true,
+     "tla": "USA",
+     "crest": "https://crests.football-data.org/usa.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 6,
+   "totalGd": 4
+  },
+  {
    "name": "Sharon",
    "teams": [
     {
@@ -1385,58 +1411,6 @@ window.DATA = {
    "totalGd": -5
   },
   {
-   "name": "Rooney",
-   "teams": [
-    {
-     "display": "United States",
-     "name": "United States",
-     "matched": true,
-     "tla": "USA",
-     "crest": "https://crests.football-data.org/usa.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 3,
-     "gd": 3,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 3
-  },
-  {
-   "name": "Brandon",
-   "teams": [
-    {
-     "display": "Australia",
-     "name": "Australia",
-     "matched": true,
-     "tla": "AUS",
-     "crest": "https://crests.football-data.org/779.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 2,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 2
-  },
-  {
    "name": "Edwina",
    "teams": [
     {
@@ -1504,6 +1478,32 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": 1
+  },
+  {
+   "name": "Brandon",
+   "teams": [
+    {
+     "display": "Australia",
+     "name": "Australia",
+     "matched": true,
+     "tla": "AUS",
+     "crest": "https://crests.football-data.org/779.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 1,
+     "played": 2,
      "in": true
     }
    ],
@@ -2365,22 +2365,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group D",
-   "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "utc": "2026-06-19T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group C",
    "home": {
     "name": "Scotland",
@@ -2528,7 +2512,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2555,9 +2539,45 @@ window.DATA = {
    "utc": "2026-06-22T01:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-06-22T17:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group D",
+   "home": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "away": {
+    "name": "Australia",
+    "tla": "AUS",
+    "crest": "https://crests.football-data.org/779.svg"
+   },
+   "utc": "2026-06-19T19:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2752,12 +2772,12 @@ window.DATA = {
       "tla": "USA",
       "crest": "https://crests.football-data.org/usa.svg"
      },
-     "p": 1,
-     "w": 1,
+     "p": 2,
+     "w": 2,
      "d": 0,
      "l": 0,
-     "gd": 3,
-     "pts": 3
+     "gd": 4,
+     "pts": 6
     },
     {
      "pos": 2,
@@ -2766,11 +2786,11 @@ window.DATA = {
       "tla": "AUS",
       "crest": "https://crests.football-data.org/779.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
      "d": 0,
-     "l": 0,
-     "gd": 2,
+     "l": 1,
+     "gd": 1,
      "pts": 3
     },
     {
