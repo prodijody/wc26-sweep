@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T22:09:45",
+ "updated": "2026-06-19T22:35:19",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -407,9 +407,9 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
+     "position": 1,
+     "points": 4,
+     "gd": 1,
      "played": 2,
      "in": true
     },
@@ -433,8 +433,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 6,
-   "totalGd": 6
+   "totalPoints": 8,
+   "totalGd": 7
   },
   {
    "name": "Barry",
@@ -843,9 +843,9 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 1,
+     "position": 2,
+     "points": 3,
+     "gd": 0,
      "played": 2,
      "in": true
     }
@@ -854,8 +854,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 1
+   "totalPoints": 3,
+   "totalGd": 0
   },
   {
    "name": "Tony T",
@@ -1072,6 +1072,47 @@ window.DATA = {
  ],
  "leaderboard": [
   {
+   "name": "David",
+   "teams": [
+    {
+     "display": "Morocco",
+     "name": "Morocco",
+     "matched": true,
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 1,
+     "played": 2,
+     "in": true
+    },
+    {
+     "display": "Canada",
+     "name": "Canada",
+     "matched": true,
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 6,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 8,
+   "totalGd": 7
+  },
+  {
    "name": "Mark",
    "teams": [
     {
@@ -1111,47 +1152,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 6,
    "totalGd": 10
-  },
-  {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true
-    },
-    {
-     "display": "Canada",
-     "name": "Canada",
-     "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 6,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 6,
-   "totalGd": 6
   },
   {
    "name": "Rooney",
@@ -1370,32 +1370,6 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Shelly",
-   "teams": [
-    {
-     "display": "Scotland",
-     "name": "Scotland",
-     "matched": true,
-     "tla": "SCO",
-     "crest": "https://crests.football-data.org/814.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 1,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 1
-  },
-  {
    "name": "Barry B",
    "teams": [
     {
@@ -1524,6 +1498,32 @@ window.DATA = {
      "tla": "AUS",
      "crest": "https://crests.football-data.org/779.svg",
      "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": 0
+  },
+  {
+   "name": "Shelly",
+   "teams": [
+    {
+     "display": "Scotland",
+     "name": "Scotland",
+     "matched": true,
+     "tla": "SCO",
+     "crest": "https://crests.football-data.org/814.svg",
+     "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
@@ -2496,7 +2496,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2707,9 +2707,9 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "Scotland",
-      "tla": "SCO",
-      "crest": "https://crests.football-data.org/814.svg"
+      "name": "Morocco",
+      "tla": "MAR",
+      "crest": "https://crests.football-data.org/morocco.svg"
      },
      "p": 2,
      "w": 1,
@@ -2721,16 +2721,16 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
-      "name": "Morocco",
-      "tla": "MAR",
-      "crest": "https://crests.football-data.org/morocco.svg"
+      "name": "Scotland",
+      "tla": "SCO",
+      "crest": "https://crests.football-data.org/814.svg"
      },
      "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
+     "w": 1,
+     "d": 0,
+     "l": 1,
      "gd": 0,
-     "pts": 2
+     "pts": 3
     },
     {
      "pos": 3,
