@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T19:38:49",
+ "updated": "2026-06-19T20:20:26",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -305,7 +305,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 6,
-     "gd": 4,
+     "gd": 5,
      "played": 2,
      "in": true
     }
@@ -315,7 +315,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 6,
-   "totalGd": 4
+   "totalGd": 5
   },
   {
    "name": "Brandon",
@@ -331,7 +331,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 1,
+     "gd": 0,
      "played": 2,
      "in": true
     }
@@ -341,7 +341,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": 1
+   "totalGd": 0
   },
   {
    "name": "Ross",
@@ -1126,7 +1126,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 6,
-     "gd": 4,
+     "gd": 5,
      "played": 2,
      "in": true
     }
@@ -1136,7 +1136,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 6,
-   "totalGd": 4
+   "totalGd": 5
   },
   {
    "name": "Sharon",
@@ -1489,32 +1489,6 @@ window.DATA = {
    "totalGd": 1
   },
   {
-   "name": "Brandon",
-   "teams": [
-    {
-     "display": "Australia",
-     "name": "Australia",
-     "matched": true,
-     "tla": "AUS",
-     "crest": "https://crests.football-data.org/779.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 1,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 1
-  },
-  {
    "name": "Shelly",
    "teams": [
     {
@@ -1539,6 +1513,32 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": 1
+  },
+  {
+   "name": "Brandon",
+   "teams": [
+    {
+     "display": "Australia",
+     "name": "Australia",
+     "matched": true,
+     "tla": "AUS",
+     "crest": "https://crests.football-data.org/779.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": 0
   },
   {
    "name": "Paul K",
@@ -2512,7 +2512,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2573,7 +2573,7 @@ window.DATA = {
    "utc": "2026-06-19T19:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 1,
+   "hs": 2,
    "as": 0,
    "note": "FT"
   }
@@ -2776,7 +2776,7 @@ window.DATA = {
      "w": 2,
      "d": 0,
      "l": 0,
-     "gd": 4,
+     "gd": 5,
      "pts": 6
     },
     {
@@ -2790,7 +2790,7 @@ window.DATA = {
      "w": 1,
      "d": 0,
      "l": 1,
-     "gd": 1,
+     "gd": 0,
      "pts": 3
     },
     {
