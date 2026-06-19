@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T01:15:06",
+ "updated": "2026-06-19T02:18:18",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2365,22 +2365,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group A",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-19T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group D",
    "home": {
     "name": "United States",
@@ -2555,9 +2539,45 @@ window.DATA = {
    "utc": "2026-06-21T22:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://crests.football-data.org/783.svg"
+   },
+   "away": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "utc": "2026-06-22T01:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "away": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "crest": "https://crests.football-data.org/772.png"
+   },
+   "utc": "2026-06-19T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
