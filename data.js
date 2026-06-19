@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T02:18:18",
+ "updated": "2026-06-19T03:49:30",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -155,8 +155,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 4,
-     "gd": 2,
+     "points": 6,
+     "gd": 3,
      "played": 2,
      "in": true
     }
@@ -165,8 +165,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 2
+   "totalPoints": 6,
+   "totalGd": 3
   },
   {
    "name": "Sammy",
@@ -654,8 +654,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 4,
-     "gd": 1,
+     "points": 3,
+     "gd": 0,
      "played": 2,
      "in": true
     },
@@ -679,8 +679,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -2
+   "totalPoints": 3,
+   "totalGd": -3
   },
   {
    "name": "Laura H",
@@ -1113,6 +1113,32 @@ window.DATA = {
    "totalGd": 10
   },
   {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 3,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 6,
+   "totalGd": 3
+  },
+  {
    "name": "David",
    "teams": [
     {
@@ -1318,73 +1344,6 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 2,
-     "played": 2,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 2
-  },
-  {
-   "name": "Paul K",
-   "teams": [
-    {
-     "display": "South Korea",
-     "name": "South Korea",
-     "matched": true,
-     "tla": "KOR",
-     "crest": "https://crests.football-data.org/772.png",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 1,
-     "played": 2,
-     "in": true
-    },
-    {
-     "display": "Iraq",
-     "name": "Iraq",
-     "matched": true,
-     "tla": "IRQ",
-     "crest": "https://crests.football-data.org/iraq.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -2
-  },
-  {
    "name": "Barry B",
    "teams": [
     {
@@ -1580,6 +1539,47 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": 1
+  },
+  {
+   "name": "Paul K",
+   "teams": [
+    {
+     "display": "South Korea",
+     "name": "South Korea",
+     "matched": true,
+     "tla": "KOR",
+     "crest": "https://crests.football-data.org/772.png",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true
+    },
+    {
+     "display": "Iraq",
+     "name": "Iraq",
+     "matched": true,
+     "tla": "IRQ",
+     "crest": "https://crests.football-data.org/iraq.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 3,
+   "totalGd": -3
   },
   {
    "name": "Paul Mc",
@@ -2135,6 +2135,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group A",
+   "home": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "away": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "crest": "https://crests.football-data.org/772.png"
+   },
+   "utc": "2026-06-19T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group B",
    "home": {
     "name": "Canada",
@@ -2342,25 +2361,6 @@ window.DATA = {
    "hs": 3,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group G",
-   "home": {
-    "name": "Iran",
-    "tla": "IRN",
-    "crest": "https://crests.football-data.org/iran.svg"
-   },
-   "away": {
-    "name": "New Zealand",
-    "tla": "NZL",
-    "crest": "https://crests.football-data.org/783.svg"
-   },
-   "utc": "2026-06-16T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2528,7 +2528,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2557,27 +2557,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-19T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2590,11 +2570,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/769.svg"
      },
      "p": 2,
-     "w": 1,
-     "d": 1,
+     "w": 2,
+     "d": 0,
      "l": 0,
-     "gd": 2,
-     "pts": 4
+     "gd": 3,
+     "pts": 6
     },
     {
      "pos": 2,
@@ -2605,10 +2585,10 @@ window.DATA = {
      },
      "p": 2,
      "w": 1,
-     "d": 1,
-     "l": 0,
-     "gd": 1,
-     "pts": 4
+     "d": 0,
+     "l": 1,
+     "gd": 0,
+     "pts": 3
     },
     {
      "pos": 3,
