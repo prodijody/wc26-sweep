@@ -121,7 +121,18 @@ Re-run `update.py` after editing.
 ## Scoring
 
 **Last team standing.** A player is *in* until all their teams are knocked out.
-Elimination is taken from the bracket itself: once knockout fixtures exist, group teams
-not in them are out; in the knockouts, the loser of any played match is out. During the
-group stage the leaderboard ranks by furthest stage, then total group points, then goal
-difference, then teams still alive.
+Elimination is worked out automatically:
+
+- **Group stage** — a team is out the moment it can no longer reach the Round of 32,
+  *without* waiting for the other groups to finish. WC2026 takes the top 2 of each group
+  plus the 8 best 3rd-placed teams, so a team is eliminated once it can't even finish
+  3rd: it has finished bottom (4th) of its group, or at least three group rivals already
+  have more points than it can still reach. This is deliberately conservative — a team is
+  only marked out when it's mathematically gone, never on a hunch, because a 3rd-placed
+  team can still qualify and a false elimination would wrongly knock a player out.
+- **Knockouts** — the loser of any played match is out; teams named in a knockout fixture
+  have survived the group.
+- **Withdrawals** — teams in `sweep.json`'s `"withdrawn"` list are forced out regardless.
+
+During the group stage the leaderboard ranks by furthest stage, then total group points,
+then goal difference, then teams still alive.

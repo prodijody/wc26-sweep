@@ -145,6 +145,40 @@ def main():
     if champion:
         furthest[champion] = STAGE_RANK["CHAMPION"]
 
+    # ---- group-stage elimination (worked out, not waited-for) ----
+    # Count each team's and each group's *unplayed* group games so we can tell
+    # the most points a team can still reach, and whether its group is done.
+    team_remaining = {}     # team name -> unplayed group games
+    group_remaining = {}    # group letter -> unplayed group games
+    for m in matches:
+        if m["stage"] != "GROUP_STAGE" or m["status"] == "FINISHED":
+            continue
+        grp = (m.get("group") or "").replace("GROUP_", "").strip()
+        group_remaining[grp] = group_remaining.get(grp, 0) + 1
+        for nm in (m["homeTeam"].get("name"), m["awayTeam"].get("name")):
+            if nm:
+                team_remaining[nm] = team_remaining.get(nm, 0) + 1
+
+    def group_eliminated(name):
+        """True if a team can no longer reach the Round of 32.
+
+        WC2026: top 2 of each group + the 8 best 3rd-placed teams advance, so a
+        team is out once it can't even finish 3rd. Sound (no false positives):
+          - its group has finished and it placed 4th (last), OR
+          - at least 3 group rivals already have more points than this team can
+            still reach (current points + 3 per game left) -> it lands 4th.
+        Best-3rd qualification across groups is left to the bracket itself."""
+        meta = teams.get(name)
+        if not meta or not meta.get("group"):
+            return False
+        g = meta["group"]
+        if group_remaining.get(g, 0) == 0 and meta.get("position") and meta["position"] >= 4:
+            return True
+        ceiling = meta["points"] + 3 * team_remaining.get(name, 0)
+        rivals_above = sum(1 for o, mt in teams.items()
+                           if o != name and mt.get("group") == g and mt["points"] > ceiling)
+        return rivals_above >= 3
+
     def team_status(name):
         """Return (is_in, rank, label)."""
         rank = furthest.get(name, 0)
@@ -152,8 +186,13 @@ def main():
             return False, rank, "Withdrawn"
         if champion == name:
             return True, STAGE_RANK["CHAMPION"], RANK_LABEL[6]
-        out = (name in ko_losers) or (group_complete and name not in qualified)
-        return (not out), rank, RANK_LABEL.get(rank, "Group stage")
+        if name in ko_losers:
+            return False, rank, RANK_LABEL.get(rank, "Group stage")
+        if group_complete and name not in qualified:
+            return False, rank, "Eliminated"
+        if rank == 0 and group_eliminated(name):
+            return False, rank, "Eliminated"
+        return True, rank, RANK_LABEL.get(rank, "Group stage")
 
     # ---- build players ----
     players = []
