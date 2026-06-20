@@ -270,23 +270,40 @@ function buildTree(order, labels, get, rounds, B){
 }
 
 // mobile: rounds stacked top->bottom (Round of 32 ... Final), full-width cards.
-// Undrawn rounds collapse to a one-line "awaiting draw" note instead of dozens
-// of empty slots.
+// Only matches whose teams are known get a card; the rest (TBD vs TBD — common
+// because the KO fixtures are scheduled long before teams qualify) collapse to a
+// single "N matches · <dates> · teams TBD" line so the page stays short.
 function buildStacked(order, labels, rounds, B){
+  const named = m => !!(m && ((m.home && m.home.name) || (m.away && m.away.name)));
+  const fmt = u => { try{ return new Date(u).toLocaleDateString([], {day:'numeric', month:'short'}); }catch(e){ return ''; } };
+  const range = ms => {
+    const ds = ms.map(m => m && m.utc).filter(Boolean).sort();
+    if(!ds.length) return '';
+    const a = fmt(ds[0]), b = fmt(ds[ds.length-1]);
+    return a===b ? a : a + ' – ' + b;
+  };
   const section = (label, body, cls) =>
     `<div class="mround ${cls||''}"><div class="ch">${label}</div>${body}</div>`;
+  const wt = B.hasData ? 'teams TBD' : 'awaiting draw';
   const html = [];
   order.forEach(s => {
     const real = rounds[s] || [];
     const trophy = s==='FINAL' ? '<div class="lift">🏆</div>' : '';
-    const body = real.length
-      ? trophy + real.map(matchCell).join('')
-      : trophy + `<div class="awz">${COUNTS[s]||0} match${(COUNTS[s]||0)===1?'':'es'} · awaiting draw</div>`;
+    const shown = real.filter(named);
+    const total = real.length || (COUNTS[s]||0);
+    const pending = total - shown.length;
+    let body = trophy;
+    if(shown.length) body += shown.map(matchCell).join('');
+    if(pending > 0){
+      const dates = shown.length ? '' : (range(real) ? range(real) + ' · ' : '');
+      body += `<div class="awz">${shown.length?'+':''}${pending} match${pending===1?'':'es'}`
+            + `${shown.length?' more':''} · ${dates}${wt}</div>`;
+    }
     html.push(section(labels[s]||s, body, s==='FINAL'?'final':''));
   });
   const third = (rounds['THIRD_PLACE'] && rounds['THIRD_PLACE'][0]) || null;
-  if(third) html.push(section(B.thirdPlaceLabel||'Third-place play-off', matchCell(third)));
-  else if(B.hasData) html.push(section(B.thirdPlaceLabel||'Third-place play-off', '<div class="awz">awaiting draw</div>'));
+  if(named(third)) html.push(section(B.thirdPlaceLabel||'Third-place play-off', matchCell(third)));
+  else if(B.hasData) html.push(section(B.thirdPlaceLabel||'Third-place play-off', `<div class="awz">1 match · ${wt}</div>`));
   return html.join('');
 }
 
