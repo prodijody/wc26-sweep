@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T14:32:54",
+ "updated": "2026-06-20T15:23:42",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -24,7 +24,8 @@ window.DATA = {
      "points": 1,
      "gd": -3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -50,7 +51,8 @@ window.DATA = {
      "points": 3,
      "gd": 6,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Sweden",
@@ -65,7 +67,8 @@ window.DATA = {
      "points": 3,
      "gd": 4,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -91,7 +94,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -117,7 +121,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 2,
-     "in": false
+     "in": false,
+     "brink": false
     },
     {
      "display": "Jordan",
@@ -132,7 +137,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -158,7 +164,8 @@ window.DATA = {
      "points": 6,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -184,7 +191,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Algeria",
@@ -199,7 +207,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -225,7 +234,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Iran",
@@ -240,7 +250,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -266,7 +277,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Norway",
@@ -281,7 +293,8 @@ window.DATA = {
      "points": 3,
      "gd": 3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -307,7 +320,8 @@ window.DATA = {
      "points": 6,
      "gd": 5,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -333,7 +347,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -359,7 +374,8 @@ window.DATA = {
      "points": 0,
      "gd": -1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -385,7 +401,8 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -411,7 +428,8 @@ window.DATA = {
      "points": 4,
      "gd": 1,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Canada",
@@ -426,7 +444,8 @@ window.DATA = {
      "points": 4,
      "gd": 6,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -452,7 +471,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "France",
@@ -467,7 +487,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -493,7 +514,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "South Africa",
@@ -508,7 +530,8 @@ window.DATA = {
      "points": 1,
      "gd": -2,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -534,7 +557,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Senegal",
@@ -549,7 +573,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -575,7 +600,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Switzerland",
@@ -590,7 +616,8 @@ window.DATA = {
      "points": 4,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -616,7 +643,8 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Qatar",
@@ -631,7 +659,8 @@ window.DATA = {
      "points": 1,
      "gd": -6,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -657,7 +686,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Iraq",
@@ -672,7 +702,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -698,7 +729,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -724,7 +756,8 @@ window.DATA = {
      "points": 0,
      "gd": -6,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -739,7 +772,8 @@ window.DATA = {
      "points": 3,
      "gd": 3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -765,7 +799,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Congo DR",
@@ -780,7 +815,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -806,7 +842,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Spain",
@@ -821,7 +858,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -847,7 +885,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -873,7 +912,8 @@ window.DATA = {
      "points": 1,
      "gd": -1,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -899,7 +939,8 @@ window.DATA = {
      "points": 0,
      "gd": -4,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -925,7 +966,8 @@ window.DATA = {
      "points": 4,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -951,7 +993,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -977,7 +1020,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1003,7 +1047,8 @@ window.DATA = {
      "points": 0,
      "gd": -4,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": true
     },
     {
      "display": "Belgium",
@@ -1018,7 +1063,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1044,7 +1090,8 @@ window.DATA = {
      "points": 3,
      "gd": -2,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Panama",
@@ -1059,7 +1106,8 @@ window.DATA = {
      "points": 0,
      "gd": -1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1087,7 +1135,8 @@ window.DATA = {
      "points": 4,
      "gd": 1,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Canada",
@@ -1102,7 +1151,8 @@ window.DATA = {
      "points": 4,
      "gd": 6,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1128,7 +1178,8 @@ window.DATA = {
      "points": 3,
      "gd": 6,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Sweden",
@@ -1143,7 +1194,8 @@ window.DATA = {
      "points": 3,
      "gd": 4,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1169,7 +1221,8 @@ window.DATA = {
      "points": 6,
      "gd": 5,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1195,7 +1248,8 @@ window.DATA = {
      "points": 6,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1221,7 +1275,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Switzerland",
@@ -1236,7 +1291,8 @@ window.DATA = {
      "points": 4,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1262,7 +1318,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Norway",
@@ -1277,7 +1334,8 @@ window.DATA = {
      "points": 3,
      "gd": 3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1303,7 +1361,8 @@ window.DATA = {
      "points": 4,
      "gd": 3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1329,7 +1388,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "France",
@@ -1344,7 +1404,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1370,7 +1431,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Spain",
@@ -1385,7 +1447,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1411,7 +1474,8 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Qatar",
@@ -1426,7 +1490,8 @@ window.DATA = {
      "points": 1,
      "gd": -6,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1452,7 +1517,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1478,7 +1544,8 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1504,7 +1571,8 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1530,7 +1598,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1556,7 +1625,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1582,7 +1652,8 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Iraq",
@@ -1597,7 +1668,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1623,7 +1695,8 @@ window.DATA = {
      "points": 0,
      "gd": -6,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -1638,7 +1711,8 @@ window.DATA = {
      "points": 3,
      "gd": 3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1664,7 +1738,8 @@ window.DATA = {
      "points": 3,
      "gd": -2,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Panama",
@@ -1679,7 +1754,8 @@ window.DATA = {
      "points": 0,
      "gd": -1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1705,7 +1781,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Iran",
@@ -1720,7 +1797,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1746,7 +1824,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "South Africa",
@@ -1761,7 +1840,8 @@ window.DATA = {
      "points": 1,
      "gd": -2,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1787,7 +1867,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1813,7 +1894,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1839,7 +1921,8 @@ window.DATA = {
      "points": 1,
      "gd": -1,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1865,7 +1948,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Congo DR",
@@ -1880,7 +1964,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1906,7 +1991,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Algeria",
@@ -1921,7 +2007,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1947,7 +2034,8 @@ window.DATA = {
      "points": 1,
      "gd": -3,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -1973,7 +2061,8 @@ window.DATA = {
      "points": 0,
      "gd": -4,
      "played": 2,
-     "in": true
+     "in": true,
+     "brink": true
     },
     {
      "display": "Belgium",
@@ -1988,7 +2077,8 @@ window.DATA = {
      "points": 1,
      "gd": 0,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -2014,7 +2104,8 @@ window.DATA = {
      "points": 0,
      "gd": -1,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -2040,7 +2131,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     },
     {
      "display": "Senegal",
@@ -2055,7 +2147,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -2081,7 +2174,8 @@ window.DATA = {
      "points": 0,
      "gd": -4,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
@@ -2107,7 +2201,8 @@ window.DATA = {
      "points": 0,
      "gd": -3,
      "played": 2,
-     "in": false
+     "in": false,
+     "brink": false
     },
     {
      "display": "Jordan",
@@ -2122,7 +2217,8 @@ window.DATA = {
      "points": 0,
      "gd": -2,
      "played": 1,
-     "in": true
+     "in": true,
+     "brink": false
     }
    ],
    "in": true,
