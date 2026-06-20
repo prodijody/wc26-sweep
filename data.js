@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T00:10:32",
+ "updated": "2026-06-20T01:22:57",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -843,7 +843,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 3,
      "gd": 0,
      "played": 2,
@@ -921,10 +921,10 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
+     "position": 2,
+     "points": 4,
+     "gd": 1,
+     "played": 2,
      "in": true
     }
    ],
@@ -932,8 +932,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": 0
+   "totalPoints": 4,
+   "totalGd": 1
   },
   {
    "name": "Edwina",
@@ -1001,8 +1001,8 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 4,
      "points": 0,
-     "gd": -1,
-     "played": 1,
+     "gd": -2,
+     "played": 2,
      "in": true
     },
     {
@@ -1026,7 +1026,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 1,
-   "totalGd": -1
+   "totalGd": -2
   },
   {
    "name": "Thomas",
@@ -1370,6 +1370,32 @@ window.DATA = {
    "totalGd": 2
   },
   {
+   "name": "Nicole",
+   "teams": [
+    {
+     "display": "Brazil",
+     "name": "Brazil",
+     "matched": true,
+     "tla": "BRA",
+     "crest": "https://crests.football-data.org/764.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 1,
+     "played": 2,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 1
+  },
+  {
    "name": "Barry B",
    "teams": [
     {
@@ -1526,7 +1552,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 3,
      "gd": 0,
      "played": 2,
@@ -1757,73 +1783,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Nicole",
-   "teams": [
-    {
-     "display": "Brazil",
-     "name": "Brazil",
-     "matched": true,
-     "tla": "BRA",
-     "crest": "https://crests.football-data.org/764.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": 0
-  },
-  {
-   "name": "Jambo",
-   "teams": [
-    {
-     "display": "Haiti",
-     "name": "Haiti",
-     "matched": true,
-     "tla": "HAI",
-     "crest": "https://crests.football-data.org/haiti.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -1,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Belgium",
-     "name": "Belgium",
-     "matched": true,
-     "tla": "BEL",
-     "crest": "https://crests.football-data.org/805.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 1,
-   "totalGd": -1
-  },
-  {
    "name": "Tony T",
    "teams": [
     {
@@ -1848,6 +1807,47 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 1,
    "totalGd": -1
+  },
+  {
+   "name": "Jambo",
+   "teams": [
+    {
+     "display": "Haiti",
+     "name": "Haiti",
+     "matched": true,
+     "tla": "HAI",
+     "crest": "https://crests.football-data.org/haiti.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -2,
+     "played": 2,
+     "in": true
+    },
+    {
+     "display": "Belgium",
+     "name": "Belgium",
+     "matched": true,
+     "tla": "BEL",
+     "crest": "https://crests.football-data.org/805.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 1,
+   "totalGd": -2
   },
   {
    "name": "Jonny",
@@ -2365,22 +2365,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group C",
-   "home": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
-   },
-   "away": {
-    "name": "Haiti",
-    "tla": "HAI",
-    "crest": "https://crests.football-data.org/haiti.svg"
-   },
-   "utc": "2026-06-20T00:30:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group D",
    "home": {
     "name": "Turkey",
@@ -2496,7 +2480,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2555,9 +2539,45 @@ window.DATA = {
    "utc": "2026-06-22T21:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group I",
+   "home": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "away": {
+    "name": "Senegal",
+    "tla": "SEN",
+    "crest": "https://crests.football-data.org/senegal.svg"
+   },
+   "utc": "2026-06-23T00:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group C",
+   "home": {
+    "name": "Brazil",
+    "tla": "BRA",
+    "crest": "https://crests.football-data.org/764.svg"
+   },
+   "away": {
+    "name": "Haiti",
+    "tla": "HAI",
+    "crest": "https://crests.football-data.org/haiti.svg"
+   },
+   "utc": "2026-06-20T00:30:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2701,6 +2721,20 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
+      "name": "Brazil",
+      "tla": "BRA",
+      "crest": "https://crests.football-data.org/764.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gd": 1,
+     "pts": 4
+    },
+    {
+     "pos": 3,
+     "team": {
       "name": "Scotland",
       "tla": "SCO",
       "crest": "https://crests.football-data.org/814.svg"
@@ -2713,31 +2747,17 @@ window.DATA = {
      "pts": 3
     },
     {
-     "pos": 3,
-     "team": {
-      "name": "Brazil",
-      "tla": "BRA",
-      "crest": "https://crests.football-data.org/764.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gd": 0,
-     "pts": 1
-    },
-    {
      "pos": 4,
      "team": {
       "name": "Haiti",
       "tla": "HAI",
       "crest": "https://crests.football-data.org/haiti.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 1,
-     "gd": -1,
+     "l": 2,
+     "gd": -2,
      "pts": 0
     }
    ]
