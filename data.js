@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T03:48:19",
+ "updated": "2026-06-20T05:36:22",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2135,6 +2135,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group D",
+   "home": {
+    "name": "Turkey",
+    "tla": "TUR",
+    "crest": "https://crests.football-data.org/803.svg"
+   },
+   "away": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "utc": "2026-06-20T03:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
+  {
    "stage": "Group C",
    "home": {
     "name": "Brazil",
@@ -2342,25 +2361,6 @@ window.DATA = {
    "hs": 1,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "away": {
-    "name": "Jordan",
-    "tla": "JOR",
-    "crest": "https://crests.football-data.org/8049.png"
-   },
-   "utc": "2026-06-17T04:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2464,7 +2464,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2557,27 +2557,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "Turkey",
-    "tla": "TUR",
-    "crest": "https://crests.football-data.org/803.svg"
-   },
-   "away": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "utc": "2026-06-20T03:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
