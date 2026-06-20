@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T17:35:38",
+ "updated": "2026-06-20T18:48:30",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -65,7 +65,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 2,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
@@ -76,7 +76,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 6,
-   "totalGd": 8
+   "totalGd": 7
   },
   {
    "name": "Lynn",
@@ -598,7 +598,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 4,
-     "gd": 2,
+     "gd": 3,
      "played": 2,
      "in": true,
      "brink": false
@@ -625,7 +625,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 8,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Barry B",
@@ -1176,7 +1176,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 4,
-     "gd": 2,
+     "gd": 3,
      "played": 2,
      "in": true,
      "brink": false
@@ -1203,7 +1203,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 8,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Mark",
@@ -1235,7 +1235,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 2,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
@@ -1246,7 +1246,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 6,
-   "totalGd": 8
+   "totalGd": 7
   },
   {
    "name": "Rooney",
@@ -2544,7 +2544,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2669,8 +2669,8 @@ window.DATA = {
    "utc": "2026-06-20T17:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 2,
-   "as": 0,
+   "hs": 4,
+   "as": 1,
    "note": "FT"
   }
  ],
@@ -2994,7 +2994,7 @@ window.DATA = {
      "w": 1,
      "d": 1,
      "l": 0,
-     "gd": 2,
+     "gd": 3,
      "pts": 4
     },
     {
@@ -3008,7 +3008,7 @@ window.DATA = {
      "w": 1,
      "d": 0,
      "l": 1,
-     "gd": 2,
+     "gd": 1,
      "pts": 3
     },
     {
