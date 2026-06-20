@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T20:12:21",
+ "updated": "2026-06-20T20:46:16",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2469,7 +2469,7 @@ window.DATA = {
    },
    "away": {
     "name": "Curaçao",
-    "tla": "CUW",
+    "tla": "CUR",
     "crest": "https://crests.football-data.org/curacao.svg"
    },
    "utc": "2026-06-21T00:00:00Z",
@@ -2670,7 +2670,7 @@ window.DATA = {
    "sweep": true,
    "status": "IN_PLAY",
    "hs": 0,
-   "as": 0,
+   "as": 1,
    "note": "FT"
   }
  ],
