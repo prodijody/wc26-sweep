@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T16:49:10",
+ "updated": "2026-06-20T17:35:38",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -63,10 +63,10 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 3,
-     "gd": 4,
-     "played": 1,
+     "gd": 2,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -76,7 +76,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 6,
-   "totalGd": 10
+   "totalGd": 8
   },
   {
    "name": "Lynn",
@@ -467,7 +467,7 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -596,10 +596,10 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
+     "position": 1,
+     "points": 4,
+     "gd": 2,
+     "played": 2,
      "in": true,
      "brink": false
     },
@@ -624,8 +624,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 3
+   "totalPoints": 8,
+   "totalGd": 5
   },
   {
    "name": "Barry B",
@@ -1163,6 +1163,49 @@ window.DATA = {
    "totalGd": 7
   },
   {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 3,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 8,
+   "totalGd": 5
+  },
+  {
    "name": "Mark",
    "teams": [
     {
@@ -1190,10 +1233,10 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 3,
-     "gd": 4,
-     "played": 1,
+     "gd": 2,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1203,7 +1246,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 6,
-   "totalGd": 10
+   "totalGd": 8
   },
   {
    "name": "Rooney",
@@ -1257,49 +1300,6 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 6,
-   "totalGd": 3
-  },
-  {
-   "name": "Brandon B",
-   "teams": [
-    {
-     "display": "Netherlands",
-     "name": "Netherlands",
-     "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
    "totalGd": 3
   },
   {
@@ -1384,7 +1384,7 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group F",
-   "home": {
-    "name": "Netherlands",
-    "tla": "NED",
-    "crest": "https://crests.football-data.org/8601.svg"
-   },
-   "away": {
-    "name": "Sweden",
-    "tla": "SWE",
-    "crest": "https://crests.football-data.org/792.svg"
-   },
-   "utc": "2026-06-20T17:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group E",
    "home": {
     "name": "Germany",
@@ -2560,7 +2544,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-23T03:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "away": {
+    "name": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://crests.football-data.org/8070.png"
+   },
+   "utc": "2026-06-23T17:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "away": {
+    "name": "Sweden",
+    "tla": "SWE",
+    "crest": "https://crests.football-data.org/792.svg"
+   },
+   "utc": "2026-06-20T17:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2966,37 +2986,37 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
+      "name": "Netherlands",
+      "tla": "NED",
+      "crest": "https://crests.football-data.org/8601.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gd": 2,
+     "pts": 4
+    },
+    {
+     "pos": 2,
+     "team": {
       "name": "Sweden",
       "tla": "SWE",
       "crest": "https://crests.football-data.org/792.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
      "d": 0,
-     "l": 0,
-     "gd": 4,
+     "l": 1,
+     "gd": 2,
      "pts": 3
     },
     {
-     "pos": 2,
+     "pos": 3,
      "team": {
       "name": "Japan",
       "tla": "JPN",
       "crest": "https://crests.football-data.org/766.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gd": 0,
-     "pts": 1
-    },
-    {
-     "pos": 2,
-     "team": {
-      "name": "Netherlands",
-      "tla": "NED",
-      "crest": "https://crests.football-data.org/8601.svg"
      },
      "p": 1,
      "w": 0,
