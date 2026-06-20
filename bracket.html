@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WC 2026 Sweep · Knockout Bracket</title>
+<style>
+  :root{--bg:#f4f6fb;--tile:#ffffff;--line:#e6e9f2;--ink:#1a2233;--mut:#6b7488;
+        --acc:#2f6df6;--accbg:#eaf1ff;--green:#10b981;--greenbg:#e7f8f1;--greenln:#bdebd6;
+        --gold:#d9930a;--goldbg:#fff5e0;--red:#ef4444}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);overflow:hidden;
+       background:
+        radial-gradient(1100px 520px at 100% -8%, #e7eefc 0, transparent 60%),
+        radial-gradient(900px 480px at -5% 110%, #e9f7f1 0, transparent 55%),
+        var(--bg)}
+  .tv{height:100vh;display:flex;flex-direction:column;padding:14px 18px;gap:10px}
+  /* header */
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;flex:none}
+  .ttl{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .ttl h1{font-size:24px;font-weight:800;letter-spacing:-.5px;
+          background:linear-gradient(90deg,#1a2233,#2f6df6 70%,#10b981);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .ttl h1::before{content:"🏆 ";-webkit-text-fill-color:initial}
+  .ttl .ph{color:var(--gold);font-weight:700;font-size:15px}
+  .hstats{display:flex;align-items:center;gap:10px}
+  .pill-stat{display:flex;align-items:center;gap:7px;background:var(--greenbg);border:1px solid var(--greenln);
+             border-radius:999px;padding:6px 14px;font-weight:700;font-size:14px;color:var(--green);box-shadow:0 1px 2px rgba(20,30,60,.05)}
+  .pill-stat b{font-size:18px}
+  .pill-stat.muted{background:#eef0f6;border-color:var(--line);color:var(--mut)}
+  .demo{background:var(--goldbg);color:var(--gold);border:1px solid #f3d79a;padding:5px 12px;border-radius:999px;font-size:12px;font-weight:700}
+  .clock{color:var(--mut);font-size:12px;white-space:nowrap}
+  .nav{display:flex;gap:8px;align-items:center}
+  .nav a{text-decoration:none;font-size:13px;font-weight:700;color:var(--acc);background:var(--accbg);
+         border:1px solid #cfe0ff;border-radius:999px;padding:6px 13px}
+  .nav a.gear{background:#eef0f6;border-color:var(--line);color:var(--mut);font-size:16px;padding:5px 11px}
+
+  /* champion banner */
+  .champ{background:linear-gradient(90deg,var(--goldbg),#fff);border:1px solid #f3d79a;border-radius:12px;
+         padding:8px 16px;display:flex;align-items:center;gap:12px;font-size:16px;flex:none}
+  .champ img{width:32px;height:32px;object-fit:contain}
+  .champ b{color:var(--gold)}
+
+  /* waiting placeholder note */
+  .wait{flex:none;background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);
+        border-radius:12px;padding:10px 16px;font-size:14px;color:var(--mut);box-shadow:0 1px 3px rgba(20,30,60,.05)}
+  .wait b{color:var(--ink)}
+
+  /* bracket */
+  .scroll{flex:1;overflow:auto;min-height:0}
+  .bracket{height:100%;display:flex;gap:10px;min-width:max-content;padding:4px 2px}
+  .col{display:flex;flex-direction:column;justify-content:space-around;gap:8px;min-width:172px;flex:none}
+  .col.final{min-width:212px;justify-content:center;gap:14px}
+  .col .ch{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--mut);font-weight:800;
+           text-align:center;padding:4px 0 2px;position:sticky;top:0}
+  .col.final .ch{color:var(--gold)}
+
+  .match{background:var(--tile);border:1px solid var(--line);border-radius:11px;overflow:hidden;
+         box-shadow:0 1px 3px rgba(20,30,60,.06);position:relative}
+  .match.sw{border-color:#bcd2ff;box-shadow:0 0 0 1px rgba(47,109,246,.15),0 1px 3px rgba(20,30,60,.06)}
+  .match.live{border-color:var(--red);box-shadow:0 0 0 1px rgba(239,68,68,.25)}
+  .col.final .match{border-color:#f3d79a;box-shadow:0 4px 16px rgba(217,147,10,.18)}
+  .tr{display:flex;align-items:center;gap:7px;padding:7px 9px}
+  .tr+.tr{border-top:1px solid var(--line)}
+  .tr img{width:20px;height:20px;object-fit:contain;flex:none;border-radius:3px}
+  .tr .nm{font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+  .tr .own{font-size:10px;font-weight:700;color:var(--acc);white-space:nowrap;max-width:74px;overflow:hidden;text-overflow:ellipsis}
+  .tr .own::before{content:"●";font-size:6px;vertical-align:middle;margin-right:3px}
+  .tr .sc{font-size:14px;font-weight:800;min-width:22px;text-align:center;color:var(--ink)}
+  .tr.win{background:var(--greenbg)}
+  .tr.win .nm{color:#0c8f63}
+  .tr.lose .nm{color:var(--mut)}
+  .tr.lose img{filter:grayscale(.7);opacity:.6}
+  .tr.tbd .nm{color:#aab2c4;font-weight:600;font-style:italic}
+  .tr.tbd .ph{width:20px;height:20px;border-radius:50%;background:#eef0f6;flex:none}
+  .mfoot{font-size:9.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--mut);text-align:center;
+         padding:2px 6px 4px;display:flex;justify-content:center;gap:6px;align-items:center}
+  .mfoot .ft{background:#e7f8f1;color:#0c8f63;border:1px solid #bfe9d6;border-radius:999px;padding:0 7px;font-weight:800}
+  .mfoot .lv{background:var(--red);color:#fff;border-radius:999px;padding:0 7px;font-weight:800}
+  .livedot{width:6px;height:6px;border-radius:50%;background:#fff;display:inline-block;margin-right:4px;vertical-align:middle;animation:pl 1.4s infinite}
+  @keyframes pl{0%{box-shadow:0 0 0 0 rgba(255,255,255,.7)}70%{box-shadow:0 0 0 5px rgba(255,255,255,0)}}
+
+  .col.final .lift{font-size:34px;text-align:center}
+  .col.final .third{margin-top:6px}
+  .col.final .third .ch{color:var(--mut)}
+
+  .legend{flex:none;font-size:11px;color:var(--mut);padding:2px;display:flex;gap:16px;flex-wrap:wrap}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dotg{width:9px;height:9px;border-radius:50%;background:var(--green);display:inline-block}
+  .dota{width:9px;height:9px;border-radius:3px;background:#bcd2ff;display:inline-block}
+
+  @media(max-width:920px){
+    html,body{height:auto;overflow:auto}
+    .tv{height:auto;min-height:100vh;padding:12px}
+    .scroll{overflow-x:auto;overflow-y:visible}
+    .bracket{height:auto}
+    .col{min-width:160px}
+  }
+</style>
+</head>
+<body>
+<div class="tv">
+  <div class="bar">
+    <div class="ttl"><h1 id="title">WC 2026 Office Sweep</h1><span class="ph" id="phase"></span></div>
+    <div class="hstats">
+      <span class="demo" id="demo" style="display:none">DEMO DATA</span>
+      <span class="pill-stat" id="statin"><b id="pin">–</b> still in</span>
+      <span class="clock" id="clock"></span>
+      <span class="nav">
+        <a href="index.html">← Dashboard</a>
+        <a class="gear" href="admin.html" title="Edit players (admin)">⚙</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="champ" id="champ" style="display:none"></div>
+  <div class="wait" id="wait" style="display:none"></div>
+
+  <div class="scroll"><div class="bracket" id="bracket"></div></div>
+
+  <div class="legend">
+    <span><span class="dotg"></span> winner / still advancing</span>
+    <span><span class="dota"></span> a sweep team is playing</span>
+    <span>knockouts read outward → the final in the middle</span>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const cr = (t,s=20) => t && t.crest ? `<img src="${t.crest}" width="${s}" height="${s}" onerror="this.style.display='none'">` : '';
+const tm = u => { try{ const d=new Date(u); return d.toLocaleDateString([], {day:'numeric', month:'short'})+' '+d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}); }catch(e){ return ''; } };
+
+// how many matches each knockout round holds in a 48-team WC (16+8+4+2+1)
+const COUNTS = {LAST_32:16, LAST_16:8, QUARTER_FINALS:4, SEMI_FINALS:2, FINAL:1};
+const DEFAULT_ORDER = ["LAST_32","LAST_16","QUARTER_FINALS","SEMI_FINALS","FINAL"];
+const DEFAULT_LABELS = {LAST_32:"Round of 32",LAST_16:"Round of 16",QUARTER_FINALS:"Quarter-final",SEMI_FINALS:"Semi-final",FINAL:"Final"};
+
+let OWNER = {};
+const ownTag = t => (t && OWNER[t.name]) ? `<span class="own">${OWNER[t.name]}</span>` : '';
+
+function teamRow(t, m, side){
+  // side: 'HOME_TEAM' | 'AWAY_TEAM'
+  if(!t || !t.name) return `<div class="tr tbd"><span class="ph"></span><span class="nm">TBD</span><span class="sc">–</span></div>`;
+  const fin = m && m.status==='FINISHED';
+  const playing = m && (m.status==='IN_PLAY'||m.status==='PAUSED');
+  let cls = 'tr';
+  if(m && m.winner && (fin||playing)){
+    if(m.winner===side) cls += ' win';
+    else if(m.winner==='HOME_TEAM'||m.winner==='AWAY_TEAM') cls += ' lose';
+  }
+  const sc = (m && (fin||playing) && (side==='HOME_TEAM'?m.hs:m.as)!=null) ? (side==='HOME_TEAM'?m.hs:m.as) : '';
+  return `<div class="${cls}">${cr(t,20)}<span class="nm">${t.name}</span>${ownTag(t)}<span class="sc">${sc}</span></div>`;
+}
+
+function matchCell(m){
+  if(!m) m = {};                      // placeholder slot — bracket "ready" but undrawn
+  const sw = m.sweep ? ' sw' : '';
+  const live = (m.status==='IN_PLAY'||m.status==='PAUSED') ? ' live' : '';
+  let foot = '';
+  if(m.status==='FINISHED') foot = `<span class="ft">${m.note||'FT'}</span>`;
+  else if(m.status==='IN_PLAY'||m.status==='PAUSED') foot = `<span class="lv"><span class="livedot"></span>LIVE</span>`;
+  else if(m.utc) foot = tm(m.utc);
+  else foot = 'awaiting draw';
+  return `<div class="match${sw}${live}">
+    ${teamRow(m.home, m, 'HOME_TEAM')}
+    ${teamRow(m.away, m, 'AWAY_TEAM')}
+    <div class="mfoot">${foot}</div>
+  </div>`;
+}
+
+function column(label, matches, extraClass){
+  return `<div class="col ${extraClass||''}">
+    <div class="ch">${label}</div>
+    ${matches.map(matchCell).join('')}
+  </div>`;
+}
+
+function render(D){
+  if(!D){ $('clock').textContent='Waiting for data — run update.py'; return; }
+  OWNER = {};
+  D.players.forEach(p => p.teams.forEach(t => { if(t.name) OWNER[t.name] = p.name; }));
+
+  $('title').textContent = D.title;
+  $('phase').textContent = '· ' + D.phase;
+  $('demo').style.display = D.demo ? '' : 'none';
+  $('clock').textContent = 'Updated ' + new Date(D.updated).toLocaleString();
+  $('pin').textContent = D.playersIn;
+  $('statin').classList.toggle('muted', D.playersIn===0);
+
+  // champion banner
+  if(D.champion){
+    const owner = D.players.find(p => p.teams.some(t => t.name===D.champion));
+    let crest = {};
+    (D.bracket && D.bracket.rounds ? Object.values(D.bracket.rounds).flat() : [])
+      .concat(D.recent||[]).flatMap(m=>[m.home,m.away]).forEach(t=>{ if(t&&t.name===D.champion) crest=t; });
+    $('champ').style.display='';
+    $('champ').innerHTML = `${cr(crest,32)}<div>🏆 <b>${D.champion}</b> are World Champions — winner: <b>${owner?owner.name:'—'}</b></div>`;
+  } else $('champ').style.display='none';
+
+  const B = D.bracket || {order:DEFAULT_ORDER, labels:DEFAULT_LABELS, rounds:{}, hasData:false};
+  const order = B.order || DEFAULT_ORDER;
+  const labels = B.labels || DEFAULT_LABELS;
+  const rounds = B.rounds || {};
+
+  // waiting note while there's no knockout draw yet
+  if(!B.hasData){
+    $('wait').style.display='';
+    $('wait').innerHTML = `<b>Knockouts not drawn yet.</b> This is the bracket it'll fill into — `
+      + `the Round of 32 onward, both halves meeting at the final. It updates automatically once `
+      + `the group stage finishes. <b>${D.playersIn}</b> of <b>${D.playersTotal}</b> players still in.`;
+  } else $('wait').style.display='none';
+
+  // for each round: real matches if present, else placeholder slots so the
+  // bracket shape is visible and "ready"
+  const get = stage => {
+    const real = rounds[stage] || [];
+    if(real.length) return real;
+    return Array.from({length: COUNTS[stage]||0}, () => null);
+  };
+
+  // split each round into the left half and the right half (fixture order)
+  const halves = {};
+  order.forEach(s => {
+    const arr = get(s);
+    const cut = Math.ceil(arr.length/2);
+    halves[s] = {left: arr.slice(0,cut), right: arr.slice(cut)};
+  });
+
+  const leftStages = order.filter(s => s!=='FINAL');
+  const html = [];
+  // left side: outermost round in, inward
+  leftStages.forEach(s => html.push(column(labels[s]||s, halves[s].left)));
+
+  // centre: final (+ third place under it)
+  const finalM = (rounds['FINAL'] && rounds['FINAL'][0]) || null;
+  const third = (rounds['THIRD_PLACE'] && rounds['THIRD_PLACE'][0]) || null;
+  let centre = `<div class="ch">${labels['FINAL']||'Final'}</div><div class="lift">🏆</div>${matchCell(finalM)}`;
+  if(third || !B.hasData){
+    centre += `<div class="third"><div class="ch">${B.thirdPlaceLabel||'Third-place play-off'}</div>${matchCell(third)}</div>`;
+  }
+  html.push(`<div class="col final">${centre}</div>`);
+
+  // right side: mirror — innermost round out
+  leftStages.slice().reverse().forEach(s => html.push(column(labels[s]||s, halves[s].right)));
+
+  $('bracket').innerHTML = html.join('');
+}
+
+render(window.DATA);
+async function refresh(){
+  try{
+    const r = await fetch('data.js?_=' + Date.now(), {cache:'no-store'});
+    const txt = await r.text();
+    render(JSON.parse(txt.replace(/^\s*window\.DATA\s*=\s*/, '').replace(/;\s*$/, '')));
+  }catch(e){ /* file:// or offline — keep current data */ }
+}
+setInterval(refresh, 60000);
+</script>
+</body>
+</html>

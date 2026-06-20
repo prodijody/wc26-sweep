@@ -66,6 +66,14 @@ def main():
     sweep = json.load(io.open(os.path.join(HERE, "sweep.json"), encoding="utf-8"))
     aliases = sweep.get("aliases", {})
 
+    # Teams forced OUT regardless of what the bracket says (withdrawals,
+    # expulsions, disqualifications). Resolve through aliases and also keep the
+    # raw spelling so either form in sweep.json matches.
+    withdrawn = set()
+    for w in sweep.get("withdrawn", []):
+        withdrawn.add(w)
+        withdrawn.add(aliases.get(w, w))
+
     matches = fetch("/matches").get("matches", [])
     standings = fetch("/standings").get("standings", [])
 
@@ -140,6 +148,8 @@ def main():
     def team_status(name):
         """Return (is_in, rank, label)."""
         rank = furthest.get(name, 0)
+        if name in withdrawn:
+            return False, rank, "Withdrawn"
         if champion == name:
             return True, STAGE_RANK["CHAMPION"], RANK_LABEL[6]
         out = (name in ko_losers) or (group_complete and name not in qualified)
@@ -226,6 +236,9 @@ def main():
     for tname, owners in owner_of.items():
         if len(owners) > 1:
             flags["%s" % tname] = "Owned by more than one player: " + ", ".join(owners)
+    for w in sorted(withdrawn):
+        if w in owner_of:
+            flags["%s (withdrawn)" % w] = "Forced out via sweep.json 'withdrawn' — owner(s): " + ", ".join(owner_of[w])
 
     # ---- phase label ----
     if champion:
@@ -237,6 +250,40 @@ def main():
     else:
         md = next((m.get("matchday") for m in matches if m["status"] in ("SCHEDULED", "TIMED", "IN_PLAY")), None)
         phase = "Group stage" + (" · matchday %s" % md if md else "")
+
+    # ---- knockout bracket (symmetric tree, ready for the KO rounds) ----
+    # Each round's matches are emitted in chronological/id order; the page lays
+    # the first half down the left, the second half down the right, and the
+    # final in the middle. Until the draw is made these rounds are empty and the
+    # bracket page shows a "waiting for the knockouts" placeholder.
+    KO_ORDER = ["LAST_32", "LAST_16", "QUARTER_FINALS", "SEMI_FINALS", "FINAL"]
+
+    def bracket_row(m):
+        h, a = m["homeTeam"], m["awayTeam"]
+        sc = m.get("score", {}).get("fullTime", {}) or {}
+        is_fin = m["status"] == "FINISHED"
+        return {
+            "home": team_mini(h), "away": team_mini(a),
+            "hs": sc.get("home"), "as": sc.get("away"),
+            "winner": m.get("score", {}).get("winner"),  # HOME_TEAM/AWAY_TEAM/DRAW/None
+            "status": m["status"], "utc": m.get("utcDate"),
+            "note": DURATION_NOTE.get(m.get("score", {}).get("duration")) if is_fin else None,
+            "sweep": (h.get("name") in matched_names) or (a.get("name") in matched_names),
+        }
+
+    bracket = {
+        "order": KO_ORDER,
+        "labels": {s: RANK_LABEL[STAGE_RANK[s]] for s in KO_ORDER},
+        "rounds": {},
+        "hasData": False,
+        "thirdPlaceLabel": "Third-place play-off",
+    }
+    for s in KO_ORDER + ["THIRD_PLACE"]:
+        ms = [m for m in matches if m["stage"] == s]
+        ms.sort(key=lambda m: (m.get("utcDate") or "", m.get("id") or 0))
+        bracket["rounds"][s] = [bracket_row(m) for m in ms]
+        if s in KO_ORDER and ms:
+            bracket["hasData"] = True
 
     data = {
         "demo": False,
@@ -253,6 +300,7 @@ def main():
         "fixtures": fixtures,
         "live": live,
         "groups": groups,
+        "bracket": bracket,
         "flags": flags,
     }
 
@@ -263,6 +311,9 @@ def main():
     print("Wrote %s" % out)
     print("  phase: %s | players in: %d/%d | live: %d | flags: %d"
           % (phase, data["playersIn"], data["playersTotal"], len(live), len(flags)))
+    if withdrawn:
+        print("  withdrawn (forced out): %s" % ", ".join(sorted(withdrawn)))
+    print("  bracket: %s" % ("populated" if bracket["hasData"] else "waiting for knockout draw"))
     if flags:
         for k, v in flags.items():
             print("  flag: %s -> %s" % (k, v))

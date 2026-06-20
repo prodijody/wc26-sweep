@@ -92,8 +92,23 @@ Everything is in **`sweep.json`**:
   Congo→Congo DR, **Beckistan→Uzbekistan** (best guess — change if wrong).
 - Any team that doesn't match a real WC 2026 team is shown as "Not in tournament" and
   listed in the page's data flags.
+- `"withdrawn"` is a list of teams forced **OUT** regardless of the bracket — for
+  withdrawals, expulsions or disqualifications (use the official/aliased name). Every
+  `update.py` run recomputes them as eliminated: the owning player loses that team
+  (their other teams keep them alive), the team chip shows "Withdrawn", and a data flag
+  is raised. Currently: **Turkey** (withdrawn).
 
 Re-run `update.py` after editing.
+
+## Pages
+
+- **`index.html`** — the main dashboard (leaderboard, results, fixtures).
+- **`bracket.html`** — the **knockout bracket**: Round of 32 down both outer edges,
+  converging through R16 → QF → SF to the **final in the middle**, with the third-place
+  play-off beneath it. Sweep teams are highlighted and tagged with their owner; winners
+  go green, live games show a red badge. Before the knockout draw it shows the empty
+  bracket shape ("awaiting draw") so it's ready to fill in automatically. Linked from the
+  dashboard header (🏆 Bracket) and refreshes every 60s like the dashboard.
 
 ## Notes on your list (auto-flagged)
 

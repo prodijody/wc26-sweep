@@ -1,6 +1,10 @@
 {
   "title": "WC 2026 Office Sweep",
   "_comment": "Edit players/teams freely. 'aliases' maps your spelling to the official football-data.org team name. Any team that doesn't match is flagged on the page.",
+  "_withdrawn_comment": "Teams forced OUT regardless of the bracket (withdrawals, expulsions, disqualifications). Use the official/aliased team name. Re-run update.py after editing.",
+  "withdrawn": [
+    "Turkey"
+  ],
   "aliases": {
     "Bosnia": "Bosnia-Herzegovina",
     "America": "United States",

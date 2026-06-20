@@ -112,12 +112,12 @@ window.DATA = {
      "crest": "https://crests.football-data.org/803.svg",
      "group": "D",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Withdrawn",
      "position": 4,
      "points": 0,
      "gd": -3,
      "played": 2,
-     "in": true
+     "in": false
     },
     {
      "display": "Jordan",
@@ -138,7 +138,7 @@ window.DATA = {
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 0,
    "totalGd": -5
   },
@@ -2102,12 +2102,12 @@ window.DATA = {
      "crest": "https://crests.football-data.org/803.svg",
      "group": "D",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Withdrawn",
      "position": 4,
      "points": 0,
      "gd": -3,
      "played": 2,
-     "in": true
+     "in": false
     },
     {
      "display": "Jordan",
@@ -2128,7 +2128,7 @@ window.DATA = {
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 0,
    "totalGd": -5
   }
@@ -3292,5 +3292,33 @@ window.DATA = {
    ]
   }
  ],
- "flags": {}
+ "flags": {
+  "Turkey (withdrawn)": "Forced out via sweep.json 'withdrawn' — owner(s): Laura"
+ },
+ "bracket": {
+  "order": [
+   "LAST_32",
+   "LAST_16",
+   "QUARTER_FINALS",
+   "SEMI_FINALS",
+   "FINAL"
+  ],
+  "labels": {
+   "LAST_32": "Round of 32",
+   "LAST_16": "Round of 16",
+   "QUARTER_FINALS": "Quarter-final",
+   "SEMI_FINALS": "Semi-final",
+   "FINAL": "Final"
+  },
+  "rounds": {
+   "LAST_32": [],
+   "LAST_16": [],
+   "QUARTER_FINALS": [],
+   "SEMI_FINALS": [],
+   "FINAL": [],
+   "THIRD_PLACE": []
+  },
+  "hasData": false,
+  "thirdPlaceLabel": "Third-place play-off"
+ }
 };
