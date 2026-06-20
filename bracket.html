@@ -89,13 +89,30 @@
   .dotg{width:9px;height:9px;border-radius:50%;background:var(--green);display:inline-block}
   .dota{width:9px;height:9px;border-radius:3px;background:#bcd2ff;display:inline-block}
 
+  /* ---- mobile: stack the rounds vertically instead of the wide tree ---- */
   @media(max-width:920px){
-    html,body{height:auto;overflow:auto}
-    .tv{height:auto;min-height:100vh;padding:12px}
-    .scroll{overflow-x:auto;overflow-y:visible}
-    .bracket{height:auto}
-    .col{min-width:160px}
+    html,body{height:auto;overflow-y:auto;overflow-x:hidden;-webkit-text-size-adjust:100%}
+    .tv{height:auto;min-height:100vh;padding:12px 12px 28px;gap:10px}
+    .scroll{overflow:visible;flex:none;min-width:0}
+    .bar{gap:8px}
+    .ttl h1{font-size:21px}
+    .ttl{gap:8px}
+    .hstats{flex-wrap:wrap;gap:8px}
+    .clock{font-size:11px}
+    .nav a{padding:5px 11px}
+    .champ,.wait{min-width:0}
+    .legend .wide{display:none}
   }
+  /* .stack is added by JS only on narrow viewports */
+  .bracket.stack{flex-direction:column;height:auto;min-width:0;width:100%;gap:14px}
+  .bracket.stack .mround{display:flex;flex-direction:column;gap:8px;min-width:0}
+  .bracket.stack .mround .ch{position:static;text-align:left;font-size:13px;padding:2px 0;color:var(--mut)}
+  .bracket.stack .mround .match{min-width:0;width:100%}
+  .bracket.stack .mround .lift{font-size:26px;text-align:center}
+  .bracket.stack .mround.final{background:linear-gradient(180deg,#fffaf0,#fff);border:1px solid #f3d79a;
+                               border-radius:14px;padding:10px 10px 4px;box-shadow:0 4px 16px rgba(217,147,10,.12)}
+  .bracket.stack .mround.final .ch{color:var(--gold);text-align:center}
+  .bracket.stack .awz{color:var(--mut);font-size:13px;font-style:italic;padding:4px 2px}
 </style>
 </head>
 <body>
@@ -121,7 +138,7 @@
   <div class="legend">
     <span><span class="dotg"></span> winner / still advancing</span>
     <span><span class="dota"></span> a sweep team is playing</span>
-    <span>knockouts read outward → the final in the middle</span>
+    <span class="wide">knockouts read outward → the final in the middle</span>
   </div>
 </div>
 
@@ -211,27 +228,34 @@ function render(D){
       + `the group stage finishes. <b>${D.playersIn}</b> of <b>${D.playersTotal}</b> players still in.`;
   } else $('wait').style.display='none';
 
-  // for each round: real matches if present, else placeholder slots so the
-  // bracket shape is visible and "ready"
+  // each round: real matches if drawn, else placeholder slots so the bracket
+  // shape is visible and "ready" (desktop tree only)
   const get = stage => {
     const real = rounds[stage] || [];
     if(real.length) return real;
     return Array.from({length: COUNTS[stage]||0}, () => null);
   };
 
-  // split each round into the left half and the right half (fixture order)
+  // narrow viewport -> vertical stack; wide -> the symmetric tree
+  const wrap = $('bracket');
+  const mobile = window.matchMedia('(max-width: 920px)').matches;
+  wrap.classList.toggle('stack', mobile);
+  wrap.innerHTML = mobile ? buildStacked(order, labels, rounds, B)
+                          : buildTree(order, labels, get, rounds, B);
+}
+
+// desktop: symmetric tree — R32 down both outer edges, final in the middle
+function buildTree(order, labels, get, rounds, B){
   const halves = {};
   order.forEach(s => {
     const arr = get(s);
     const cut = Math.ceil(arr.length/2);
     halves[s] = {left: arr.slice(0,cut), right: arr.slice(cut)};
   });
-
   const leftStages = order.filter(s => s!=='FINAL');
   const html = [];
   // left side: outermost round in, inward
   leftStages.forEach(s => html.push(column(labels[s]||s, halves[s].left)));
-
   // centre: final (+ third place under it)
   const finalM = (rounds['FINAL'] && rounds['FINAL'][0]) || null;
   const third = (rounds['THIRD_PLACE'] && rounds['THIRD_PLACE'][0]) || null;
@@ -240,22 +264,45 @@ function render(D){
     centre += `<div class="third"><div class="ch">${B.thirdPlaceLabel||'Third-place play-off'}</div>${matchCell(third)}</div>`;
   }
   html.push(`<div class="col final">${centre}</div>`);
-
   // right side: mirror — innermost round out
   leftStages.slice().reverse().forEach(s => html.push(column(labels[s]||s, halves[s].right)));
-
-  $('bracket').innerHTML = html.join('');
+  return html.join('');
 }
 
-render(window.DATA);
+// mobile: rounds stacked top->bottom (Round of 32 ... Final), full-width cards.
+// Undrawn rounds collapse to a one-line "awaiting draw" note instead of dozens
+// of empty slots.
+function buildStacked(order, labels, rounds, B){
+  const section = (label, body, cls) =>
+    `<div class="mround ${cls||''}"><div class="ch">${label}</div>${body}</div>`;
+  const html = [];
+  order.forEach(s => {
+    const real = rounds[s] || [];
+    const trophy = s==='FINAL' ? '<div class="lift">🏆</div>' : '';
+    const body = real.length
+      ? trophy + real.map(matchCell).join('')
+      : trophy + `<div class="awz">${COUNTS[s]||0} match${(COUNTS[s]||0)===1?'':'es'} · awaiting draw</div>`;
+    html.push(section(labels[s]||s, body, s==='FINAL'?'final':''));
+  });
+  const third = (rounds['THIRD_PLACE'] && rounds['THIRD_PLACE'][0]) || null;
+  if(third) html.push(section(B.thirdPlaceLabel||'Third-place play-off', matchCell(third)));
+  else if(B.hasData) html.push(section(B.thirdPlaceLabel||'Third-place play-off', '<div class="awz">awaiting draw</div>'));
+  return html.join('');
+}
+
+let LATEST = window.DATA;
+render(LATEST);
 async function refresh(){
   try{
     const r = await fetch('data.js?_=' + Date.now(), {cache:'no-store'});
     const txt = await r.text();
-    render(JSON.parse(txt.replace(/^\s*window\.DATA\s*=\s*/, '').replace(/;\s*$/, '')));
+    LATEST = JSON.parse(txt.replace(/^\s*window\.DATA\s*=\s*/, '').replace(/;\s*$/, ''));
+    render(LATEST);
   }catch(e){ /* file:// or offline — keep current data */ }
 }
 setInterval(refresh, 60000);
+// re-render when crossing the desktop/mobile breakpoint (rotate / resize)
+let _rz; window.addEventListener('resize', () => { clearTimeout(_rz); _rz = setTimeout(() => render(LATEST), 200); });
 </script>
 </body>
 </html>
