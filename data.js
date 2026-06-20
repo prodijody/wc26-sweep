@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T02:23:32",
+ "updated": "2026-06-20T03:48:19",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -113,10 +113,10 @@ window.DATA = {
      "group": "D",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
+     "position": 4,
      "points": 0,
-     "gd": -2,
-     "played": 1,
+     "gd": -3,
+     "played": 2,
      "in": true
     },
     {
@@ -140,7 +140,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 0,
-   "totalGd": -4
+   "totalGd": -5
   },
   {
    "name": "Sharon",
@@ -407,7 +407,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 4,
      "gd": 1,
      "played": 2,
@@ -921,7 +921,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 1,
      "points": 4,
      "gd": 3,
      "played": 2,
@@ -1040,10 +1040,10 @@ window.DATA = {
      "group": "D",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 1,
+     "position": 3,
+     "points": 3,
+     "gd": -2,
+     "played": 2,
      "in": true
     },
     {
@@ -1066,8 +1066,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 0,
-   "totalGd": -4
+   "totalPoints": 3,
+   "totalGd": -3
   }
  ],
  "leaderboard": [
@@ -1083,7 +1083,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 4,
      "gd": 1,
      "played": 2,
@@ -1299,7 +1299,7 @@ window.DATA = {
      "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 1,
      "points": 4,
      "gd": 3,
      "played": 2,
@@ -1637,6 +1637,47 @@ window.DATA = {
      "position": 1,
      "points": 3,
      "gd": 3,
+     "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 3,
+   "totalGd": -3
+  },
+  {
+   "name": "Thomas",
+   "teams": [
+    {
+     "display": "Paraguay",
+     "name": "Paraguay",
+     "matched": true,
+     "tla": "PAR",
+     "crest": "https://crests.football-data.org/761.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": -2,
+     "played": 2,
+     "in": true
+    },
+    {
+     "display": "Panama",
+     "name": "Panama",
+     "matched": true,
+     "tla": "PAN",
+     "crest": "https://crests.football-data.org/panama.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 0,
+     "gd": -1,
      "played": 1,
      "in": true
     }
@@ -2025,88 +2066,6 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Laura",
-   "teams": [
-    {
-     "display": "Turkey",
-     "name": "Turkey",
-     "matched": true,
-     "tla": "TUR",
-     "crest": "https://crests.football-data.org/803.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 0,
-     "gd": -2,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Jordan",
-     "name": "Jordan",
-     "matched": true,
-     "tla": "JOR",
-     "crest": "https://crests.football-data.org/8049.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 0,
-     "gd": -2,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 0,
-   "totalGd": -4
-  },
-  {
-   "name": "Thomas",
-   "teams": [
-    {
-     "display": "Paraguay",
-     "name": "Paraguay",
-     "matched": true,
-     "tla": "PAR",
-     "crest": "https://crests.football-data.org/761.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 1,
-     "in": true
-    },
-    {
-     "display": "Panama",
-     "name": "Panama",
-     "matched": true,
-     "tla": "PAN",
-     "crest": "https://crests.football-data.org/panama.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 0,
-     "gd": -1,
-     "played": 1,
-     "in": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 0,
-   "totalGd": -4
-  },
-  {
    "name": "Martin M",
    "teams": [
     {
@@ -2131,9 +2090,69 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 0,
    "totalGd": -4
+  },
+  {
+   "name": "Laura",
+   "teams": [
+    {
+     "display": "Turkey",
+     "name": "Turkey",
+     "matched": true,
+     "tla": "TUR",
+     "crest": "https://crests.football-data.org/803.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 2,
+     "in": true
+    },
+    {
+     "display": "Jordan",
+     "name": "Jordan",
+     "matched": true,
+     "tla": "JOR",
+     "crest": "https://crests.football-data.org/8049.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 0,
+     "gd": -2,
+     "played": 1,
+     "in": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 0,
+   "totalGd": -5
   }
  ],
  "recent": [
+  {
+   "stage": "Group C",
+   "home": {
+    "name": "Brazil",
+    "tla": "BRA",
+    "crest": "https://crests.football-data.org/764.svg"
+   },
+   "away": {
+    "name": "Haiti",
+    "tla": "HAI",
+    "crest": "https://crests.football-data.org/haiti.svg"
+   },
+   "utc": "2026-06-20T00:30:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 0,
+   "note": "FT"
+  },
   {
    "stage": "Group C",
    "home": {
@@ -2342,44 +2361,9 @@ window.DATA = {
    "hs": 3,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-06-17T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "Turkey",
-    "tla": "TUR",
-    "crest": "https://crests.football-data.org/803.svg"
-   },
-   "away": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "utc": "2026-06-20T03:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
   {
    "stage": "Group F",
    "home": {
@@ -2555,26 +2539,42 @@ window.DATA = {
    "utc": "2026-06-23T00:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Jordan",
+    "tla": "JOR",
+    "crest": "https://crests.football-data.org/8049.png"
+   },
+   "away": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "crest": "https://crests.football-data.org/algeria.svg"
+   },
+   "utc": "2026-06-23T03:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
  "live": [
   {
-   "stage": "Group C",
+   "stage": "Group D",
    "home": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
+    "name": "Turkey",
+    "tla": "TUR",
+    "crest": "https://crests.football-data.org/803.svg"
    },
    "away": {
-    "name": "Haiti",
-    "tla": "HAI",
-    "crest": "https://crests.football-data.org/haiti.svg"
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
    },
-   "utc": "2026-06-20T00:30:00Z",
+   "utc": "2026-06-20T03:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 3,
-   "as": 0,
+   "hs": 0,
+   "as": 1,
    "note": "FT"
   }
  ],
@@ -2707,20 +2707,6 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "Morocco",
-      "tla": "MAR",
-      "crest": "https://crests.football-data.org/morocco.svg"
-     },
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gd": 1,
-     "pts": 4
-    },
-    {
-     "pos": 2,
-     "team": {
       "name": "Brazil",
       "tla": "BRA",
       "crest": "https://crests.football-data.org/764.svg"
@@ -2730,6 +2716,20 @@ window.DATA = {
      "d": 1,
      "l": 0,
      "gd": 3,
+     "pts": 4
+    },
+    {
+     "pos": 2,
+     "team": {
+      "name": "Morocco",
+      "tla": "MAR",
+      "crest": "https://crests.football-data.org/morocco.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gd": 1,
      "pts": 4
     },
     {
@@ -2796,28 +2796,28 @@ window.DATA = {
     {
      "pos": 3,
      "team": {
-      "name": "Turkey",
-      "tla": "TUR",
-      "crest": "https://crests.football-data.org/803.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gd": -2,
-     "pts": 0
-    },
-    {
-     "pos": 4,
-     "team": {
       "name": "Paraguay",
       "tla": "PAR",
       "crest": "https://crests.football-data.org/761.svg"
      },
-     "p": 1,
-     "w": 0,
+     "p": 2,
+     "w": 1,
      "d": 0,
      "l": 1,
+     "gd": -2,
+     "pts": 3
+    },
+    {
+     "pos": 4,
+     "team": {
+      "name": "Turkey",
+      "tla": "TUR",
+      "crest": "https://crests.football-data.org/803.svg"
+     },
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
      "gd": -3,
      "pts": 0
     }
