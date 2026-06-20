@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-19T23:39:28",
+ "updated": "2026-06-20T00:10:32",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2135,6 +2135,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group C",
+   "home": {
+    "name": "Scotland",
+    "tla": "SCO",
+    "crest": "https://crests.football-data.org/814.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-06-19T22:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
+  {
    "stage": "Group D",
    "home": {
     "name": "United States",
@@ -2342,25 +2361,6 @@ window.DATA = {
    "hs": 3,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Iraq",
-    "tla": "IRQ",
-    "crest": "https://crests.football-data.org/iraq.svg"
-   },
-   "away": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "utc": "2026-06-16T22:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 4,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2496,7 +2496,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2557,27 +2557,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group C",
-   "home": {
-    "name": "Scotland",
-    "tla": "SCO",
-    "crest": "https://crests.football-data.org/814.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-06-19T22:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
