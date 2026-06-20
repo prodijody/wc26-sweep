@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T21:33:55",
+ "updated": "2026-06-20T22:10:36",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -47,9 +47,9 @@ window.DATA = {
      "group": "E",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 5,
+     "position": 1,
+     "points": 6,
+     "gd": 7,
      "played": 2,
      "in": true,
      "brink": false
@@ -75,8 +75,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 6,
-   "totalGd": 5
+   "totalPoints": 9,
+   "totalGd": 7
   },
   {
    "name": "Lynn",
@@ -639,9 +639,9 @@ window.DATA = {
      "group": "E",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
-     "points": 6,
-     "gd": 2,
+     "position": 2,
+     "points": 3,
+     "gd": 0,
      "played": 2,
      "in": true,
      "brink": false
@@ -667,8 +667,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 7,
-   "totalGd": -4
+   "totalPoints": 4,
+   "totalGd": -6
   },
   {
    "name": "Paul K",
@@ -1120,6 +1120,49 @@ window.DATA = {
  ],
  "leaderboard": [
   {
+   "name": "Mark",
+   "teams": [
+    {
+     "display": "Germany",
+     "name": "Germany",
+     "matched": true,
+     "tla": "GER",
+     "crest": "https://crests.football-data.org/759.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 7,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Sweden",
+     "name": "Sweden",
+     "matched": true,
+     "tla": "SWE",
+     "crest": "https://crests.football-data.org/792.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 9,
+   "totalGd": 7
+  },
+  {
    "name": "Brandon B",
    "teams": [
     {
@@ -1204,92 +1247,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 8,
    "totalGd": 7
-  },
-  {
-   "name": "Barry B",
-   "teams": [
-    {
-     "display": "Ivory Coast",
-     "name": "Ivory Coast",
-     "matched": true,
-     "tla": "CIV",
-     "crest": "https://crests.football-data.org/787.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 6,
-     "gd": 2,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Qatar",
-     "name": "Qatar",
-     "matched": true,
-     "tla": "QAT",
-     "crest": "https://crests.football-data.org/8030.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -6,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 7,
-   "totalGd": -4
-  },
-  {
-   "name": "Mark",
-   "teams": [
-    {
-     "display": "Germany",
-     "name": "Germany",
-     "matched": true,
-     "tla": "GER",
-     "crest": "https://crests.football-data.org/759.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 5,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Sweden",
-     "name": "Sweden",
-     "matched": true,
-     "tla": "SWE",
-     "crest": "https://crests.football-data.org/792.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 6,
-   "totalGd": 5
   },
   {
    "name": "Rooney",
@@ -1500,6 +1457,49 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 4,
    "totalGd": 2
+  },
+  {
+   "name": "Barry B",
+   "teams": [
+    {
+     "display": "Ivory Coast",
+     "name": "Ivory Coast",
+     "matched": true,
+     "tla": "CIV",
+     "crest": "https://crests.football-data.org/787.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Qatar",
+     "name": "Qatar",
+     "matched": true,
+     "tla": "QAT",
+     "crest": "https://crests.football-data.org/8030.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -6
   },
   {
    "name": "Edwina",
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group E",
+   "home": {
+    "name": "Germany",
+    "tla": "GER",
+    "crest": "https://crests.football-data.org/759.svg"
+   },
+   "away": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
+   },
+   "utc": "2026-06-20T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
    "stage": "Group F",
    "home": {
     "name": "Netherlands",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-06-17T20:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 4,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Germany",
-    "tla": "GER",
-    "crest": "https://crests.football-data.org/759.svg"
-   },
-   "away": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "utc": "2026-06-20T20:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2925,29 +2905,29 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "Ivory Coast",
-      "tla": "CIV",
-      "crest": "https://crests.football-data.org/787.svg"
-     },
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gd": 2,
-     "pts": 6
-    },
-    {
-     "pos": 2,
-     "team": {
       "name": "Germany",
       "tla": "GER",
       "crest": "https://crests.football-data.org/759.svg"
      },
      "p": 2,
+     "w": 2,
+     "d": 0,
+     "l": 0,
+     "gd": 7,
+     "pts": 6
+    },
+    {
+     "pos": 2,
+     "team": {
+      "name": "Ivory Coast",
+      "tla": "CIV",
+      "crest": "https://crests.football-data.org/787.svg"
+     },
+     "p": 2,
      "w": 1,
      "d": 0,
      "l": 1,
-     "gd": 5,
+     "gd": 0,
      "pts": 3
     },
     {
