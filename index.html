@@ -62,6 +62,10 @@
   .tchip small{font-weight:600;color:var(--mut);font-size:11px}
   .tchip.alive{border-color:var(--greenln);background:var(--greenbg)}
   .tchip.alive small{color:var(--green)}
+  /* still in but can't reach top 2 — clinging on via a best-3rd place */
+  .tchip.brink{border-color:#f3d79a;background:var(--goldbg);opacity:.92}
+  .tchip.brink small{color:var(--gold)}
+  .tchip.brink .nm{color:#9a6406}
   .tchip.dead{opacity:.5}
   .tchip.dead .nm{text-decoration:line-through}
   .tchip.na{border-style:dashed;color:var(--mut)}
@@ -242,11 +246,14 @@ function ord(n){ if(!n) return ''; const s=["th","st","nd","rd"], v=n%100; retur
 // short label under each team chip: group+position now, knockout stage later
 function teamTag(t){
   if(!t.matched) return 'not in cup';
-  if(t.stage===0) return 'Grp ' + (t.group||'?') + (t.position ? ' · ' + ord(t.position) : '');
+  if(t.stage===0){
+    const base = 'Grp ' + (t.group||'?') + (t.position ? ' · ' + ord(t.position) : '');
+    return t.brink ? base + ' · ⚠ on the brink' : base;
+  }
   return t.stageLabel;
 }
 function chip(t){
-  const cls = !t.matched ? 'na' : (t.in ? 'alive' : 'dead');
+  const cls = !t.matched ? 'na' : (t.in ? (t.brink ? 'brink' : 'alive') : 'dead');
   return `<span class="tchip ${cls}">${cr(t,20)}<span class="nm">${t.display}</span> <small>${teamTag(t)}</small></span>`;
 }
 

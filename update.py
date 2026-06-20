@@ -179,6 +179,19 @@ def main():
                            if o != name and mt.get("group") == g and mt["points"] > ceiling)
         return rivals_above >= 3
 
+    def on_brink(name):
+        """True if a team can no longer finish in the top 2 of its group but
+        isn't out yet — clinging on via a best-3rd place. (Two group rivals
+        already have more points than this team can still reach.)"""
+        meta = teams.get(name)
+        if not meta or not meta.get("group"):
+            return False
+        g = meta["group"]
+        ceiling = meta["points"] + 3 * team_remaining.get(name, 0)
+        rivals_above = sum(1 for o, mt in teams.items()
+                           if o != name and mt.get("group") == g and mt["points"] > ceiling)
+        return rivals_above >= 2
+
     def team_status(name):
         """Return (is_in, rank, label)."""
         rank = furthest.get(name, 0)
@@ -206,15 +219,19 @@ def main():
                 tobjs.append({"display": disp, "name": resolved, "matched": False,
                               "tla": None, "crest": None, "group": None,
                               "stage": None, "stageLabel": "Not in tournament",
-                              "position": None, "points": 0, "gd": 0, "played": 0, "in": False})
+                              "position": None, "points": 0, "gd": 0, "played": 0,
+                              "in": False, "brink": False})
                 continue
             matched_names.add(resolved)
             is_in, rank, label = team_status(resolved)
+            # still alive but can no longer finish top 2 of its group -> clinging
+            # on via a best-3rd place
+            brink = is_in and rank == 0 and on_brink(resolved)
             tobjs.append({"display": disp, "name": resolved, "matched": True,
                           "tla": mt["tla"], "crest": mt["crest"], "group": mt["group"],
                           "stage": rank, "stageLabel": label, "position": mt["position"],
                           "points": mt["points"], "gd": mt["gd"], "played": mt["played"],
-                          "in": is_in})
+                          "in": is_in, "brink": brink})
         valid = [t for t in tobjs if t["matched"]]
         best = max((t["stage"] for t in valid), default=0) if valid else -1
         players.append({

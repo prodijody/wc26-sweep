@@ -130,6 +130,9 @@ Elimination is worked out automatically:
   have more points than it can still reach. This is deliberately conservative — a team is
   only marked out when it's mathematically gone, never on a hunch, because a 3rd-placed
   team can still qualify and a false elimination would wrongly knock a player out.
+  A team that's still alive but can no longer finish in the top 2 (two rivals already
+  out of its reach) is shown with an amber **"⚠ on the brink"** badge — clinging on only
+  via a best-3rd place — without being eliminated.
 - **Knockouts** — the loser of any played match is out; teams named in a knockout fixture
   have survived the group.
 - **Withdrawals** — teams in `sweep.json`'s `"withdrawn"` list are forced out regardless.
