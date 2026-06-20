@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T11:27:53",
+ "updated": "2026-06-20T11:59:17",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -3292,9 +3292,6 @@ window.DATA = {
    ]
   }
  ],
- "flags": {
-  "Turkey (withdrawn)": "Forced out via sweep.json 'withdrawn' — owner(s): Laura"
- },
  "bracket": {
   "order": [
    "LAST_32",
@@ -3311,14 +3308,631 @@ window.DATA = {
    "FINAL": "Final"
   },
   "rounds": {
-   "LAST_32": [],
-   "LAST_16": [],
-   "QUARTER_FINALS": [],
-   "SEMI_FINALS": [],
-   "FINAL": [],
-   "THIRD_PLACE": []
+   "LAST_32": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-28T19:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-29T17:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-29T20:30:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-30T01:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-30T17:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-06-30T21:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-01T01:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-01T16:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-01T20:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-02T00:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-02T19:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-02T23:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-03T03:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-03T18:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-03T22:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-04T01:30:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ],
+   "LAST_16": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-04T17:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-04T21:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-05T20:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-06T00:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-06T19:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-07T00:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-07T16:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-07T20:00:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ],
+   "QUARTER_FINALS": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-09T20:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-10T19:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-11T21:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-12T01:00:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ],
+   "SEMI_FINALS": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-14T19:00:00Z",
+     "note": null,
+     "sweep": false
+    },
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-15T19:00:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ],
+   "FINAL": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-19T19:00:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ],
+   "THIRD_PLACE": [
+    {
+     "home": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "away": {
+      "name": null,
+      "tla": null,
+      "crest": null
+     },
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
+     "utc": "2026-07-18T21:00:00Z",
+     "note": null,
+     "sweep": false
+    }
+   ]
   },
-  "hasData": false,
+  "hasData": true,
   "thirdPlaceLabel": "Third-place play-off"
+ },
+ "flags": {
+  "Turkey (withdrawn)": "Forced out via sweep.json 'withdrawn' — owner(s): Laura"
  }
 };
