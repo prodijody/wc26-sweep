@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-20T23:44:53",
+ "updated": "2026-06-21T00:16:38",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -371,9 +371,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 0,
+     "points": 1,
      "gd": -1,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -382,7 +382,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 0,
+   "totalPoints": 1,
    "totalGd": -1
   },
   {
@@ -753,9 +753,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 0,
+     "points": 1,
      "gd": -6,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     },
@@ -780,7 +780,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": -3
   },
   {
@@ -1459,6 +1459,49 @@ window.DATA = {
    "totalGd": 2
   },
   {
+   "name": "Paul Mc",
+   "teams": [
+    {
+     "display": "Curaçao",
+     "name": "Curaçao",
+     "matched": true,
+     "tla": "CUW",
+     "crest": "https://crests.football-data.org/curacao.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Argentina",
+     "name": "Argentina",
+     "matched": true,
+     "tla": "ARG",
+     "crest": "https://crests.football-data.org/762.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 3,
+     "gd": 3,
+     "played": 1,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -3
+  },
+  {
    "name": "Barry B",
    "teams": [
     {
@@ -1680,49 +1723,6 @@ window.DATA = {
    "totalGd": -3
   },
   {
-   "name": "Paul Mc",
-   "teams": [
-    {
-     "display": "Curaçao",
-     "name": "Curaçao",
-     "matched": true,
-     "tla": "CUW",
-     "crest": "https://crests.football-data.org/curacao.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 1,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Argentina",
-     "name": "Argentina",
-     "matched": true,
-     "tla": "ARG",
-     "crest": "https://crests.football-data.org/762.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 3,
-     "gd": 3,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": -3
-  },
-  {
    "name": "Thomas",
    "teams": [
     {
@@ -1906,6 +1906,33 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Ross",
+   "teams": [
+    {
+     "display": "Ecuador",
+     "name": "Ecuador",
+     "matched": true,
+     "tla": "ECU",
+     "crest": "https://crests.football-data.org/791.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 1,
+     "gd": -1,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 1,
+   "totalGd": -1
+  },
+  {
    "name": "Tony T",
    "teams": [
     {
@@ -2087,33 +2114,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 1,
    "totalGd": -4
-  },
-  {
-   "name": "Ross",
-   "teams": [
-    {
-     "display": "Ecuador",
-     "name": "Ecuador",
-     "matched": true,
-     "tla": "ECU",
-     "crest": "https://crests.football-data.org/791.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 0,
-     "gd": -1,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 0,
-   "totalGd": -1
   },
   {
    "name": "Jess",
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group E",
-   "home": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "away": {
-    "name": "Curaçao",
-    "tla": "CUW",
-    "crest": "https://crests.football-data.org/curacao.svg"
-   },
-   "utc": "2026-06-21T00:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group F",
    "home": {
     "name": "Tunisia",
@@ -2528,7 +2512,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-23T20:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group L",
+   "home": {
+    "name": "Panama",
+    "tla": "PAN",
+    "crest": "https://crests.football-data.org/panama.svg"
+   },
+   "away": {
+    "name": "Croatia",
+    "tla": "CRO",
+    "crest": "https://crests.football-data.org/799.svg"
+   },
+   "utc": "2026-06-23T23:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "away": {
+    "name": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://crests.football-data.org/curacao.svg"
+   },
+   "utc": "2026-06-21T00:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2937,12 +2957,12 @@ window.DATA = {
       "tla": "ECU",
       "crest": "https://crests.football-data.org/791.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gd": -1,
-     "pts": 0
+     "pts": 1
     },
     {
      "pos": 4,
@@ -2951,12 +2971,12 @@ window.DATA = {
       "tla": "CUW",
       "crest": "https://crests.football-data.org/curacao.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gd": -6,
-     "pts": 0
+     "pts": 1
     }
    ]
   },
