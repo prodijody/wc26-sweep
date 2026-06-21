@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T01:36:52",
+ "updated": "2026-06-21T02:42:47",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Group E",
    "home": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "away": {
+    "name": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://crests.football-data.org/curacao.svg"
+   },
+   "utc": "2026-06-21T00:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group E",
+   "home": {
     "name": "Germany",
     "tla": "GER",
     "crest": "https://crests.football-data.org/759.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 3,
    "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "away": {
-    "name": "Panama",
-    "tla": "PAN",
-    "crest": "https://crests.football-data.org/panama.svg"
-   },
-   "utc": "2026-06-17T23:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2512,7 +2512,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "away": {
-    "name": "Curaçao",
-    "tla": "CUW",
-    "crest": "https://crests.football-data.org/curacao.svg"
-   },
-   "utc": "2026-06-21T00:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
