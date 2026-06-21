@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T22:11:29",
+ "updated": "2026-06-21T22:42:57",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -230,9 +230,9 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": 0,
+     "position": 2,
+     "points": 4,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
@@ -258,8 +258,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": 0
+   "totalPoints": 6,
+   "totalGd": 1
   },
   {
    "name": "Jack",
@@ -273,9 +273,9 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 2,
-     "gd": 0,
+     "position": 3,
+     "points": 1,
+     "gd": -1,
      "played": 2,
      "in": true,
      "brink": false
@@ -301,8 +301,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 3
+   "totalPoints": 4,
+   "totalGd": 2
   },
   {
    "name": "Rooney",
@@ -1389,37 +1389,37 @@ window.DATA = {
    "totalGd": 3
   },
   {
-   "name": "Jack",
+   "name": "Louise",
    "teams": [
     {
-     "display": "Uruguay",
-     "name": "Uruguay",
+     "display": "Cape Verde Islands",
+     "name": "Cape Verde Islands",
      "matched": true,
-     "tla": "URU",
-     "crest": "https://crests.football-data.org/758.svg",
+     "tla": "CPV",
+     "crest": "https://crests.football-data.org/cape_verde.svg",
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 2,
-     "gd": 0,
+     "points": 4,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
     },
     {
-     "display": "Norway",
-     "name": "Norway",
+     "display": "Iran",
+     "name": "Iran",
      "matched": true,
-     "tla": "NOR",
-     "crest": "https://crests.football-data.org/813.svg",
-     "group": "I",
+     "tla": "IRN",
+     "crest": "https://crests.football-data.org/iran.svg",
+     "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 3,
-     "gd": 3,
-     "played": 1,
+     "points": 2,
+     "gd": 0,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1428,8 +1428,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 3
+   "totalPoints": 6,
+   "totalGd": 1
   },
   {
    "name": "Nicole",
@@ -1459,37 +1459,37 @@ window.DATA = {
    "totalGd": 3
   },
   {
-   "name": "Louise",
+   "name": "Jack",
    "teams": [
     {
-     "display": "Cape Verde Islands",
-     "name": "Cape Verde Islands",
+     "display": "Uruguay",
+     "name": "Uruguay",
      "matched": true,
-     "tla": "CPV",
-     "crest": "https://crests.football-data.org/cape_verde.svg",
+     "tla": "URU",
+     "crest": "https://crests.football-data.org/758.svg",
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 2,
-     "gd": 0,
+     "points": 1,
+     "gd": -1,
      "played": 2,
      "in": true,
      "brink": false
     },
     {
-     "display": "Iran",
-     "name": "Iran",
+     "display": "Norway",
+     "name": "Norway",
      "matched": true,
-     "tla": "IRN",
-     "crest": "https://crests.football-data.org/iran.svg",
-     "group": "G",
+     "tla": "NOR",
+     "crest": "https://crests.football-data.org/813.svg",
+     "group": "I",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
+     "points": 3,
+     "gd": 3,
+     "played": 1,
      "in": true,
      "brink": false
     }
@@ -1499,7 +1499,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 4,
-   "totalGd": 0
+   "totalGd": 2
   },
   {
    "name": "Paul Mc",
@@ -2670,7 +2670,7 @@ window.DATA = {
    "sweep": true,
    "status": "IN_PLAY",
    "hs": 0,
-   "as": 0,
+   "as": 1,
    "note": "FT"
   }
  ],
@@ -3122,30 +3122,30 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
+      "name": "Cape Verde Islands",
+      "tla": "CPV",
+      "crest": "https://crests.football-data.org/cape_verde.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gd": 1,
+     "pts": 4
+    },
+    {
+     "pos": 3,
+     "team": {
       "name": "Uruguay",
       "tla": "URU",
       "crest": "https://crests.football-data.org/758.svg"
      },
      "p": 2,
      "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
-    },
-    {
-     "pos": 3,
-     "team": {
-      "name": "Cape Verde Islands",
-      "tla": "CPV",
-      "crest": "https://crests.football-data.org/cape_verde.svg"
-     },
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
+     "d": 1,
+     "l": 1,
+     "gd": -1,
+     "pts": 1
     },
     {
      "pos": 4,
