@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T17:36:26",
+ "updated": "2026-06-21T18:13:14",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group H",
+   "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://crests.football-data.org/saudi_arabia.svg"
+   },
+   "utc": "2026-06-21T16:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 5,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group F",
    "home": {
     "name": "Tunisia",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 4,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "utc": "2026-06-18T16:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group H",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "tla": "KSA",
-    "crest": "https://crests.football-data.org/saudi_arabia.svg"
-   },
-   "utc": "2026-06-21T16:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 4,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
