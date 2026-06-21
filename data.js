@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T16:53:28",
+ "updated": "2026-06-21T17:36:26",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -512,7 +512,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 3,
      "points": 1,
-     "gd": -3,
+     "gd": -4,
      "played": 2,
      "in": true,
      "brink": false
@@ -539,7 +539,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 2,
-   "totalGd": -5
+   "totalGd": -6
   },
   {
    "name": "Jess",
@@ -856,7 +856,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 4,
-     "gd": 3,
+     "gd": 4,
      "played": 2,
      "in": true,
      "brink": false
@@ -867,7 +867,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 7,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Shelly",
@@ -1321,7 +1321,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 4,
-     "gd": 3,
+     "gd": 4,
      "played": 2,
      "in": true,
      "brink": false
@@ -1332,7 +1332,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 7,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Rooney",
@@ -1822,7 +1822,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 3,
      "points": 1,
-     "gd": -3,
+     "gd": -4,
      "played": 2,
      "in": true,
      "brink": false
@@ -1849,7 +1849,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 2,
-   "totalGd": -5
+   "totalGd": -6
   },
   {
    "name": "Laura H",
@@ -2669,7 +2669,7 @@ window.DATA = {
    "utc": "2026-06-21T16:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 3,
+   "hs": 4,
    "as": 0,
    "note": "FT"
   }
@@ -3116,7 +3116,7 @@ window.DATA = {
      "w": 1,
      "d": 1,
      "l": 0,
-     "gd": 3,
+     "gd": 4,
      "pts": 4
     },
     {
@@ -3144,7 +3144,7 @@ window.DATA = {
      "w": 0,
      "d": 1,
      "l": 1,
-     "gd": -3,
+     "gd": -4,
      "pts": 1
     },
     {
