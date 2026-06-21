@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T18:52:37",
+ "updated": "2026-06-21T19:36:04",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -187,7 +187,7 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -246,10 +246,10 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
+     "position": 1,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -258,7 +258,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
+   "totalPoints": 3,
    "totalGd": 0
   },
   {
@@ -1059,10 +1059,10 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
+     "position": 2,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1071,7 +1071,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 1,
+   "totalPoints": 2,
    "totalGd": -4
   },
   {
@@ -1626,6 +1626,49 @@ window.DATA = {
    "totalGd": 1
   },
   {
+   "name": "Louise",
+   "teams": [
+    {
+     "display": "Cape Verde Islands",
+     "name": "Cape Verde Islands",
+     "matched": true,
+     "tla": "CPV",
+     "crest": "https://crests.football-data.org/cape_verde.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": 0,
+     "played": 1,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Iran",
+     "name": "Iran",
+     "matched": true,
+     "tla": "IRN",
+     "crest": "https://crests.football-data.org/iran.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 2,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 3,
+   "totalGd": 0
+  },
+  {
    "name": "Brandon",
    "teams": [
     {
@@ -1766,37 +1809,37 @@ window.DATA = {
    "totalGd": -3
   },
   {
-   "name": "Louise",
+   "name": "Jambo",
    "teams": [
     {
-     "display": "Cape Verde Islands",
-     "name": "Cape Verde Islands",
+     "display": "Haiti",
+     "name": "Haiti",
      "matched": true,
-     "tla": "CPV",
-     "crest": "https://crests.football-data.org/cape_verde.svg",
-     "group": "H",
+     "tla": "HAI",
+     "crest": "https://crests.football-data.org/haiti.svg",
+     "group": "C",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
+     "points": 0,
+     "gd": -4,
+     "played": 2,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
-     "display": "Iran",
-     "name": "Iran",
+     "display": "Belgium",
+     "name": "Belgium",
      "matched": true,
-     "tla": "IRN",
-     "crest": "https://crests.football-data.org/iran.svg",
+     "tla": "BEL",
+     "crest": "https://crests.football-data.org/805.svg",
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 1,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1806,7 +1849,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 2,
-   "totalGd": 0
+   "totalGd": -4
   },
   {
    "name": "Chris",
@@ -2014,7 +2057,7 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -2071,49 +2114,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 1,
    "totalGd": -3
-  },
-  {
-   "name": "Jambo",
-   "teams": [
-    {
-     "display": "Haiti",
-     "name": "Haiti",
-     "matched": true,
-     "tla": "HAI",
-     "crest": "https://crests.football-data.org/haiti.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -4,
-     "played": 2,
-     "in": true,
-     "brink": true
-    },
-    {
-     "display": "Belgium",
-     "name": "Belgium",
-     "matched": true,
-     "tla": "BEL",
-     "crest": "https://crests.football-data.org/805.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 1,
-   "totalGd": -4
   },
   {
    "name": "Jess",
@@ -2277,7 +2277,7 @@ window.DATA = {
    },
    "away": {
     "name": "Curaçao",
-    "tla": "CUR",
+    "tla": "CUW",
     "crest": "https://crests.football-data.org/curacao.svg"
    },
    "utc": "2026-06-21T00:00:00Z",
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group G",
-   "home": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "away": {
-    "name": "Iran",
-    "tla": "IRN",
-    "crest": "https://crests.football-data.org/iran.svg"
-   },
-   "utc": "2026-06-21T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-24T19:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group B",
+   "home": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "away": {
+    "name": "Qatar",
+    "tla": "QAT",
+    "crest": "https://crests.football-data.org/8030.svg"
+   },
+   "utc": "2026-06-24T19:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "away": {
+    "name": "Iran",
+    "tla": "IRN",
+    "crest": "https://crests.football-data.org/iran.svg"
+   },
+   "utc": "2026-06-21T19:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3027,37 +3047,37 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "New Zealand",
-      "tla": "NZL",
-      "crest": "https://crests.football-data.org/783.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gd": 0,
-     "pts": 1
-    },
-    {
-     "pos": 2,
-     "team": {
       "name": "Iran",
       "tla": "IRN",
       "crest": "https://crests.football-data.org/iran.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gd": 0,
-     "pts": 1
+     "pts": 2
     },
     {
-     "pos": 3,
+     "pos": 2,
      "team": {
       "name": "Belgium",
       "tla": "BEL",
       "crest": "https://crests.football-data.org/805.svg"
+     },
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gd": 0,
+     "pts": 2
+    },
+    {
+     "pos": 3,
+     "team": {
+      "name": "New Zealand",
+      "tla": "NZL",
+      "crest": "https://crests.football-data.org/783.svg"
      },
      "p": 1,
      "w": 0,
