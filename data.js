@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T15:25:49",
+ "updated": "2026-06-21T16:11:37",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -273,7 +273,7 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -510,10 +510,10 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
+     "position": 1,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     },
@@ -538,7 +538,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
+   "totalPoints": 3,
    "totalGd": -2
   },
   {
@@ -854,10 +854,10 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
+     "position": 2,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -866,7 +866,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
+   "totalPoints": 5,
    "totalGd": 2
   },
   {
@@ -1346,6 +1346,49 @@ window.DATA = {
    "totalGd": 3
   },
   {
+   "name": "Michael",
+   "teams": [
+    {
+     "display": "Colombia",
+     "name": "Colombia",
+     "matched": true,
+     "tla": "COL",
+     "crest": "https://crests.football-data.org/818.svg",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 3,
+     "gd": 2,
+     "played": 1,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Spain",
+     "name": "Spain",
+     "matched": true,
+     "tla": "ESP",
+     "crest": "https://crests.football-data.org/760.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 2,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 5,
+   "totalGd": 2
+  },
+  {
    "name": "Jack",
    "teams": [
     {
@@ -1357,7 +1400,7 @@ window.DATA = {
      "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -1414,49 +1457,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 3
-  },
-  {
-   "name": "Michael",
-   "teams": [
-    {
-     "display": "Colombia",
-     "name": "Colombia",
-     "matched": true,
-     "tla": "COL",
-     "crest": "https://crests.football-data.org/818.svg",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 3,
-     "gd": 2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Spain",
-     "name": "Spain",
-     "matched": true,
-     "tla": "ESP",
-     "crest": "https://crests.football-data.org/760.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": 2
   },
   {
    "name": "Paul Mc",
@@ -1680,6 +1680,49 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Chris",
+   "teams": [
+    {
+     "display": "Saudi Arabia",
+     "name": "Saudi Arabia",
+     "matched": true,
+     "tla": "KSA",
+     "crest": "https://crests.football-data.org/saudi_arabia.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 2,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "South Africa",
+     "name": "South Africa",
+     "matched": true,
+     "tla": "RSA",
+     "crest": "https://crests.football-data.org/9396.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 3,
+   "totalGd": -2
+  },
+  {
    "name": "Paul K",
    "teams": [
     {
@@ -1807,49 +1850,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 2,
    "totalGd": 0
-  },
-  {
-   "name": "Chris",
-   "teams": [
-    {
-     "display": "Saudi Arabia",
-     "name": "Saudi Arabia",
-     "matched": true,
-     "tla": "KSA",
-     "crest": "https://crests.football-data.org/saudi_arabia.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "South Africa",
-     "name": "South Africa",
-     "matched": true,
-     "tla": "RSA",
-     "crest": "https://crests.football-data.org/9396.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -2,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -2
   },
   {
    "name": "Laura H",
@@ -2258,7 +2258,7 @@ window.DATA = {
    },
    "away": {
     "name": "Curaçao",
-    "tla": "CUW",
+    "tla": "CUR",
     "crest": "https://crests.football-data.org/curacao.svg"
    },
    "utc": "2026-06-21T00:00:00Z",
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group H",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "tla": "KSA",
-    "crest": "https://crests.football-data.org/saudi_arabia.svg"
-   },
-   "utc": "2026-06-21T16:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group G",
    "home": {
     "name": "Belgium",
@@ -2496,7 +2480,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-24T02:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group B",
+   "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Canada",
+    "tla": "CAN",
+    "crest": "https://crests.football-data.org/canada.svg"
+   },
+   "utc": "2026-06-24T19:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group H",
+   "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://crests.football-data.org/saudi_arabia.svg"
+   },
+   "utc": "2026-06-21T16:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3088,37 +3108,37 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "Uruguay",
-      "tla": "URU",
-      "crest": "https://crests.football-data.org/758.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gd": 0,
-     "pts": 1
-    },
-    {
-     "pos": 2,
-     "team": {
       "name": "Saudi Arabia",
       "tla": "KSA",
       "crest": "https://crests.football-data.org/saudi_arabia.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gd": 0,
-     "pts": 1
+     "pts": 2
     },
     {
-     "pos": 3,
+     "pos": 2,
      "team": {
       "name": "Spain",
       "tla": "ESP",
       "crest": "https://crests.football-data.org/760.svg"
+     },
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gd": 0,
+     "pts": 2
+    },
+    {
+     "pos": 3,
+     "team": {
+      "name": "Uruguay",
+      "tla": "URU",
+      "crest": "https://crests.football-data.org/758.svg"
      },
      "p": 1,
      "w": 0,
