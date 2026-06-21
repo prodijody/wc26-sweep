@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T20:57:20",
+ "updated": "2026-06-21T21:37:07",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group G",
+   "home": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "away": {
+    "name": "Iran",
+    "tla": "IRN",
+    "crest": "https://crests.football-data.org/iran.svg"
+   },
+   "utc": "2026-06-21T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group H",
    "home": {
     "name": "Spain",
@@ -2277,7 +2296,7 @@ window.DATA = {
    },
    "away": {
     "name": "Curaçao",
-    "tla": "CUR",
+    "tla": "CUW",
     "crest": "https://crests.football-data.org/curacao.svg"
    },
    "utc": "2026-06-21T00:00:00Z",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 6,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group B",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-06-18T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 4,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2464,7 +2464,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group G",
-   "home": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "away": {
-    "name": "Iran",
-    "tla": "IRN",
-    "crest": "https://crests.football-data.org/iran.svg"
-   },
-   "utc": "2026-06-21T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
