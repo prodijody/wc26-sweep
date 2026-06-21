@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T19:36:04",
+ "updated": "2026-06-21T20:17:14",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2670,7 +2670,7 @@ window.DATA = {
    "sweep": true,
    "status": "IN_PLAY",
    "hs": 0,
-   "as": 1,
+   "as": 0,
    "note": "FT"
   }
  ],
