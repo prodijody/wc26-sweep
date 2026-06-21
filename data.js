@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-21T04:15:06",
+ "updated": "2026-06-21T06:03:15",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -63,7 +63,7 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 3,
      "gd": 0,
      "played": 2,
@@ -467,9 +467,9 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": 0,
+     "position": 2,
+     "points": 4,
+     "gd": 4,
      "played": 2,
      "in": true,
      "brink": false
@@ -495,8 +495,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 2
+   "totalPoints": 7,
+   "totalGd": 6
   },
   {
    "name": "Chris",
@@ -936,19 +936,19 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 1,
-     "gd": -4,
+     "points": 0,
+     "gd": -8,
      "played": 2,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -4
+   "totalPoints": 0,
+   "totalGd": -8
   },
   {
    "name": "Nicole",
@@ -1147,7 +1147,7 @@ window.DATA = {
      "group": "F",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 3,
      "gd": 0,
      "played": 2,
@@ -1249,6 +1249,49 @@ window.DATA = {
    "totalGd": 7
   },
   {
+   "name": "Barry",
+   "teams": [
+    {
+     "display": "Japan",
+     "name": "Japan",
+     "matched": true,
+     "tla": "JPN",
+     "crest": "https://crests.football-data.org/766.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 4,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "France",
+     "name": "France",
+     "matched": true,
+     "tla": "FRA",
+     "crest": "https://crests.football-data.org/773.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 2,
+     "played": 1,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 7,
+   "totalGd": 6
+  },
+  {
    "name": "Rooney",
    "teams": [
     {
@@ -1301,49 +1344,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": 3
-  },
-  {
-   "name": "Barry",
-   "teams": [
-    {
-     "display": "Japan",
-     "name": "Japan",
-     "matched": true,
-     "tla": "JPN",
-     "crest": "https://crests.football-data.org/766.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "France",
-     "name": "France",
-     "matched": true,
-     "tla": "FRA",
-     "crest": "https://crests.football-data.org/773.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": 2
   },
   {
    "name": "Jack",
@@ -2116,33 +2116,6 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Martin M",
-   "teams": [
-    {
-     "display": "Tunisia",
-     "name": "Tunisia",
-     "matched": true,
-     "tla": "TUN",
-     "crest": "https://crests.football-data.org/tunisia.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -4,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -4
-  },
-  {
    "name": "Jess",
    "teams": [
     {
@@ -2227,9 +2200,55 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 0,
    "totalGd": -5
+  },
+  {
+   "name": "Martin M",
+   "teams": [
+    {
+     "display": "Tunisia",
+     "name": "Tunisia",
+     "matched": true,
+     "tla": "TUN",
+     "crest": "https://crests.football-data.org/tunisia.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -8,
+     "played": 2,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 0,
+   "totalGd": -8
   }
  ],
  "recent": [
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://crests.football-data.org/tunisia.svg"
+   },
+   "away": {
+    "name": "Japan",
+    "tla": "JPN",
+    "crest": "https://crests.football-data.org/766.svg"
+   },
+   "utc": "2026-06-21T04:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 4,
+   "note": "FT"
+  },
   {
    "stage": "Group E",
    "home": {
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Uzbekistan",
-    "tla": "UZB",
-    "crest": "https://crests.football-data.org/8070.png"
-   },
-   "away": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "utc": "2026-06-18T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 3,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2496,7 +2496,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group F",
-   "home": {
-    "name": "Tunisia",
-    "tla": "TUN",
-    "crest": "https://crests.football-data.org/tunisia.svg"
-   },
-   "away": {
-    "name": "Japan",
-    "tla": "JPN",
-    "crest": "https://crests.football-data.org/766.svg"
-   },
-   "utc": "2026-06-21T04:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3000,6 +2980,20 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
+      "name": "Japan",
+      "tla": "JPN",
+      "crest": "https://crests.football-data.org/766.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gd": 4,
+     "pts": 4
+    },
+    {
+     "pos": 3,
+     "team": {
       "name": "Sweden",
       "tla": "SWE",
       "crest": "https://crests.football-data.org/792.svg"
@@ -3012,20 +3006,6 @@ window.DATA = {
      "pts": 3
     },
     {
-     "pos": 3,
-     "team": {
-      "name": "Japan",
-      "tla": "JPN",
-      "crest": "https://crests.football-data.org/766.svg"
-     },
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
-    },
-    {
      "pos": 4,
      "team": {
       "name": "Tunisia",
@@ -3034,10 +3014,10 @@ window.DATA = {
      },
      "p": 2,
      "w": 0,
-     "d": 1,
-     "l": 1,
-     "gd": -4,
-     "pts": 1
+     "d": 0,
+     "l": 2,
+     "gd": -8,
+     "pts": 0
     }
    ]
   },
