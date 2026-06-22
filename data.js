@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T15:37:01",
+ "updated": "2026-06-22T17:19:21",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -769,9 +769,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 3,
+     "points": 4,
      "gd": 3,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -780,7 +780,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
+   "totalPoints": 5,
    "totalGd": -3
   },
   {
@@ -990,9 +990,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
+     "points": 4,
      "gd": 2,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1001,7 +1001,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": 2
   },
   {
@@ -1432,6 +1432,49 @@ window.DATA = {
    "totalGd": 3
   },
   {
+   "name": "Paul Mc",
+   "teams": [
+    {
+     "display": "Curaçao",
+     "name": "Curaçao",
+     "matched": true,
+     "tla": "CUW",
+     "crest": "https://crests.football-data.org/curacao.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Argentina",
+     "name": "Argentina",
+     "matched": true,
+     "tla": "ARG",
+     "crest": "https://crests.football-data.org/762.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 3,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 5,
+   "totalGd": -3
+  },
+  {
    "name": "Nicole",
    "teams": [
     {
@@ -1457,6 +1500,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 3
+  },
+  {
+   "name": "Edwina",
+   "teams": [
+    {
+     "display": "Austria",
+     "name": "Austria",
+     "matched": true,
+     "tla": "AUT",
+     "crest": "https://crests.football-data.org/816.svg",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 2
   },
   {
    "name": "Laura McM",
@@ -1529,49 +1599,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Paul Mc",
-   "teams": [
-    {
-     "display": "Curaçao",
-     "name": "Curaçao",
-     "matched": true,
-     "tla": "CUW",
-     "crest": "https://crests.football-data.org/curacao.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -6,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Argentina",
-     "name": "Argentina",
-     "matched": true,
-     "tla": "ARG",
-     "crest": "https://crests.football-data.org/762.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 3,
-     "gd": 3,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -3
-  },
-  {
    "name": "Barry B",
    "teams": [
     {
@@ -1613,33 +1640,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 4,
    "totalGd": -6
-  },
-  {
-   "name": "Edwina",
-   "teams": [
-    {
-     "display": "Austria",
-     "name": "Austria",
-     "matched": true,
-     "tla": "AUT",
-     "crest": "https://crests.football-data.org/816.svg",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 2
   },
   {
    "name": "Lynn",
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group J",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-06-22T17:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group I",
    "home": {
     "name": "France",
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-24T22:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "crest": "https://crests.football-data.org/798.svg"
+   },
+   "away": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-06-22T17:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3214,12 +3234,12 @@ window.DATA = {
       "tla": "ARG",
       "crest": "https://crests.football-data.org/762.png"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 3,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 2,
@@ -3228,12 +3248,12 @@ window.DATA = {
       "tla": "AUT",
       "crest": "https://crests.football-data.org/816.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 2,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 3,
