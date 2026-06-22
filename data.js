@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T18:48:15",
+ "updated": "2026-06-22T20:05:37",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -770,7 +770,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 6,
-     "gd": 4,
+     "gd": 5,
      "played": 2,
      "in": true,
      "brink": false
@@ -781,7 +781,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 7,
-   "totalGd": -2
+   "totalGd": -1
   },
   {
    "name": "Jonny",
@@ -991,7 +991,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 1,
+     "gd": 0,
      "played": 2,
      "in": true,
      "brink": false
@@ -1002,7 +1002,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": 1
+   "totalGd": 0
   },
   {
    "name": "Laura McM",
@@ -1364,7 +1364,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 6,
-     "gd": 4,
+     "gd": 5,
      "played": 2,
      "in": true,
      "brink": false
@@ -1375,7 +1375,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 7,
-   "totalGd": -2
+   "totalGd": -1
   },
   {
    "name": "Rooney",
@@ -1669,20 +1669,20 @@ window.DATA = {
    "totalGd": 1
   },
   {
-   "name": "Edwina",
+   "name": "Brandon",
    "teams": [
     {
-     "display": "Austria",
-     "name": "Austria",
+     "display": "Australia",
+     "name": "Australia",
      "matched": true,
-     "tla": "AUT",
-     "crest": "https://crests.football-data.org/816.svg",
-     "group": "J",
+     "tla": "AUS",
+     "crest": "https://crests.football-data.org/779.svg",
+     "group": "D",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
      "points": 3,
-     "gd": 1,
+     "gd": 0,
      "played": 2,
      "in": true,
      "brink": false
@@ -1693,18 +1693,18 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": 1
+   "totalGd": 0
   },
   {
-   "name": "Brandon",
+   "name": "Edwina",
    "teams": [
     {
-     "display": "Australia",
-     "name": "Australia",
+     "display": "Austria",
+     "name": "Austria",
      "matched": true,
-     "tla": "AUS",
-     "crest": "https://crests.football-data.org/779.svg",
-     "group": "D",
+     "tla": "AUT",
+     "crest": "https://crests.football-data.org/816.svg",
+     "group": "J",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group J",
+   "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-06-22T17:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group G",
    "home": {
     "name": "New Zealand",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "utc": "2026-06-19T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-06-22T17:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3238,7 +3218,7 @@ window.DATA = {
      "w": 2,
      "d": 0,
      "l": 0,
-     "gd": 4,
+     "gd": 5,
      "pts": 6
     },
     {
@@ -3252,7 +3232,7 @@ window.DATA = {
      "w": 1,
      "d": 0,
      "l": 1,
-     "gd": 1,
+     "gd": 0,
      "pts": 3
     },
     {
