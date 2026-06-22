@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T17:19:21",
+ "updated": "2026-06-22T18:48:15",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -769,8 +769,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 4,
-     "gd": 3,
+     "points": 6,
+     "gd": 4,
      "played": 2,
      "in": true,
      "brink": false
@@ -780,8 +780,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -3
+   "totalPoints": 7,
+   "totalGd": -2
   },
   {
    "name": "Jonny",
@@ -990,8 +990,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 4,
-     "gd": 2,
+     "points": 3,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
@@ -1001,8 +1001,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 2
+   "totalPoints": 3,
+   "totalGd": 1
   },
   {
    "name": "Laura McM",
@@ -1335,6 +1335,49 @@ window.DATA = {
    "totalGd": 6
   },
   {
+   "name": "Paul Mc",
+   "teams": [
+    {
+     "display": "Curaçao",
+     "name": "Curaçao",
+     "matched": true,
+     "tla": "CUW",
+     "crest": "https://crests.football-data.org/curacao.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Argentina",
+     "name": "Argentina",
+     "matched": true,
+     "tla": "ARG",
+     "crest": "https://crests.football-data.org/762.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 7,
+   "totalGd": -2
+  },
+  {
    "name": "Rooney",
    "teams": [
     {
@@ -1432,49 +1475,6 @@ window.DATA = {
    "totalGd": 3
   },
   {
-   "name": "Paul Mc",
-   "teams": [
-    {
-     "display": "Curaçao",
-     "name": "Curaçao",
-     "matched": true,
-     "tla": "CUW",
-     "crest": "https://crests.football-data.org/curacao.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -6,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Argentina",
-     "name": "Argentina",
-     "matched": true,
-     "tla": "ARG",
-     "crest": "https://crests.football-data.org/762.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -3
-  },
-  {
    "name": "Nicole",
    "teams": [
     {
@@ -1500,33 +1500,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 3
-  },
-  {
-   "name": "Edwina",
-   "teams": [
-    {
-     "display": "Austria",
-     "name": "Austria",
-     "matched": true,
-     "tla": "AUT",
-     "crest": "https://crests.football-data.org/816.svg",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 2,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 2
   },
   {
    "name": "Laura McM",
@@ -1684,6 +1657,33 @@ window.DATA = {
      "points": 3,
      "gd": 1,
      "played": 1,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": 1
+  },
+  {
+   "name": "Edwina",
+   "teams": [
+    {
+     "display": "Austria",
+     "name": "Austria",
+     "matched": true,
+     "tla": "AUT",
+     "crest": "https://crests.football-data.org/816.svg",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 3,
+     "gd": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -2669,7 +2669,7 @@ window.DATA = {
    "utc": "2026-06-22T17:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 0,
+   "hs": 1,
    "as": 0,
    "note": "FT"
   }
@@ -3235,11 +3235,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/762.png"
      },
      "p": 2,
-     "w": 1,
-     "d": 1,
+     "w": 2,
+     "d": 0,
      "l": 0,
-     "gd": 3,
-     "pts": 4
+     "gd": 4,
+     "pts": 6
     },
     {
      "pos": 2,
@@ -3250,10 +3250,10 @@ window.DATA = {
      },
      "p": 2,
      "w": 1,
-     "d": 1,
-     "l": 0,
-     "gd": 2,
-     "pts": 4
+     "d": 0,
+     "l": 1,
+     "gd": 1,
+     "pts": 3
     },
     {
      "pos": 3,
