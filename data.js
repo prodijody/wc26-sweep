@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T02:07:37",
+ "updated": "2026-06-22T03:27:20",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -187,9 +187,9 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 1,
+     "position": 4,
+     "points": 1,
+     "gd": -2,
      "played": 2,
      "in": true,
      "brink": false
@@ -215,8 +215,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -2
+   "totalPoints": 1,
+   "totalGd": -5
   },
   {
    "name": "Louise",
@@ -1016,9 +1016,9 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -1,
+     "position": 1,
+     "points": 4,
+     "gd": 2,
      "played": 2,
      "in": true,
      "brink": false
@@ -1028,8 +1028,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -1
+   "totalPoints": 4,
+   "totalGd": 2
   },
   {
    "name": "Jambo",
@@ -1459,6 +1459,33 @@ window.DATA = {
    "totalGd": 3
   },
   {
+   "name": "Laura McM",
+   "teams": [
+    {
+     "display": "Egypt",
+     "name": "Egypt",
+     "matched": true,
+     "tla": "EGY",
+     "crest": "https://crests.football-data.org/825.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 2
+  },
+  {
    "name": "Louise",
    "teams": [
     {
@@ -1500,49 +1527,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 4,
    "totalGd": 0
-  },
-  {
-   "name": "Sammy",
-   "teams": [
-    {
-     "display": "New Zealand",
-     "name": "New Zealand",
-     "matched": true,
-     "tla": "NZL",
-     "crest": "https://crests.football-data.org/783.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 4,
-     "gd": 1,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Algeria",
-     "name": "Algeria",
-     "matched": true,
-     "tla": "ALG",
-     "crest": "https://crests.football-data.org/algeria.svg",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -2
   },
   {
    "name": "Paul Mc",
@@ -1965,33 +1949,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Laura McM",
-   "teams": [
-    {
-     "display": "Egypt",
-     "name": "Egypt",
-     "matched": true,
-     "tla": "EGY",
-     "crest": "https://crests.football-data.org/825.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -1,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -1
-  },
-  {
    "name": "Ross",
    "teams": [
     {
@@ -2116,6 +2073,49 @@ window.DATA = {
    "totalGd": -3
   },
   {
+   "name": "Sammy",
+   "teams": [
+    {
+     "display": "New Zealand",
+     "name": "New Zealand",
+     "matched": true,
+     "tla": "NZL",
+     "crest": "https://crests.football-data.org/783.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Algeria",
+     "name": "Algeria",
+     "matched": true,
+     "tla": "ALG",
+     "crest": "https://crests.football-data.org/algeria.svg",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 1,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 1,
+   "totalGd": -5
+  },
+  {
    "name": "Jess",
    "teams": [
     {
@@ -2230,6 +2230,25 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://crests.football-data.org/783.svg"
+   },
+   "away": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "utc": "2026-06-22T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 3,
+   "note": "FT"
+  },
   {
    "stage": "Group H",
    "home": {
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-19T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group G",
-   "home": {
-    "name": "New Zealand",
-    "tla": "NZL",
-    "crest": "https://crests.football-data.org/783.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-06-22T01:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3047,15 +3027,15 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
-      "name": "New Zealand",
-      "tla": "NZL",
-      "crest": "https://crests.football-data.org/783.svg"
+      "name": "Egypt",
+      "tla": "EGY",
+      "crest": "https://crests.football-data.org/825.svg"
      },
      "p": 2,
      "w": 1,
      "d": 1,
      "l": 0,
-     "gd": 1,
+     "gd": 2,
      "pts": 4
     },
     {
@@ -3089,15 +3069,15 @@ window.DATA = {
     {
      "pos": 4,
      "team": {
-      "name": "Egypt",
-      "tla": "EGY",
-      "crest": "https://crests.football-data.org/825.svg"
+      "name": "New Zealand",
+      "tla": "NZL",
+      "crest": "https://crests.football-data.org/783.svg"
      },
      "p": 2,
      "w": 0,
      "d": 1,
      "l": 1,
-     "gd": -1,
+     "gd": -2,
      "pts": 1
     }
    ]
