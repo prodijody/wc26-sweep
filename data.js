@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T01:11:27",
+ "updated": "2026-06-22T02:07:37",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -188,8 +188,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 2,
-     "gd": 0,
+     "points": 4,
+     "gd": 1,
      "played": 2,
      "in": true,
      "brink": false
@@ -215,8 +215,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -3
+   "totalPoints": 4,
+   "totalGd": -2
   },
   {
    "name": "Louise",
@@ -1017,8 +1017,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 2,
-     "gd": 0,
+     "points": 1,
+     "gd": -1,
      "played": 2,
      "in": true,
      "brink": false
@@ -1028,8 +1028,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": 0
+   "totalPoints": 1,
+   "totalGd": -1
   },
   {
    "name": "Jambo",
@@ -1502,6 +1502,49 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Sammy",
+   "teams": [
+    {
+     "display": "New Zealand",
+     "name": "New Zealand",
+     "matched": true,
+     "tla": "NZL",
+     "crest": "https://crests.football-data.org/783.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 1,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Algeria",
+     "name": "Algeria",
+     "matched": true,
+     "tla": "ALG",
+     "crest": "https://crests.football-data.org/algeria.svg",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 1,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -2
+  },
+  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1809,76 +1852,6 @@ window.DATA = {
    "totalGd": -3
   },
   {
-   "name": "Laura McM",
-   "teams": [
-    {
-     "display": "Egypt",
-     "name": "Egypt",
-     "matched": true,
-     "tla": "EGY",
-     "crest": "https://crests.football-data.org/825.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": 0
-  },
-  {
-   "name": "Sammy",
-   "teams": [
-    {
-     "display": "New Zealand",
-     "name": "New Zealand",
-     "matched": true,
-     "tla": "NZL",
-     "crest": "https://crests.football-data.org/783.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 2,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Algeria",
-     "name": "Algeria",
-     "matched": true,
-     "tla": "ALG",
-     "crest": "https://crests.football-data.org/algeria.svg",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -3
-  },
-  {
    "name": "Jambo",
    "teams": [
     {
@@ -1990,6 +1963,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 1,
    "totalGd": 0
+  },
+  {
+   "name": "Laura McM",
+   "teams": [
+    {
+     "display": "Egypt",
+     "name": "Egypt",
+     "matched": true,
+     "tla": "EGY",
+     "crest": "https://crests.football-data.org/825.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -1,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 1,
+   "totalGd": -1
   },
   {
    "name": "Ross",
@@ -2234,7 +2234,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2668,8 +2668,8 @@ window.DATA = {
    },
    "utc": "2026-06-22T01:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
+   "status": "PAUSED",
+   "hs": 1,
    "as": 0,
    "note": "FT"
   }
@@ -3052,11 +3052,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/783.svg"
      },
      "p": 2,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 0,
-     "gd": 0,
-     "pts": 2
+     "gd": 1,
+     "pts": 4
     },
     {
      "pos": 2,
@@ -3095,10 +3095,10 @@ window.DATA = {
      },
      "p": 2,
      "w": 0,
-     "d": 2,
-     "l": 0,
-     "gd": 0,
-     "pts": 2
+     "d": 1,
+     "l": 1,
+     "gd": -1,
+     "pts": 1
     }
    ]
   },
