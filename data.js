@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-23T19:56:42",
+ "updated": "2026-06-23T20:52:58",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -91,9 +91,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 3,
+     "points": 4,
      "gd": 2,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -102,7 +102,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": 2
   },
   {
@@ -398,9 +398,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
+     "points": 4,
      "gd": 1,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -409,7 +409,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": 1
   },
   {
@@ -1556,6 +1556,60 @@ window.DATA = {
    "totalGd": 2
   },
   {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 4,
+     "gd": 2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 2
+  },
+  {
+   "name": "Blake",
+   "teams": [
+    {
+     "display": "Ghana",
+     "name": "Ghana",
+     "matched": true,
+     "tla": "GHA",
+     "crest": "https://crests.football-data.org/ghana.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 1,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 1
+  },
+  {
    "name": "Louise",
    "teams": [
     {
@@ -1683,60 +1737,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 4,
    "totalGd": -6
-  },
-  {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 3,
-     "gd": 2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 2
-  },
-  {
-   "name": "Blake",
-   "teams": [
-    {
-     "display": "Ghana",
-     "name": "Ghana",
-     "matched": true,
-     "tla": "GHA",
-     "crest": "https://crests.football-data.org/ghana.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 1,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": 1
   },
   {
    "name": "Brandon",
@@ -2348,7 +2348,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URY",
+    "tla": "URU",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2460,22 +2460,6 @@ window.DATA = {
   }
  ],
  "fixtures": [
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "utc": "2026-06-23T20:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
   {
    "stage": "Group L",
    "home": {
@@ -2647,6 +2631,22 @@ window.DATA = {
     "name": "Netherlands",
     "tla": "NED",
     "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "utc": "2026-06-25T23:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Japan",
+    "tla": "JPN",
+    "crest": "https://crests.football-data.org/766.svg"
+   },
+   "away": {
+    "name": "Sweden",
+    "tla": "SWE",
+    "crest": "https://crests.football-data.org/792.svg"
    },
    "utc": "2026-06-25T23:00:00Z",
    "sweep": true,
@@ -3336,12 +3336,12 @@ window.DATA = {
       "tla": "ENG",
       "crest": "https://crests.football-data.org/770.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 2,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 2,
@@ -3350,12 +3350,12 @@ window.DATA = {
       "tla": "GHA",
       "crest": "https://crests.football-data.org/ghana.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 1,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 3,
