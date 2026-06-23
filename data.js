@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-23T16:37:02",
+ "updated": "2026-06-23T17:25:51",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -554,9 +554,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 0,
+     "points": 1,
      "gd": -2,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     },
@@ -581,7 +581,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 0,
+   "totalPoints": 1,
    "totalGd": -5
   },
   {
@@ -726,9 +726,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 1,
+     "points": 2,
      "gd": 0,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -737,7 +737,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
+   "totalPoints": 2,
    "totalGd": 0
   },
   {
@@ -811,7 +811,7 @@ window.DATA = {
      "group": "K",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -1879,6 +1879,33 @@ window.DATA = {
    "totalGd": -6
   },
   {
+   "name": "Laura H",
+   "teams": [
+    {
+     "display": "Portugal",
+     "name": "Portugal",
+     "matched": true,
+     "tla": "POR",
+     "crest": "https://crests.football-data.org/765.svg",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 2,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 2,
+   "totalGd": 0
+  },
+  {
    "name": "Jambo",
    "teams": [
     {
@@ -1965,33 +1992,6 @@ window.DATA = {
    "totalGd": -6
   },
   {
-   "name": "Laura H",
-   "teams": [
-    {
-     "display": "Portugal",
-     "name": "Portugal",
-     "matched": true,
-     "tla": "POR",
-     "crest": "https://crests.football-data.org/765.svg",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 1,
-     "gd": 0,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": 0
-  },
-  {
    "name": "Ross",
    "teams": [
     {
@@ -2073,7 +2073,7 @@ window.DATA = {
      "group": "K",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
+     "position": 3,
      "points": 1,
      "gd": 0,
      "played": 1,
@@ -2128,9 +2128,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 0,
+     "points": 1,
      "gd": -2,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     },
@@ -2155,7 +2155,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 0,
+   "totalPoints": 1,
    "totalGd": -5
   },
   {
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group K",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "tla": "UZB",
-    "crest": "https://crests.football-data.org/8070.png"
-   },
-   "utc": "2026-06-23T17:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group L",
    "home": {
     "name": "England",
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-06-25T20:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://crests.football-data.org/tunisia.svg"
+   },
+   "away": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "utc": "2026-06-25T23:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "away": {
+    "name": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://crests.football-data.org/8070.png"
+   },
+   "utc": "2026-06-23T17:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3285,23 +3305,23 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
-      "name": "Congo DR",
-      "tla": "COD",
-      "crest": "https://crests.football-data.org/congo_dr.svg"
-     },
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gd": 0,
-     "pts": 1
-    },
-    {
-     "pos": 2,
-     "team": {
       "name": "Portugal",
       "tla": "POR",
       "crest": "https://crests.football-data.org/765.svg"
+     },
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gd": 0,
+     "pts": 2
+    },
+    {
+     "pos": 3,
+     "team": {
+      "name": "Congo DR",
+      "tla": "COD",
+      "crest": "https://crests.football-data.org/congo_dr.svg"
      },
      "p": 1,
      "w": 0,
@@ -3317,12 +3337,12 @@ window.DATA = {
       "tla": "UZB",
       "crest": "https://crests.football-data.org/8070.png"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gd": -2,
-     "pts": 0
+     "pts": 1
     }
    ]
   },
