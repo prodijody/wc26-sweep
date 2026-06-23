@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-23T03:47:54",
+ "updated": "2026-06-23T05:27:53",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -133,9 +133,9 @@ window.DATA = {
      "group": "J",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": -2,
+     "position": 4,
+     "points": 0,
+     "gd": -3,
      "played": 2,
      "in": true,
      "brink": false
@@ -145,8 +145,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -5
+   "totalPoints": 0,
+   "totalGd": -6
   },
   {
    "name": "Sharon",
@@ -203,9 +203,9 @@ window.DATA = {
      "group": "J",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -3,
+     "position": 3,
+     "points": 3,
+     "gd": -2,
      "played": 2,
      "in": true,
      "brink": false
@@ -215,8 +215,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -5
+   "totalPoints": 4,
+   "totalGd": -4
   },
   {
    "name": "Louise",
@@ -1572,6 +1572,49 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Sammy",
+   "teams": [
+    {
+     "display": "New Zealand",
+     "name": "New Zealand",
+     "matched": true,
+     "tla": "NZL",
+     "crest": "https://crests.football-data.org/783.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Algeria",
+     "name": "Algeria",
+     "matched": true,
+     "tla": "ALG",
+     "crest": "https://crests.football-data.org/algeria.svg",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": -2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -4
+  },
+  {
    "name": "Barry B",
    "teams": [
     {
@@ -1879,49 +1922,6 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Sammy",
-   "teams": [
-    {
-     "display": "New Zealand",
-     "name": "New Zealand",
-     "matched": true,
-     "tla": "NZL",
-     "crest": "https://crests.football-data.org/783.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -2,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Algeria",
-     "name": "Algeria",
-     "matched": true,
-     "tla": "ALG",
-     "crest": "https://crests.football-data.org/algeria.svg",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 2,
-   "totalGd": -5
-  },
-  {
    "name": "Chris",
    "teams": [
     {
@@ -2116,49 +2116,6 @@ window.DATA = {
    "totalGd": -3
   },
   {
-   "name": "Laura",
-   "teams": [
-    {
-     "display": "Turkey",
-     "name": "Turkey",
-     "matched": true,
-     "tla": "TUR",
-     "crest": "https://crests.football-data.org/803.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Withdrawn",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 2,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Jordan",
-     "name": "Jordan",
-     "matched": true,
-     "tla": "JOR",
-     "crest": "https://crests.football-data.org/8049.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": -2,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -5
-  },
-  {
    "name": "Jess",
    "teams": [
     {
@@ -2202,6 +2159,49 @@ window.DATA = {
    "totalGd": -5
   },
   {
+   "name": "Laura",
+   "teams": [
+    {
+     "display": "Turkey",
+     "name": "Turkey",
+     "matched": true,
+     "tla": "TUR",
+     "crest": "https://crests.football-data.org/803.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Withdrawn",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 2,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Jordan",
+     "name": "Jordan",
+     "matched": true,
+     "tla": "JOR",
+     "crest": "https://crests.football-data.org/8049.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 0,
+   "totalGd": -6
+  },
+  {
    "name": "Martin M",
    "teams": [
     {
@@ -2230,6 +2230,25 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Jordan",
+    "tla": "JOR",
+    "crest": "https://crests.football-data.org/8049.png"
+   },
+   "away": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "crest": "https://crests.football-data.org/algeria.svg"
+   },
+   "utc": "2026-06-23T03:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 2,
+   "note": "FT"
+  },
   {
    "stage": "Group I",
    "home": {
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 5,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "Turkey",
-    "tla": "TUR",
-    "crest": "https://crests.football-data.org/803.svg"
-   },
-   "away": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "utc": "2026-06-20T03:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Jordan",
-    "tla": "JOR",
-    "crest": "https://crests.football-data.org/8049.png"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-06-23T03:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3258,30 +3238,30 @@ window.DATA = {
     {
      "pos": 3,
      "team": {
+      "name": "Algeria",
+      "tla": "ALG",
+      "crest": "https://crests.football-data.org/algeria.svg"
+     },
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gd": -2,
+     "pts": 3
+    },
+    {
+     "pos": 4,
+     "team": {
       "name": "Jordan",
       "tla": "JOR",
       "crest": "https://crests.football-data.org/8049.png"
      },
      "p": 2,
      "w": 0,
-     "d": 1,
-     "l": 1,
-     "gd": -2,
-     "pts": 1
-    },
-    {
-     "pos": 4,
-     "team": {
-      "name": "Algeria",
-      "tla": "ALG",
-      "crest": "https://crests.football-data.org/algeria.svg"
-     },
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
+     "d": 0,
+     "l": 2,
      "gd": -3,
-     "pts": 1
+     "pts": 0
     }
    ]
   },
