@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-23T15:34:23",
+ "updated": "2026-06-23T16:37:02",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -2329,7 +2329,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
