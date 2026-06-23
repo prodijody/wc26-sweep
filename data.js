@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-22T23:34:55",
+ "updated": "2026-06-23T00:10:14",
  "phase": "Group stage · matchday 2",
  "champion": null,
  "runnerUp": null,
@@ -290,9 +290,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
+     "points": 4,
      "gd": 3,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -301,7 +301,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
+   "totalPoints": 6,
    "totalGd": 3
   },
   {
@@ -570,9 +570,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 0,
+     "points": 1,
      "gd": -2,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -581,7 +581,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 0,
+   "totalPoints": 1,
    "totalGd": -4
   },
   {
@@ -1405,33 +1405,6 @@ window.DATA = {
    "totalGd": 5
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 6,
-     "gd": 3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": 3
-  },
-  {
    "name": "Jack",
    "teams": [
     {
@@ -1460,9 +1433,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
+     "points": 4,
      "gd": 3,
-     "played": 1,
+     "played": 2,
      "in": true,
      "brink": false
     }
@@ -1471,7 +1444,34 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
+   "totalPoints": 6,
+   "totalGd": 3
+  },
+  {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 3,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 6,
    "totalGd": 3
   },
   {
@@ -2073,6 +2073,49 @@ window.DATA = {
    "totalGd": -3
   },
   {
+   "name": "Jess",
+   "teams": [
+    {
+     "display": "Uzbekistan",
+     "name": "Uzbekistan",
+     "matched": true,
+     "tla": "UZB",
+     "crest": "https://crests.football-data.org/8070.png",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -2,
+     "played": 1,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Senegal",
+     "name": "Senegal",
+     "matched": true,
+     "tla": "SEN",
+     "crest": "https://crests.football-data.org/senegal.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 1,
+     "gd": -2,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 1,
+   "totalGd": -4
+  },
+  {
    "name": "Sammy",
    "teams": [
     {
@@ -2114,49 +2157,6 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 1,
    "totalGd": -5
-  },
-  {
-   "name": "Jess",
-   "teams": [
-    {
-     "display": "Uzbekistan",
-     "name": "Uzbekistan",
-     "matched": true,
-     "tla": "UZB",
-     "crest": "https://crests.football-data.org/8070.png",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Senegal",
-     "name": "Senegal",
-     "matched": true,
-     "tla": "SEN",
-     "crest": "https://crests.football-data.org/senegal.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 0,
-     "gd": -2,
-     "played": 1,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 0,
-   "totalGd": -4
   },
   {
    "name": "Laura",
@@ -2272,7 +2272,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group I",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "utc": "2026-06-23T00:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group J",
    "home": {
     "name": "Jordan",
@@ -2651,6 +2635,22 @@ window.DATA = {
    "utc": "2026-06-25T01:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "away": {
+    "name": "Germany",
+    "tla": "GER",
+    "crest": "https://crests.football-data.org/759.svg"
+   },
+   "utc": "2026-06-25T20:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
  "live": [
@@ -2668,8 +2668,27 @@ window.DATA = {
    },
    "utc": "2026-06-22T21:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "hs": 1,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group I",
+   "home": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "away": {
+    "name": "Senegal",
+    "tla": "SEN",
+    "crest": "https://crests.football-data.org/senegal.svg"
+   },
+   "utc": "2026-06-23T00:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
    "as": 0,
    "note": "FT"
   }
@@ -3187,12 +3206,12 @@ window.DATA = {
       "tla": "NOR",
       "crest": "https://crests.football-data.org/813.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 3,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 3,
@@ -3201,12 +3220,12 @@ window.DATA = {
       "tla": "SEN",
       "crest": "https://crests.football-data.org/senegal.svg"
      },
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gd": -2,
-     "pts": 0
+     "pts": 1
     },
     {
      "pos": 4,
