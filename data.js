@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-24T23:09:52",
+ "updated": "2026-06-24T23:41:18",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -883,7 +883,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 3,
      "points": 3,
-     "gd": -2,
+     "gd": -3,
      "played": 3,
      "in": true,
      "brink": false
@@ -894,7 +894,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": -2
+   "totalGd": -3
   },
   {
    "name": "Tony T",
@@ -964,7 +964,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 7,
-     "gd": 5,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -975,7 +975,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 7,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Edwina",
@@ -1488,7 +1488,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 1,
      "points": 7,
-     "gd": 5,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -1499,7 +1499,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 7,
-   "totalGd": 5
+   "totalGd": 6
   },
   {
    "name": "Laura H",
@@ -1876,7 +1876,7 @@ window.DATA = {
      "stageLabel": "Group stage",
      "position": 3,
      "points": 3,
-     "gd": -2,
+     "gd": -3,
      "played": 3,
      "in": true,
      "brink": false
@@ -1887,7 +1887,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 3,
-   "totalGd": -2
+   "totalGd": -3
   },
   {
    "name": "Jambo",
@@ -2668,7 +2668,7 @@ window.DATA = {
    },
    "utc": "2026-06-24T22:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "hs": 2,
    "as": 2,
    "note": "FT"
@@ -2687,9 +2687,9 @@ window.DATA = {
    },
    "utc": "2026-06-24T22:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "hs": 0,
-   "as": 2,
+   "as": 3,
    "note": "FT"
   }
  ],
@@ -2830,7 +2830,7 @@ window.DATA = {
      "w": 2,
      "d": 1,
      "l": 0,
-     "gd": 5,
+     "gd": 6,
      "pts": 7
     },
     {
@@ -2858,7 +2858,7 @@ window.DATA = {
      "w": 1,
      "d": 0,
      "l": 2,
-     "gd": -2,
+     "gd": -3,
      "pts": 3
     },
     {
