@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-25T21:39:23",
+ "updated": "2026-06-25T22:13:12",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -48,8 +48,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 7,
-     "gd": 7,
+     "points": 6,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -75,8 +75,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 10,
-   "totalGd": 7
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Lynn",
@@ -371,8 +371,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 2,
-     "gd": -1,
+     "points": 4,
+     "gd": 0,
      "played": 3,
      "in": true,
      "brink": true
@@ -382,8 +382,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": -1
+   "totalPoints": 4,
+   "totalGd": 0
   },
   {
    "name": "Blake",
@@ -751,13 +751,13 @@ window.DATA = {
      "crest": "https://crests.football-data.org/curacao.svg",
      "group": "E",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 1,
      "gd": -8,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -779,7 +779,7 @@ window.DATA = {
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -3
   },
@@ -1249,49 +1249,6 @@ window.DATA = {
    "totalGd": 9
   },
   {
-   "name": "Mark",
-   "teams": [
-    {
-     "display": "Germany",
-     "name": "Germany",
-     "matched": true,
-     "tla": "GER",
-     "crest": "https://crests.football-data.org/759.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 7,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Sweden",
-     "name": "Sweden",
-     "matched": true,
-     "tla": "SWE",
-     "crest": "https://crests.football-data.org/792.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 3,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 10,
-   "totalGd": 7
-  },
-  {
    "name": "Michael",
    "teams": [
     {
@@ -1333,6 +1290,49 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 10,
    "totalGd": 7
+  },
+  {
+   "name": "Mark",
+   "teams": [
+    {
+     "display": "Germany",
+     "name": "Germany",
+     "matched": true,
+     "tla": "GER",
+     "crest": "https://crests.football-data.org/759.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Sweden",
+     "name": "Sweden",
+     "matched": true,
+     "tla": "SWE",
+     "crest": "https://crests.football-data.org/792.svg",
+     "group": "F",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": 0,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Sharon",
@@ -1442,13 +1442,13 @@ window.DATA = {
      "crest": "https://crests.football-data.org/curacao.svg",
      "group": "E",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 1,
      "gd": -8,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -1470,7 +1470,7 @@ window.DATA = {
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -3
   },
@@ -1735,6 +1735,33 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": 0
+  },
+  {
+   "name": "Ross",
+   "teams": [
+    {
+     "display": "Ecuador",
+     "name": "Ecuador",
+     "matched": true,
+     "tla": "ECU",
+     "crest": "https://crests.football-data.org/791.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
   },
@@ -2019,33 +2046,6 @@ window.DATA = {
    "totalGd": -7
   },
   {
-   "name": "Ross",
-   "teams": [
-    {
-     "display": "Ecuador",
-     "name": "Ecuador",
-     "matched": true,
-     "tla": "ECU",
-     "crest": "https://crests.football-data.org/791.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": -1
-  },
-  {
    "name": "Jambo",
    "teams": [
     {
@@ -2230,6 +2230,44 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "away": {
+    "name": "Germany",
+    "tla": "GER",
+    "crest": "https://crests.football-data.org/759.svg"
+   },
+   "utc": "2026-06-25T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://crests.football-data.org/curacao.svg"
+   },
+   "away": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
+   },
+   "utc": "2026-06-25T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 2,
+   "note": "FT"
+  },
   {
    "stage": "Group A",
    "home": {
@@ -2418,44 +2456,6 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 5,
    "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Jordan",
-    "tla": "JOR",
-    "crest": "https://crests.football-data.org/8049.png"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-06-23T03:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "utc": "2026-06-23T00:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 2,
    "note": "FT"
   }
  ],
@@ -2653,46 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "away": {
-    "name": "Germany",
-    "tla": "GER",
-    "crest": "https://crests.football-data.org/759.svg"
-   },
-   "utc": "2026-06-25T20:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Curaçao",
-    "tla": "CUW",
-    "crest": "https://crests.football-data.org/curacao.svg"
-   },
-   "away": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "utc": "2026-06-25T20:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 2,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2950,10 +2911,10 @@ window.DATA = {
      },
      "p": 3,
      "w": 2,
-     "d": 1,
-     "l": 0,
-     "gd": 7,
-     "pts": 7
+     "d": 0,
+     "l": 1,
+     "gd": 6,
+     "pts": 6
     },
     {
      "pos": 2,
@@ -2977,11 +2938,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/791.svg"
      },
      "p": 3,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 1,
-     "gd": -1,
-     "pts": 2
+     "gd": 0,
+     "pts": 4
     },
     {
      "pos": 4,
