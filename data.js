@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-25T00:12:35",
+ "updated": "2026-06-25T01:20:12",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -161,9 +161,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 6,
+     "points": 7,
      "gd": 3,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -172,7 +172,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 6,
+   "totalPoints": 7,
    "totalGd": 3
   },
   {
@@ -527,9 +527,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 1,
+     "points": 2,
      "gd": -2,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -538,7 +538,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
+   "totalPoints": 3,
    "totalGd": -6
   },
   {
@@ -683,9 +683,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 3,
+     "points": 4,
      "gd": 0,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     },
@@ -710,7 +710,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": -6
   },
   {
@@ -909,9 +909,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 1,
+     "points": 2,
      "gd": -1,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -920,7 +920,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
+   "totalPoints": 2,
    "totalGd": -1
   },
   {
@@ -1405,6 +1405,33 @@ window.DATA = {
    "totalGd": 6
   },
   {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 3
+  },
+  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1473,33 +1500,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": 5
-  },
-  {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 6,
-     "gd": 3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": 3
   },
   {
    "name": "Laura H",
@@ -1766,6 +1766,49 @@ window.DATA = {
    "totalGd": -4
   },
   {
+   "name": "Paul K",
+   "teams": [
+    {
+     "display": "South Korea",
+     "name": "South Korea",
+     "matched": true,
+     "tla": "KOR",
+     "crest": "https://crests.football-data.org/772.png",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Iraq",
+     "name": "Iraq",
+     "matched": true,
+     "tla": "IRQ",
+     "crest": "https://crests.football-data.org/iraq.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -6
+  },
+  {
    "name": "Barry B",
    "teams": [
     {
@@ -1933,49 +1976,6 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Paul K",
-   "teams": [
-    {
-     "display": "South Korea",
-     "name": "South Korea",
-     "matched": true,
-     "tla": "KOR",
-     "crest": "https://crests.football-data.org/772.png",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 0,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Iraq",
-     "name": "Iraq",
-     "matched": true,
-     "tla": "IRQ",
-     "crest": "https://crests.football-data.org/iraq.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 2,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": -6
-  },
-  {
    "name": "Chris",
    "teams": [
     {
@@ -2004,9 +2004,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 1,
+     "points": 2,
      "gd": -2,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -2015,8 +2015,35 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 2,
+   "totalPoints": 3,
    "totalGd": -6
+  },
+  {
+   "name": "Tony T",
+   "teams": [
+    {
+     "display": "Czechia",
+     "name": "Czechia",
+     "matched": true,
+     "tla": "CZE",
+     "crest": "https://crests.football-data.org/798.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 2,
+     "gd": -1,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 2,
+   "totalGd": -1
   },
   {
    "name": "Jambo",
@@ -2071,33 +2098,6 @@ window.DATA = {
      "tla": "ECU",
      "crest": "https://crests.football-data.org/791.svg",
      "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": -1,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -1
-  },
-  {
-   "name": "Tony T",
-   "teams": [
-    {
-     "display": "Czechia",
-     "name": "Czechia",
-     "matched": true,
-     "tla": "CZE",
-     "crest": "https://crests.football-data.org/798.svg",
-     "group": "A",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
@@ -2461,38 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group E",
    "home": {
     "name": "Ecuador",
@@ -2624,7 +2592,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2651,9 +2619,80 @@ window.DATA = {
    "utc": "2026-06-27T00:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://crests.football-data.org/783.svg"
+   },
+   "away": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "utc": "2026-06-27T03:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "away": {
+    "name": "Iran",
+    "tla": "IRN",
+    "crest": "https://crests.football-data.org/iran.svg"
+   },
+   "utc": "2026-06-27T03:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "crest": "https://crests.football-data.org/798.svg"
+   },
+   "away": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "crest": "https://crests.football-data.org/9396.svg"
+   },
+   "away": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "crest": "https://crests.football-data.org/772.png"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -2665,12 +2704,12 @@ window.DATA = {
       "tla": "MEX",
       "crest": "https://crests.football-data.org/769.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 3,
-     "pts": 6
+     "pts": 7
     },
     {
      "pos": 2,
@@ -2679,12 +2718,12 @@ window.DATA = {
       "tla": "KOR",
       "crest": "https://crests.football-data.org/772.png"
      },
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gd": 0,
-     "pts": 3
+     "pts": 4
     },
     {
      "pos": 3,
@@ -2693,12 +2732,12 @@ window.DATA = {
       "tla": "CZE",
       "crest": "https://crests.football-data.org/798.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gd": -1,
-     "pts": 1
+     "pts": 2
     },
     {
      "pos": 4,
@@ -2707,12 +2746,12 @@ window.DATA = {
       "tla": "RSA",
       "crest": "https://crests.football-data.org/9396.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gd": -2,
-     "pts": 1
+     "pts": 2
     }
    ]
   },
