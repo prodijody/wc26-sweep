@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-25T02:23:47",
+ "updated": "2026-06-25T03:47:56",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
- "playersIn": 31,
+ "playersIn": 30,
  "playersTotal": 31,
  "players": [
   {
@@ -161,8 +161,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 7,
-     "gd": 3,
+     "points": 9,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -172,8 +172,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 3
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Sammy",
@@ -526,9 +526,9 @@ window.DATA = {
      "group": "A",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 2,
-     "gd": -2,
+     "position": 2,
+     "points": 4,
+     "gd": -1,
      "played": 3,
      "in": true,
      "brink": false
@@ -538,8 +538,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": -6
+   "totalPoints": 5,
+   "totalGd": -5
   },
   {
    "name": "Jess",
@@ -682,12 +682,12 @@ window.DATA = {
      "group": "A",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 0,
+     "position": 3,
+     "points": 3,
+     "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
      "display": "Iraq",
@@ -710,8 +710,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -6
+   "totalPoints": 3,
+   "totalGd": -7
   },
   {
    "name": "Laura H",
@@ -907,21 +907,21 @@ window.DATA = {
      "crest": "https://crests.football-data.org/798.svg",
      "group": "A",
      "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": -1
+   "aliveCount": 0,
+   "totalPoints": 1,
+   "totalGd": -4
   },
   {
    "name": "Martin M",
@@ -1335,6 +1335,33 @@ window.DATA = {
    "totalGd": 7
   },
   {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 9,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 9,
+   "totalGd": 6
+  },
+  {
    "name": "Jack",
    "teams": [
     {
@@ -1405,33 +1432,6 @@ window.DATA = {
    "totalGd": 6
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 3
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1500,6 +1500,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": 5
+  },
+  {
+   "name": "Chris",
+   "teams": [
+    {
+     "display": "Saudi Arabia",
+     "name": "Saudi Arabia",
+     "matched": true,
+     "tla": "KSA",
+     "crest": "https://crests.football-data.org/saudi_arabia.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -4,
+     "played": 2,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "South Africa",
+     "name": "South Africa",
+     "matched": true,
+     "tla": "RSA",
+     "crest": "https://crests.football-data.org/9396.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 4,
+     "gd": -1,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 5,
+   "totalGd": -5
   },
   {
    "name": "Laura H",
@@ -1766,49 +1809,6 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Paul K",
-   "teams": [
-    {
-     "display": "South Korea",
-     "name": "South Korea",
-     "matched": true,
-     "tla": "KOR",
-     "crest": "https://crests.football-data.org/772.png",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Iraq",
-     "name": "Iraq",
-     "matched": true,
-     "tla": "IRQ",
-     "crest": "https://crests.football-data.org/iraq.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 2,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -6
-  },
-  {
    "name": "Barry B",
    "teams": [
     {
@@ -1976,39 +1976,39 @@ window.DATA = {
    "totalGd": -4
   },
   {
-   "name": "Chris",
+   "name": "Paul K",
    "teams": [
     {
-     "display": "Saudi Arabia",
-     "name": "Saudi Arabia",
+     "display": "South Korea",
+     "name": "South Korea",
      "matched": true,
-     "tla": "KSA",
-     "crest": "https://crests.football-data.org/saudi_arabia.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -4,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "South Africa",
-     "name": "South Africa",
-     "matched": true,
-     "tla": "RSA",
-     "crest": "https://crests.football-data.org/9396.svg",
+     "tla": "KOR",
+     "crest": "https://crests.football-data.org/772.png",
      "group": "A",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 2,
-     "gd": -2,
+     "position": 3,
+     "points": 3,
+     "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
+    },
+    {
+     "display": "Iraq",
+     "name": "Iraq",
+     "matched": true,
+     "tla": "IRQ",
+     "crest": "https://crests.football-data.org/iraq.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -6,
+     "played": 2,
+     "in": true,
+     "brink": true
     }
    ],
    "in": true,
@@ -2016,34 +2016,7 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
    "totalPoints": 3,
-   "totalGd": -6
-  },
-  {
-   "name": "Tony T",
-   "teams": [
-    {
-     "display": "Czechia",
-     "name": "Czechia",
-     "matched": true,
-     "tla": "CZE",
-     "crest": "https://crests.football-data.org/798.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 2,
-   "totalGd": -1
+   "totalGd": -7
   },
   {
    "name": "Jambo",
@@ -2227,9 +2200,74 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 0,
    "totalGd": -10
+  },
+  {
+   "name": "Tony T",
+   "teams": [
+    {
+     "display": "Czechia",
+     "name": "Czechia",
+     "matched": true,
+     "tla": "CZE",
+     "crest": "https://crests.football-data.org/798.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 0,
+   "totalPoints": 1,
+   "totalGd": -4
   }
  ],
  "recent": [
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "crest": "https://crests.football-data.org/798.svg"
+   },
+   "away": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "crest": "https://crests.football-data.org/9396.svg"
+   },
+   "away": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "crest": "https://crests.football-data.org/772.png"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  },
   {
    "stage": "Group C",
    "home": {
@@ -2418,44 +2456,6 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 3,
    "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "Iraq",
-    "tla": "IRQ",
-    "crest": "https://crests.football-data.org/iraq.svg"
-   },
-   "utc": "2026-06-22T21:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-06-22T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 0,
    "note": "FT"
   }
  ],
@@ -2653,46 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2705,14 +2666,28 @@ window.DATA = {
       "crest": "https://crests.football-data.org/769.svg"
      },
      "p": 3,
-     "w": 2,
-     "d": 1,
+     "w": 3,
+     "d": 0,
      "l": 0,
-     "gd": 3,
-     "pts": 7
+     "gd": 6,
+     "pts": 9
     },
     {
      "pos": 2,
+     "team": {
+      "name": "South Africa",
+      "tla": "RSA",
+      "crest": "https://crests.football-data.org/9396.svg"
+     },
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gd": -1,
+     "pts": 4
+    },
+    {
+     "pos": 3,
      "team": {
       "name": "South Korea",
       "tla": "KOR",
@@ -2720,13 +2695,13 @@ window.DATA = {
      },
      "p": 3,
      "w": 1,
-     "d": 1,
-     "l": 1,
-     "gd": 0,
-     "pts": 4
+     "d": 0,
+     "l": 2,
+     "gd": -1,
+     "pts": 3
     },
     {
-     "pos": 3,
+     "pos": 4,
      "team": {
       "name": "Czechia",
       "tla": "CZE",
@@ -2734,24 +2709,10 @@ window.DATA = {
      },
      "p": 3,
      "w": 0,
-     "d": 2,
-     "l": 1,
-     "gd": -1,
-     "pts": 2
-    },
-    {
-     "pos": 4,
-     "team": {
-      "name": "South Africa",
-      "tla": "RSA",
-      "crest": "https://crests.football-data.org/9396.svg"
-     },
-     "p": 3,
-     "w": 0,
-     "d": 2,
-     "l": 1,
-     "gd": -2,
-     "pts": 2
+     "d": 1,
+     "l": 2,
+     "gd": -4,
+     "pts": 1
     }
    ]
   },
