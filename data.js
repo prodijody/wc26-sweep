@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-26T03:48:16",
+ "updated": "2026-06-26T05:32:43",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -118,8 +118,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Withdrawn",
      "position": 4,
-     "points": 1,
-     "gd": -3,
+     "points": 3,
+     "gd": -2,
      "played": 3,
      "in": false,
      "brink": false
@@ -145,8 +145,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -6
+   "totalPoints": 3,
+   "totalGd": -5
   },
   {
    "name": "Sharon",
@@ -317,8 +317,8 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 7,
-     "gd": 5,
+     "points": 6,
+     "gd": 4,
      "played": 3,
      "in": true,
      "brink": false
@@ -328,8 +328,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 5
+   "totalPoints": 6,
+   "totalGd": 4
   },
   {
    "name": "Brandon",
@@ -1432,33 +1432,6 @@ window.DATA = {
    "totalGd": 6
   },
   {
-   "name": "Rooney",
-   "teams": [
-    {
-     "display": "United States",
-     "name": "United States",
-     "matched": true,
-     "tla": "USA",
-     "crest": "https://crests.football-data.org/usa.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 5,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 5
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1543,6 +1516,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -6
+  },
+  {
+   "name": "Rooney",
+   "teams": [
+    {
+     "display": "United States",
+     "name": "United States",
+     "matched": true,
+     "tla": "USA",
+     "crest": "https://crests.football-data.org/usa.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 6,
+   "totalGd": 4
   },
   {
    "name": "Chris",
@@ -2003,6 +2003,49 @@ window.DATA = {
    "totalGd": -3
   },
   {
+   "name": "Laura",
+   "teams": [
+    {
+     "display": "Turkey",
+     "name": "Turkey",
+     "matched": true,
+     "tla": "TUR",
+     "crest": "https://crests.football-data.org/803.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Withdrawn",
+     "position": 4,
+     "points": 3,
+     "gd": -2,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Jordan",
+     "name": "Jordan",
+     "matched": true,
+     "tla": "JOR",
+     "crest": "https://crests.football-data.org/8049.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 0,
+     "gd": -3,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 3,
+   "totalGd": -5
+  },
+  {
    "name": "Paul K",
    "teams": [
     {
@@ -2086,49 +2129,6 @@ window.DATA = {
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
    "totalPoints": 2,
-   "totalGd": -6
-  },
-  {
-   "name": "Laura",
-   "teams": [
-    {
-     "display": "Turkey",
-     "name": "Turkey",
-     "matched": true,
-     "tla": "TUR",
-     "crest": "https://crests.football-data.org/803.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Withdrawn",
-     "position": 4,
-     "points": 1,
-     "gd": -3,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Jordan",
-     "name": "Jordan",
-     "matched": true,
-     "tla": "JOR",
-     "crest": "https://crests.football-data.org/8049.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -3,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
    "totalGd": -6
   },
   {
@@ -2231,6 +2231,44 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group D",
+   "home": {
+    "name": "Turkey",
+    "tla": "TUR",
+    "crest": "https://crests.football-data.org/803.svg"
+   },
+   "away": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "utc": "2026-06-26T02:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Group D",
+   "home": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "away": {
+    "name": "Australia",
+    "tla": "AUS",
+    "crest": "https://crests.football-data.org/779.svg"
+   },
+   "utc": "2026-06-26T02:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group F",
    "home": {
     "name": "Tunisia",
@@ -2291,7 +2329,7 @@ window.DATA = {
    "stage": "Group E",
    "home": {
     "name": "Curaçao",
-    "tla": "CUW",
+    "tla": "CUR",
     "crest": "https://crests.football-data.org/curacao.svg"
    },
    "away": {
@@ -2419,44 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "utc": "2026-06-24T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "Panama",
-    "tla": "PAN",
-    "crest": "https://crests.football-data.org/panama.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-06-23T23:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2496,7 +2496,7 @@ window.DATA = {
    "stage": "Group H",
    "home": {
     "name": "Uruguay",
-    "tla": "URU",
+    "tla": "URY",
     "crest": "https://crests.football-data.org/758.svg"
    },
    "away": {
@@ -2653,46 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "Turkey",
-    "tla": "TUR",
-    "crest": "https://crests.football-data.org/803.svg"
-   },
-   "away": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "utc": "2026-06-26T02:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 2,
-   "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Group D",
-   "home": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "away": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "utc": "2026-06-26T02:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -2889,10 +2850,10 @@ window.DATA = {
      },
      "p": 3,
      "w": 2,
-     "d": 1,
-     "l": 0,
-     "gd": 5,
-     "pts": 7
+     "d": 0,
+     "l": 1,
+     "gd": 4,
+     "pts": 6
     },
     {
      "pos": 2,
@@ -2930,11 +2891,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/803.svg"
      },
      "p": 3,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 2,
-     "gd": -3,
-     "pts": 1
+     "gd": -2,
+     "pts": 3
     }
    ]
   },
