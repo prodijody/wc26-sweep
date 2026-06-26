@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-26T13:58:10",
+ "updated": "2026-06-26T15:03:19",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
- "playersIn": 30,
+ "playersIn": 29,
  "playersTotal": 31,
  "players": [
   {
@@ -18,8 +18,8 @@ window.DATA = {
      "tla": "BIH",
      "crest": "https://crests.football-data.org/bosnia.svg",
      "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 3,
      "points": 4,
      "gd": -1,
@@ -29,8 +29,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": -1
@@ -68,7 +68,7 @@ window.DATA = {
      "gd": 0,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -341,8 +341,8 @@ window.DATA = {
      "tla": "AUS",
      "crest": "https://crests.football-data.org/779.svg",
      "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 4,
      "gd": 0,
@@ -352,8 +352,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
@@ -375,7 +375,7 @@ window.DATA = {
      "gd": 0,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -422,8 +422,8 @@ window.DATA = {
      "tla": "MAR",
      "crest": "https://crests.football-data.org/morocco.svg",
      "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 7,
      "gd": 3,
@@ -438,8 +438,8 @@ window.DATA = {
      "tla": "CAN",
      "crest": "https://crests.football-data.org/canada.svg",
      "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 4,
      "gd": 5,
@@ -449,8 +449,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 2,
    "totalPoints": 11,
    "totalGd": 8
@@ -465,8 +465,8 @@ window.DATA = {
      "tla": "JPN",
      "crest": "https://crests.football-data.org/766.svg",
      "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 5,
      "gd": 4,
@@ -492,8 +492,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 2,
    "totalPoints": 11,
    "totalGd": 9
@@ -524,8 +524,8 @@ window.DATA = {
      "tla": "RSA",
      "crest": "https://crests.football-data.org/9396.svg",
      "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 4,
      "gd": -1,
@@ -535,8 +535,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 2,
    "totalPoints": 5,
    "totalGd": -5
@@ -594,8 +594,8 @@ window.DATA = {
      "tla": "NED",
      "crest": "https://crests.football-data.org/8601.svg",
      "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 1,
      "points": 7,
      "gd": 6,
@@ -610,8 +610,8 @@ window.DATA = {
      "tla": "SUI",
      "crest": "https://crests.football-data.org/788.svg",
      "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -621,8 +621,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 2,
    "totalPoints": 14,
    "totalGd": 10
@@ -687,7 +687,7 @@ window.DATA = {
      "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
      "display": "Iraq",
@@ -751,13 +751,13 @@ window.DATA = {
      "crest": "https://crests.football-data.org/curacao.svg",
      "group": "E",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 1,
      "gd": -8,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -779,7 +779,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -3
   },
@@ -907,19 +907,19 @@ window.DATA = {
      "crest": "https://crests.football-data.org/798.svg",
      "group": "A",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 1,
      "gd": -4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 1,
    "totalGd": -4
   },
@@ -960,8 +960,8 @@ window.DATA = {
      "tla": "BRA",
      "crest": "https://crests.football-data.org/764.svg",
      "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 1,
      "points": 7,
      "gd": 6,
@@ -971,8 +971,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 6
@@ -1120,6 +1120,135 @@ window.DATA = {
  ],
  "leaderboard": [
   {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
+     "group": "B",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 2,
+   "totalPoints": 14,
+   "totalGd": 10
+  },
+  {
+   "name": "Barry",
+   "teams": [
+    {
+     "display": "Japan",
+     "name": "Japan",
+     "matched": true,
+     "tla": "JPN",
+     "crest": "https://crests.football-data.org/766.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "France",
+     "name": "France",
+     "matched": true,
+     "tla": "FRA",
+     "crest": "https://crests.football-data.org/773.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 5,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 2,
+   "totalPoints": 11,
+   "totalGd": 9
+  },
+  {
+   "name": "David",
+   "teams": [
+    {
+     "display": "Morocco",
+     "name": "Morocco",
+     "matched": true,
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Canada",
+     "name": "Canada",
+     "matched": true,
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 4,
+     "gd": 5,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 2,
+   "totalPoints": 11,
+   "totalGd": 8
+  },
+  {
    "name": "Mark",
    "teams": [
     {
@@ -1152,7 +1281,7 @@ window.DATA = {
      "gd": 0,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -1190,6 +1319,33 @@ window.DATA = {
    "totalGd": 6
   },
   {
+   "name": "Nicole",
+   "teams": [
+    {
+     "display": "Brazil",
+     "name": "Brazil",
+     "matched": true,
+     "tla": "BRA",
+     "crest": "https://crests.football-data.org/764.svg",
+     "group": "C",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 6
+  },
+  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1200,13 +1356,13 @@ window.DATA = {
      "crest": "https://crests.football-data.org/curacao.svg",
      "group": "E",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 1,
      "gd": -8,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     },
     {
      "display": "Argentina",
@@ -1228,7 +1384,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -3
   },
@@ -1260,133 +1416,101 @@ window.DATA = {
    "totalGd": 4
   },
   {
-   "name": "Brandon B",
+   "name": "Chris",
    "teams": [
     {
-     "display": "Netherlands",
-     "name": "Netherlands",
+     "display": "Saudi Arabia",
+     "name": "Saudi Arabia",
      "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
+     "tla": "KSA",
+     "crest": "https://crests.football-data.org/saudi_arabia.svg",
+     "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 14,
-   "totalGd": 10
-  },
-  {
-   "name": "Barry",
-   "teams": [
-    {
-     "display": "Japan",
-     "name": "Japan",
-     "matched": true,
-     "tla": "JPN",
-     "crest": "https://crests.football-data.org/766.svg",
-     "group": "F",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "France",
-     "name": "France",
-     "matched": true,
-     "tla": "FRA",
-     "crest": "https://crests.football-data.org/773.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 6,
-     "gd": 5,
+     "position": 4,
+     "points": 1,
+     "gd": -4,
      "played": 2,
      "in": true,
      "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 11,
-   "totalGd": 9
-  },
-  {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
     },
     {
-     "display": "Canada",
-     "name": "Canada",
+     "display": "South Africa",
+     "name": "South Africa",
      "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "tla": "RSA",
+     "crest": "https://crests.football-data.org/9396.svg",
+     "group": "A",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 4,
-     "gd": 5,
+     "gd": -1,
      "played": 3,
      "in": true,
      "brink": false
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 2,
-   "totalPoints": 11,
-   "totalGd": 8
+   "totalPoints": 5,
+   "totalGd": -5
+  },
+  {
+   "name": "Brandon",
+   "teams": [
+    {
+     "display": "Australia",
+     "name": "Australia",
+     "matched": true,
+     "tla": "AUS",
+     "crest": "https://crests.football-data.org/779.svg",
+     "group": "D",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 0
+  },
+  {
+   "name": "Finlay",
+   "teams": [
+    {
+     "display": "Bosnia-Herzegovina",
+     "name": "Bosnia-Herzegovina",
+     "matched": true,
+     "tla": "BIH",
+     "crest": "https://crests.football-data.org/bosnia.svg",
+     "group": "B",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 4,
+     "gd": -1,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": -1
   },
   {
    "name": "Michael",
@@ -1475,33 +1599,6 @@ window.DATA = {
    "totalGd": 4
   },
   {
-   "name": "Nicole",
-   "teams": [
-    {
-     "display": "Brazil",
-     "name": "Brazil",
-     "matched": true,
-     "tla": "BRA",
-     "crest": "https://crests.football-data.org/764.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 6
-  },
-  {
    "name": "Barry B",
    "teams": [
     {
@@ -1543,49 +1640,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -6
-  },
-  {
-   "name": "Chris",
-   "teams": [
-    {
-     "display": "Saudi Arabia",
-     "name": "Saudi Arabia",
-     "matched": true,
-     "tla": "KSA",
-     "crest": "https://crests.football-data.org/saudi_arabia.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -4,
-     "played": 2,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "South Africa",
-     "name": "South Africa",
-     "matched": true,
-     "tla": "RSA",
-     "crest": "https://crests.football-data.org/9396.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -5
   },
   {
    "name": "Laura H",
@@ -1739,33 +1793,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Brandon",
-   "teams": [
-    {
-     "display": "Australia",
-     "name": "Australia",
-     "matched": true,
-     "tla": "AUS",
-     "crest": "https://crests.football-data.org/779.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 0
-  },
-  {
    "name": "Ross",
    "teams": [
     {
@@ -1782,7 +1809,7 @@ window.DATA = {
      "gd": 0,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -1791,33 +1818,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
-  },
-  {
-   "name": "Finlay",
-   "teams": [
-    {
-     "display": "Bosnia-Herzegovina",
-     "name": "Bosnia-Herzegovina",
-     "matched": true,
-     "tla": "BIH",
-     "crest": "https://crests.football-data.org/bosnia.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": -1
   },
   {
    "name": "Jonny",
@@ -2062,7 +2062,7 @@ window.DATA = {
      "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
      "display": "Iraq",
@@ -2132,33 +2132,6 @@ window.DATA = {
    "totalGd": -6
   },
   {
-   "name": "Tony T",
-   "teams": [
-    {
-     "display": "Czechia",
-     "name": "Czechia",
-     "matched": true,
-     "tla": "CZE",
-     "crest": "https://crests.football-data.org/798.svg",
-     "group": "A",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 1,
-   "totalGd": -4
-  },
-  {
    "name": "Jess",
    "teams": [
     {
@@ -2200,6 +2173,33 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 0,
    "totalGd": -10
+  },
+  {
+   "name": "Tony T",
+   "teams": [
+    {
+     "display": "Czechia",
+     "name": "Czechia",
+     "matched": true,
+     "tla": "CZE",
+     "crest": "https://crests.football-data.org/798.svg",
+     "group": "A",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 0,
+   "totalPoints": 1,
+   "totalGd": -4
   },
   {
    "name": "Martin M",
@@ -2265,6 +2265,120 @@ window.DATA = {
    "sweep": true,
    "status": "FINISHED",
    "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://crests.football-data.org/tunisia.svg"
+   },
+   "away": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "utc": "2026-06-25T23:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Group F",
+   "home": {
+    "name": "Japan",
+    "tla": "JPN",
+    "crest": "https://crests.football-data.org/766.svg"
+   },
+   "away": {
+    "name": "Sweden",
+    "tla": "SWE",
+    "crest": "https://crests.football-data.org/792.svg"
+   },
+   "utc": "2026-06-25T23:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "away": {
+    "name": "Germany",
+    "tla": "GER",
+    "crest": "https://crests.football-data.org/759.svg"
+   },
+   "utc": "2026-06-25T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Group E",
+   "home": {
+    "name": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://crests.football-data.org/curacao.svg"
+   },
+   "away": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
+   },
+   "utc": "2026-06-25T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "Czechia",
+    "tla": "CZE",
+    "crest": "https://crests.football-data.org/798.svg"
+   },
+   "away": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Group A",
+   "home": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "crest": "https://crests.football-data.org/9396.svg"
+   },
+   "away": {
+    "name": "South Korea",
+    "tla": "KOR",
+    "crest": "https://crests.football-data.org/772.png"
+   },
+   "utc": "2026-06-25T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
    "as": 0,
    "note": "FT"
   },
@@ -2343,219 +2457,9 @@ window.DATA = {
    "hs": 3,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "utc": "2026-06-24T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "Panama",
-    "tla": "PAN",
-    "crest": "https://crests.football-data.org/panama.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-06-23T23:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "utc": "2026-06-23T20:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "tla": "UZB",
-    "crest": "https://crests.football-data.org/8070.png"
-   },
-   "utc": "2026-06-23T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 5,
-   "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Jordan",
-    "tla": "JOR",
-    "crest": "https://crests.football-data.org/8049.png"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-06-23T03:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "utc": "2026-06-23T00:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "away": {
-    "name": "Germany",
-    "tla": "GER",
-    "crest": "https://crests.football-data.org/759.svg"
-   },
-   "utc": "2026-06-25T20:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group E",
-   "home": {
-    "name": "Curaçao",
-    "tla": "CUW",
-    "crest": "https://crests.football-data.org/curacao.svg"
-   },
-   "away": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "utc": "2026-06-25T20:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group F",
-   "home": {
-    "name": "Tunisia",
-    "tla": "TUN",
-    "crest": "https://crests.football-data.org/tunisia.svg"
-   },
-   "away": {
-    "name": "Netherlands",
-    "tla": "NED",
-    "crest": "https://crests.football-data.org/8601.svg"
-   },
-   "utc": "2026-06-25T23:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group F",
-   "home": {
-    "name": "Japan",
-    "tla": "JPN",
-    "crest": "https://crests.football-data.org/766.svg"
-   },
-   "away": {
-    "name": "Sweden",
-    "tla": "SWE",
-    "crest": "https://crests.football-data.org/792.svg"
-   },
-   "utc": "2026-06-25T23:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
   {
    "stage": "Group I",
    "home": {
@@ -2649,6 +2553,102 @@ window.DATA = {
     "crest": "https://crests.football-data.org/iran.svg"
    },
    "utc": "2026-06-27T03:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group L",
+   "home": {
+    "name": "Panama",
+    "tla": "PAN",
+    "crest": "https://crests.football-data.org/panama.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-06-27T21:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group L",
+   "home": {
+    "name": "Croatia",
+    "tla": "CRO",
+    "crest": "https://crests.football-data.org/799.svg"
+   },
+   "away": {
+    "name": "Ghana",
+    "tla": "GHA",
+    "crest": "https://crests.football-data.org/ghana.svg"
+   },
+   "utc": "2026-06-27T21:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "away": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "utc": "2026-06-27T23:30:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Congo DR",
+    "tla": "COD",
+    "crest": "https://crests.football-data.org/congo_dr.svg"
+   },
+   "away": {
+    "name": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://crests.football-data.org/8070.png"
+   },
+   "utc": "2026-06-27T23:30:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Jordan",
+    "tla": "JOR",
+    "crest": "https://crests.football-data.org/8049.png"
+   },
+   "away": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "utc": "2026-06-28T02:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "crest": "https://crests.football-data.org/algeria.svg"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-06-28T02:00:00Z",
    "sweep": true,
    "status": "TIMED"
   }
@@ -3407,14 +3407,14 @@ window.DATA = {
    "LAST_32": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "South Africa",
+      "tla": "RSA",
+      "crest": "https://crests.football-data.org/9396.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Canada",
+      "tla": "CAN",
+      "crest": "https://crests.football-data.org/canada.svg"
      },
      "hs": null,
      "as": null,
@@ -3422,18 +3422,18 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-06-28T19:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Brazil",
+      "tla": "BRA",
+      "crest": "https://crests.football-data.org/764.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Japan",
+      "tla": "JPN",
+      "crest": "https://crests.football-data.org/766.svg"
      },
      "hs": null,
      "as": null,
@@ -3441,7 +3441,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-06-29T17:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
@@ -3464,14 +3464,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Netherlands",
+      "tla": "NED",
+      "crest": "https://crests.football-data.org/8601.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Morocco",
+      "tla": "MAR",
+      "crest": "https://crests.football-data.org/morocco.svg"
      },
      "hs": null,
      "as": null,
@@ -3479,7 +3479,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-06-30T01:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
@@ -3583,9 +3583,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/usa.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Bosnia-Herzegovina",
+      "tla": "BIH",
+      "crest": "https://crests.football-data.org/bosnia.svg"
      },
      "hs": null,
      "as": null,
@@ -3635,9 +3635,9 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://crests.football-data.org/788.svg"
      },
      "away": {
       "name": null,
@@ -3650,13 +3650,13 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-03T03:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Australia",
+      "tla": "AUS",
+      "crest": "https://crests.football-data.org/779.svg"
      },
      "away": {
       "name": null,
@@ -3669,7 +3669,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-03T18:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
