@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T22:09:25",
+ "updated": "2026-06-27T22:38:49",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -90,9 +90,9 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 2,
+     "position": 1,
+     "points": 7,
+     "gd": 4,
      "played": 3,
      "in": true,
      "brink": false
@@ -102,8 +102,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 2
+   "totalPoints": 7,
+   "totalGd": 4
   },
   {
    "name": "Laura",
@@ -795,7 +795,7 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 6,
      "gd": 0,
      "played": 3,
@@ -1101,21 +1101,21 @@ window.DATA = {
      "crest": "https://crests.football-data.org/panama.svg",
      "group": "L",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
-     "points": 1,
-     "gd": -2,
+     "points": 0,
+     "gd": -4,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -4
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": -6
   }
  ],
  "leaderboard": [
@@ -1642,6 +1642,33 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 4
+  },
+  {
    "name": "Jonny",
    "teams": [
     {
@@ -1653,7 +1680,7 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 6,
      "gd": 0,
      "played": 3,
@@ -1755,33 +1782,6 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 2
-  },
-  {
    "name": "Jambo",
    "teams": [
     {
@@ -1823,49 +1823,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
-  },
-  {
-   "name": "Thomas",
-   "teams": [
-    {
-     "display": "Paraguay",
-     "name": "Paraguay",
-     "matched": true,
-     "tla": "PAR",
-     "crest": "https://crests.football-data.org/761.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": -2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Panama",
-     "name": "Panama",
-     "matched": true,
-     "tla": "PAN",
-     "crest": "https://crests.football-data.org/panama.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -2,
-     "played": 3,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -4
   },
   {
    "name": "Laura H",
@@ -1947,6 +1904,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
+  },
+  {
+   "name": "Thomas",
+   "teams": [
+    {
+     "display": "Paraguay",
+     "name": "Paraguay",
+     "matched": true,
+     "tla": "PAR",
+     "crest": "https://crests.football-data.org/761.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 4,
+     "gd": -2,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Panama",
+     "name": "Panama",
+     "matched": true,
+     "tla": "PAN",
+     "crest": "https://crests.football-data.org/panama.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": -6
   },
   {
    "name": "Sammy",
@@ -2657,6 +2657,25 @@ window.DATA = {
   {
    "stage": "Group L",
    "home": {
+    "name": "Panama",
+    "tla": "PAN",
+    "crest": "https://crests.football-data.org/panama.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-06-27T21:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Group L",
+   "home": {
     "name": "Croatia",
     "tla": "CRO",
     "crest": "https://crests.football-data.org/799.svg"
@@ -2668,7 +2687,7 @@ window.DATA = {
    },
    "utc": "2026-06-27T21:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
+   "status": "IN_PLAY",
    "hs": 1,
    "as": 0,
    "note": "FT"
@@ -3352,6 +3371,20 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
+      "name": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
+     },
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gd": 4,
+     "pts": 7
+    },
+    {
+     "pos": 2,
+     "team": {
       "name": "Croatia",
       "tla": "CRO",
       "crest": "https://crests.football-data.org/799.svg"
@@ -3362,20 +3395,6 @@ window.DATA = {
      "l": 1,
      "gd": 0,
      "pts": 6
-    },
-    {
-     "pos": 2,
-     "team": {
-      "name": "England",
-      "tla": "ENG",
-      "crest": "https://crests.football-data.org/770.svg"
-     },
-     "p": 3,
-     "w": 1,
-     "d": 2,
-     "l": 0,
-     "gd": 2,
-     "pts": 5
     },
     {
      "pos": 3,
@@ -3400,10 +3419,10 @@ window.DATA = {
      },
      "p": 3,
      "w": 0,
-     "d": 1,
-     "l": 2,
-     "gd": -2,
-     "pts": 1
+     "d": 0,
+     "l": 3,
+     "gd": -4,
+     "pts": 0
     }
    ]
   }
