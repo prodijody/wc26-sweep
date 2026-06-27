@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T05:23:23",
+ "updated": "2026-06-27T06:38:51",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -246,20 +246,20 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 1,
+     "position": 3,
+     "points": 3,
+     "gd": 0,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 8,
-   "totalGd": 1
+   "totalPoints": 6,
+   "totalGd": 0
   },
   {
    "name": "Jack",
@@ -574,7 +574,7 @@ window.DATA = {
      "gd": 2,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -637,8 +637,8 @@ window.DATA = {
      "tla": "CIV",
      "crest": "https://crests.football-data.org/787.svg",
      "group": "E",
-     "stage": 0,
-     "stageLabel": "Group stage",
+     "stage": 1,
+     "stageLabel": "Round of 32",
      "position": 2,
      "points": 6,
      "gd": 2,
@@ -664,8 +664,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -6
@@ -697,19 +697,19 @@ window.DATA = {
      "crest": "https://crests.football-data.org/iraq.svg",
      "group": "I",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 0,
      "gd": -11,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": -12
   },
@@ -1016,20 +1016,20 @@ window.DATA = {
      "group": "G",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": 1,
+     "position": 2,
+     "points": 5,
+     "gd": 2,
      "played": 3,
      "in": true,
-     "brink": true
+     "brink": false
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 1
+   "totalPoints": 5,
+   "totalGd": 2
   },
   {
    "name": "Jambo",
@@ -1389,6 +1389,49 @@ window.DATA = {
    "totalGd": -3
   },
   {
+   "name": "Barry B",
+   "teams": [
+    {
+     "display": "Ivory Coast",
+     "name": "Ivory Coast",
+     "matched": true,
+     "tla": "CIV",
+     "crest": "https://crests.football-data.org/787.svg",
+     "group": "E",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 6,
+     "gd": 2,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Qatar",
+     "name": "Qatar",
+     "matched": true,
+     "tla": "QAT",
+     "crest": "https://crests.football-data.org/8030.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -8,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": -6
+  },
+  {
    "name": "Rooney",
    "teams": [
     {
@@ -1556,49 +1599,6 @@ window.DATA = {
    "totalGd": 8
   },
   {
-   "name": "Louise",
-   "teams": [
-    {
-     "display": "Cape Verde Islands",
-     "name": "Cape Verde Islands",
-     "matched": true,
-     "tla": "CPV",
-     "crest": "https://crests.football-data.org/cape_verde.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 3,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Iran",
-     "name": "Iran",
-     "matched": true,
-     "tla": "IRN",
-     "crest": "https://crests.football-data.org/iran.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 8,
-   "totalGd": 1
-  },
-  {
    "name": "Jack",
    "teams": [
     {
@@ -1642,38 +1642,65 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Barry B",
+   "name": "Louise",
    "teams": [
     {
-     "display": "Ivory Coast",
-     "name": "Ivory Coast",
+     "display": "Cape Verde Islands",
+     "name": "Cape Verde Islands",
      "matched": true,
-     "tla": "CIV",
-     "crest": "https://crests.football-data.org/787.svg",
-     "group": "E",
+     "tla": "CPV",
+     "crest": "https://crests.football-data.org/cape_verde.svg",
+     "group": "H",
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 6,
-     "gd": 2,
+     "points": 3,
+     "gd": 0,
      "played": 3,
      "in": true,
      "brink": false
     },
     {
-     "display": "Qatar",
-     "name": "Qatar",
+     "display": "Iran",
+     "name": "Iran",
      "matched": true,
-     "tla": "QAT",
-     "crest": "https://crests.football-data.org/8030.svg",
-     "group": "B",
+     "tla": "IRN",
+     "crest": "https://crests.football-data.org/iran.svg",
+     "group": "G",
      "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 1,
-     "gd": -8,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": 0,
      "played": 3,
-     "in": false,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 6,
+   "totalGd": 0
+  },
+  {
+   "name": "Laura McM",
+   "teams": [
+    {
+     "display": "Egypt",
+     "name": "Egypt",
+     "matched": true,
+     "tla": "EGY",
+     "crest": "https://crests.football-data.org/825.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 5,
+     "gd": 2,
+     "played": 3,
+     "in": true,
      "brink": false
     }
    ],
@@ -1681,8 +1708,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": -6
+   "totalPoints": 5,
+   "totalGd": 2
   },
   {
    "name": "Jambo",
@@ -1799,33 +1826,6 @@ window.DATA = {
      "played": 2,
      "in": true,
      "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 1
-  },
-  {
-   "name": "Laura McM",
-   "teams": [
-    {
-     "display": "Egypt",
-     "name": "Egypt",
-     "matched": true,
-     "tla": "EGY",
-     "crest": "https://crests.football-data.org/825.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": true
     }
    ],
    "in": true,
@@ -2078,7 +2078,7 @@ window.DATA = {
      "gd": 2,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
@@ -2158,19 +2158,19 @@ window.DATA = {
      "crest": "https://crests.football-data.org/iraq.svg",
      "group": "I",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 0,
      "gd": -11,
      "played": 3,
-     "in": true,
-     "brink": true
+     "in": false,
+     "brink": false
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": -12
   },
@@ -2265,7 +2265,7 @@ window.DATA = {
    "sweep": true,
    "status": "FINISHED",
    "hs": 1,
-   "as": 2,
+   "as": 1,
    "note": "FT"
   },
   {
@@ -2303,6 +2303,44 @@ window.DATA = {
    "sweep": true,
    "status": "FINISHED",
    "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group I",
+   "home": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "away": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "utc": "2026-06-26T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 4,
+   "note": "FT"
+  },
+  {
+   "stage": "Group I",
+   "home": {
+    "name": "Senegal",
+    "tla": "SEN",
+    "crest": "https://crests.football-data.org/senegal.svg"
+   },
+   "away": {
+    "name": "Iraq",
+    "tla": "IRQ",
+    "crest": "https://crests.football-data.org/iraq.svg"
+   },
+   "utc": "2026-06-26T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 5,
    "as": 0,
    "note": "FT"
   },
@@ -2419,79 +2457,9 @@ window.DATA = {
    "hs": 0,
    "as": 2,
    "note": "FT"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "Czechia",
-    "tla": "CZE",
-    "crest": "https://crests.football-data.org/798.svg"
-   },
-   "away": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 3,
-   "note": "FT"
-  },
-  {
-   "stage": "Group A",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "South Korea",
-    "tla": "KOR",
-    "crest": "https://crests.football-data.org/772.png"
-   },
-   "utc": "2026-06-25T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "utc": "2026-06-26T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "away": {
-    "name": "Iraq",
-    "tla": "IRQ",
-    "crest": "https://crests.football-data.org/iraq.svg"
-   },
-   "utc": "2026-06-26T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
   {
    "stage": "Group L",
    "home": {
@@ -2650,6 +2618,38 @@ window.DATA = {
    },
    "utc": "2026-06-30T01:00:00Z",
    "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-06-30T17:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-06-30T21:00:00Z",
+   "sweep": false,
    "status": "TIMED"
   }
  ],
@@ -3041,30 +3041,30 @@ window.DATA = {
     {
      "pos": 2,
      "team": {
-      "name": "Iran",
-      "tla": "IRN",
-      "crest": "https://crests.football-data.org/iran.svg"
-     },
-     "p": 3,
-     "w": 1,
-     "d": 2,
-     "l": 0,
-     "gd": 1,
-     "pts": 5
-    },
-    {
-     "pos": 3,
-     "team": {
       "name": "Egypt",
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg"
      },
      "p": 3,
      "w": 1,
-     "d": 1,
-     "l": 1,
-     "gd": 1,
-     "pts": 4
+     "d": 2,
+     "l": 0,
+     "gd": 2,
+     "pts": 5
+    },
+    {
+     "pos": 3,
+     "team": {
+      "name": "Iran",
+      "tla": "IRN",
+      "crest": "https://crests.football-data.org/iran.svg"
+     },
+     "p": 3,
+     "w": 0,
+     "d": 3,
+     "l": 0,
+     "gd": 0,
+     "pts": 3
     },
     {
      "pos": 4,
@@ -3483,9 +3483,9 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Ivory Coast",
+      "tla": "CIV",
+      "crest": "https://crests.football-data.org/787.svg"
      },
      "away": {
       "name": null,
@@ -3498,7 +3498,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-06-30T17:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
