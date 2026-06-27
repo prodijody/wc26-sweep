@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T21:30:15",
+ "updated": "2026-06-27T22:09:25",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -90,7 +90,7 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 5,
      "gd": 2,
      "played": 3,
@@ -397,9 +397,9 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 1,
+     "position": 3,
+     "points": 4,
+     "gd": 0,
      "played": 3,
      "in": true,
      "brink": false
@@ -409,8 +409,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 1
+   "totalPoints": 4,
+   "totalGd": 0
   },
   {
    "name": "David",
@@ -795,9 +795,9 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": -1,
+     "position": 1,
+     "points": 6,
+     "gd": 0,
      "played": 3,
      "in": true,
      "brink": false
@@ -823,8 +823,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -2
+   "totalPoints": 7,
+   "totalGd": -1
   },
   {
    "name": "Michael",
@@ -1642,6 +1642,49 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Jonny",
+   "teams": [
+    {
+     "display": "Croatia",
+     "name": "Croatia",
+     "matched": true,
+     "tla": "CRO",
+     "crest": "https://crests.football-data.org/799.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 6,
+     "gd": 0,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Congo DR",
+     "name": "Congo DR",
+     "matched": true,
+     "tla": "COD",
+     "crest": "https://crests.football-data.org/congo_dr.svg",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 1,
+     "gd": -1,
+     "played": 2,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 7,
+   "totalGd": -1
+  },
+  {
    "name": "Louise",
    "teams": [
     {
@@ -1723,7 +1766,7 @@ window.DATA = {
      "group": "L",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 1,
+     "position": 2,
      "points": 5,
      "gd": 2,
      "played": 3,
@@ -1737,76 +1780,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": 2
-  },
-  {
-   "name": "Blake",
-   "teams": [
-    {
-     "display": "Ghana",
-     "name": "Ghana",
-     "matched": true,
-     "tla": "GHA",
-     "crest": "https://crests.football-data.org/ghana.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 5,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 1
-  },
-  {
-   "name": "Jonny",
-   "teams": [
-    {
-     "display": "Croatia",
-     "name": "Croatia",
-     "matched": true,
-     "tla": "CRO",
-     "crest": "https://crests.football-data.org/799.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 4,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Congo DR",
-     "name": "Congo DR",
-     "matched": true,
-     "tla": "COD",
-     "crest": "https://crests.football-data.org/congo_dr.svg",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 1,
-     "gd": -1,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 5,
-   "totalGd": -2
   },
   {
    "name": "Jambo",
@@ -1920,6 +1893,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 5
+  },
+  {
+   "name": "Blake",
+   "teams": [
+    {
+     "display": "Ghana",
+     "name": "Ghana",
+     "matched": true,
+     "tla": "GHA",
+     "crest": "https://crests.football-data.org/ghana.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": 0
   },
   {
    "name": "Ross",
@@ -2657,19 +2657,19 @@ window.DATA = {
   {
    "stage": "Group L",
    "home": {
-    "name": "Panama",
-    "tla": "PAN",
-    "crest": "https://crests.football-data.org/panama.svg"
+    "name": "Croatia",
+    "tla": "CRO",
+    "crest": "https://crests.football-data.org/799.svg"
    },
    "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
+    "name": "Ghana",
+    "tla": "GHA",
+    "crest": "https://crests.football-data.org/ghana.svg"
    },
    "utc": "2026-06-27T21:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
+   "status": "PAUSED",
+   "hs": 1,
    "as": 0,
    "note": "FT"
   }
@@ -3352,6 +3352,20 @@ window.DATA = {
     {
      "pos": 1,
      "team": {
+      "name": "Croatia",
+      "tla": "CRO",
+      "crest": "https://crests.football-data.org/799.svg"
+     },
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gd": 0,
+     "pts": 6
+    },
+    {
+     "pos": 2,
+     "team": {
       "name": "England",
       "tla": "ENG",
       "crest": "https://crests.football-data.org/770.svg"
@@ -3364,7 +3378,7 @@ window.DATA = {
      "pts": 5
     },
     {
-     "pos": 2,
+     "pos": 3,
      "team": {
       "name": "Ghana",
       "tla": "GHA",
@@ -3372,23 +3386,9 @@ window.DATA = {
      },
      "p": 3,
      "w": 1,
-     "d": 2,
-     "l": 0,
-     "gd": 1,
-     "pts": 5
-    },
-    {
-     "pos": 3,
-     "team": {
-      "name": "Croatia",
-      "tla": "CRO",
-      "crest": "https://crests.football-data.org/799.svg"
-     },
-     "p": 3,
-     "w": 1,
      "d": 1,
      "l": 1,
-     "gd": -1,
+     "gd": 0,
      "pts": 4
     },
     {
