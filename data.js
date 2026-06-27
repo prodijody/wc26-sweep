@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T23:09:34",
+ "updated": "2026-06-27T23:37:11",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -554,9 +554,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 4,
-     "points": 0,
+     "points": 1,
      "gd": -7,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": true
     },
@@ -581,7 +581,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 3,
+   "totalPoints": 4,
    "totalGd": -5
   },
   {
@@ -726,9 +726,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 2,
-     "points": 4,
+     "points": 5,
      "gd": 5,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -737,7 +737,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 1,
-   "totalPoints": 4,
+   "totalPoints": 5,
    "totalGd": 5
   },
   {
@@ -812,9 +812,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 1,
+     "points": 2,
      "gd": -1,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -823,7 +823,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 7,
+   "totalPoints": 8,
    "totalGd": -1
   },
   {
@@ -839,9 +839,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 6,
+     "points": 7,
      "gd": 3,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     },
@@ -866,7 +866,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 13,
+   "totalPoints": 14,
    "totalGd": 8
   },
   {
@@ -1568,9 +1568,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 1,
-     "points": 6,
+     "points": 7,
      "gd": 3,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     },
@@ -1595,7 +1595,7 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 13,
+   "totalPoints": 14,
    "totalGd": 8
   },
   {
@@ -1642,33 +1642,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 4
-  },
-  {
    "name": "Jonny",
    "teams": [
     {
@@ -1697,9 +1670,9 @@ window.DATA = {
      "stage": 0,
      "stageLabel": "Group stage",
      "position": 3,
-     "points": 1,
+     "points": 2,
      "gd": -1,
-     "played": 2,
+     "played": 3,
      "in": true,
      "brink": false
     }
@@ -1708,8 +1681,35 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 7,
+   "totalPoints": 8,
    "totalGd": -1
+  },
+  {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 4
   },
   {
    "name": "Louise",
@@ -1753,6 +1753,33 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 6,
    "totalGd": 0
+  },
+  {
+   "name": "Laura H",
+   "teams": [
+    {
+     "display": "Portugal",
+     "name": "Portugal",
+     "matched": true,
+     "tla": "POR",
+     "crest": "https://crests.football-data.org/765.svg",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 2,
+     "points": 5,
+     "gd": 5,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 5,
+   "totalGd": 5
   },
   {
    "name": "Laura McM",
@@ -1825,33 +1852,6 @@ window.DATA = {
    "totalGd": -2
   },
   {
-   "name": "Laura H",
-   "teams": [
-    {
-     "display": "Portugal",
-     "name": "Portugal",
-     "matched": true,
-     "tla": "POR",
-     "crest": "https://crests.football-data.org/765.svg",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 2,
-     "points": 4,
-     "gd": 5,
-     "played": 2,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 5
-  },
-  {
    "name": "Blake",
    "teams": [
     {
@@ -1904,6 +1904,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
+  },
+  {
+   "name": "Jess",
+   "teams": [
+    {
+     "display": "Uzbekistan",
+     "name": "Uzbekistan",
+     "matched": true,
+     "tla": "UZB",
+     "crest": "https://crests.football-data.org/8070.png",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 4,
+     "points": 1,
+     "gd": -7,
+     "played": 3,
+     "in": true,
+     "brink": true
+    },
+    {
+     "display": "Senegal",
+     "name": "Senegal",
+     "matched": true,
+     "tla": "SEN",
+     "crest": "https://crests.football-data.org/senegal.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": 2,
+     "played": 3,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 4,
+   "totalGd": -5
   },
   {
    "name": "Thomas",
@@ -2044,49 +2087,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": -3
-  },
-  {
-   "name": "Jess",
-   "teams": [
-    {
-     "display": "Uzbekistan",
-     "name": "Uzbekistan",
-     "matched": true,
-     "tla": "UZB",
-     "crest": "https://crests.football-data.org/8070.png",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 0,
-     "gd": -7,
-     "played": 2,
-     "in": true,
-     "brink": true
-    },
-    {
-     "display": "Senegal",
-     "name": "Senegal",
-     "matched": true,
-     "tla": "SEN",
-     "crest": "https://crests.football-data.org/senegal.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 3,
-     "gd": 2,
-     "played": 3,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 3,
-   "totalGd": -5
   },
   {
    "name": "Laura",
@@ -2461,38 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Group K",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "utc": "2026-06-27T23:30:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "tla": "UZB",
-    "crest": "https://crests.football-data.org/8070.png"
-   },
-   "utc": "2026-06-27T23:30:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Group J",
    "home": {
     "name": "Jordan",
@@ -2650,6 +2618,38 @@ window.DATA = {
    },
    "utc": "2026-07-01T16:00:00Z",
    "sweep": false,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-01T20:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "away": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "utc": "2026-07-02T00:00:00Z",
+   "sweep": true,
    "status": "TIMED"
   }
  ],
@@ -3275,12 +3275,12 @@ window.DATA = {
       "tla": "COL",
       "crest": "https://crests.football-data.org/818.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gd": 3,
-     "pts": 6
+     "pts": 7
     },
     {
      "pos": 2,
@@ -3289,12 +3289,12 @@ window.DATA = {
       "tla": "POR",
       "crest": "https://crests.football-data.org/765.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gd": 5,
-     "pts": 4
+     "pts": 5
     },
     {
      "pos": 3,
@@ -3303,12 +3303,12 @@ window.DATA = {
       "tla": "COD",
       "crest": "https://crests.football-data.org/congo_dr.svg"
      },
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gd": -1,
-     "pts": 1
+     "pts": 2
     },
     {
      "pos": 4,
@@ -3317,12 +3317,12 @@ window.DATA = {
       "tla": "UZB",
       "crest": "https://crests.football-data.org/8070.png"
      },
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gd": -7,
-     "pts": 0
+     "pts": 1
     }
    ]
   },
