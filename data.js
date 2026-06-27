@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T01:18:08",
+ "updated": "2026-06-27T02:22:28",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -278,7 +278,7 @@ window.DATA = {
      "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
      "display": "Norway",
@@ -509,12 +509,12 @@ window.DATA = {
      "crest": "https://crests.football-data.org/saudi_arabia.svg",
      "group": "H",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 2,
      "gd": -4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -537,7 +537,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": -5
   },
@@ -1426,12 +1426,12 @@ window.DATA = {
      "crest": "https://crests.football-data.org/saudi_arabia.svg",
      "group": "H",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
      "points": 2,
      "gd": -4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1454,7 +1454,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": -5
   },
@@ -1572,7 +1572,7 @@ window.DATA = {
      "gd": -1,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     },
     {
      "display": "Norway",
@@ -2231,6 +2231,44 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Group H",
+   "home": {
+    "name": "Uruguay",
+    "tla": "URU",
+    "crest": "https://crests.football-data.org/758.svg"
+   },
+   "away": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "utc": "2026-06-27T00:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Group H",
+   "home": {
+    "name": "Cape Verde Islands",
+    "tla": "CPV",
+    "crest": "https://crests.football-data.org/cape_verde.svg"
+   },
+   "away": {
+    "name": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://crests.football-data.org/saudi_arabia.svg"
+   },
+   "utc": "2026-06-27T00:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Group I",
    "home": {
     "name": "Norway",
@@ -2418,44 +2456,6 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 1,
    "as": 0,
-   "note": "FT"
-  },
-  {
-   "stage": "Group C",
-   "home": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "away": {
-    "name": "Haiti",
-    "tla": "HAI",
-    "crest": "https://crests.football-data.org/haiti.svg"
-   },
-   "utc": "2026-06-24T22:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 4,
-   "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Group C",
-   "home": {
-    "name": "Scotland",
-    "tla": "SCO",
-    "crest": "https://crests.football-data.org/814.svg"
-   },
-   "away": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
-   },
-   "utc": "2026-06-24T22:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 3,
    "note": "FT"
   }
  ],
@@ -2653,46 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Group H",
-   "home": {
-    "name": "Uruguay",
-    "tla": "URU",
-    "crest": "https://crests.football-data.org/758.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-06-27T00:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Group H",
-   "home": {
-    "name": "Cape Verde Islands",
-    "tla": "CPV",
-    "crest": "https://crests.football-data.org/cape_verde.svg"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "tla": "KSA",
-    "crest": "https://crests.football-data.org/saudi_arabia.svg"
-   },
-   "utc": "2026-06-27T00:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
