@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-28T00:09:24",
+ "updated": "2026-06-28T01:23:32",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -2653,7 +2653,46 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "away": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "utc": "2026-06-27T23:30:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Group K",
+   "home": {
+    "name": "Congo DR",
+    "tla": "COD",
+    "crest": "https://crests.football-data.org/congo_dr.svg"
+   },
+   "away": {
+    "name": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://crests.football-data.org/8070.png"
+   },
+   "utc": "2026-06-27T23:30:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
