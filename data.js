@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-28T02:23:35",
+ "updated": "2026-06-28T03:48:17",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
- "playersIn": 29,
+ "playersIn": 28,
  "playersTotal": 31,
  "players": [
   {
@@ -132,21 +132,21 @@ window.DATA = {
      "crest": "https://crests.football-data.org/8049.png",
      "group": "J",
      "stage": 0,
-     "stageLabel": "Group stage",
+     "stageLabel": "Eliminated",
      "position": 4,
-     "points": 1,
-     "gd": -3,
+     "points": 0,
+     "gd": -4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": -5
+   "aliveCount": 0,
+   "totalPoints": 3,
+   "totalGd": -6
   },
   {
    "name": "Sharon",
@@ -769,8 +769,8 @@ window.DATA = {
      "stage": 1,
      "stageLabel": "Round of 32",
      "position": 1,
-     "points": 7,
-     "gd": 5,
+     "points": 9,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -780,8 +780,8 @@ window.DATA = {
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
    "aliveCount": 1,
-   "totalPoints": 8,
-   "totalGd": -3
+   "totalPoints": 10,
+   "totalGd": -2
   },
   {
    "name": "Jonny",
@@ -1292,33 +1292,6 @@ window.DATA = {
    "totalGd": 6
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 9,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 9,
-   "totalGd": 6
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1347,8 +1320,8 @@ window.DATA = {
      "stage": 1,
      "stageLabel": "Round of 32",
      "position": 1,
-     "points": 7,
-     "gd": 5,
+     "points": 9,
+     "gd": 6,
      "played": 3,
      "in": true,
      "brink": false
@@ -1358,8 +1331,35 @@ window.DATA = {
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
    "aliveCount": 1,
-   "totalPoints": 8,
-   "totalGd": -3
+   "totalPoints": 10,
+   "totalGd": -2
+  },
+  {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 9,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Nicole",
@@ -1976,49 +1976,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Laura",
-   "teams": [
-    {
-     "display": "Turkey",
-     "name": "Turkey",
-     "matched": true,
-     "tla": "TUR",
-     "crest": "https://crests.football-data.org/803.svg",
-     "group": "D",
-     "stage": 0,
-     "stageLabel": "Withdrawn",
-     "position": 4,
-     "points": 3,
-     "gd": -2,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Jordan",
-     "name": "Jordan",
-     "matched": true,
-     "tla": "JOR",
-     "crest": "https://crests.football-data.org/8049.png",
-     "group": "J",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": -5
-  },
-  {
    "name": "Thomas",
    "teams": [
     {
@@ -2173,6 +2130,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 3,
    "totalGd": -12
+  },
+  {
+   "name": "Laura",
+   "teams": [
+    {
+     "display": "Turkey",
+     "name": "Turkey",
+     "matched": true,
+     "tla": "TUR",
+     "crest": "https://crests.football-data.org/803.svg",
+     "group": "D",
+     "stage": 0,
+     "stageLabel": "Withdrawn",
+     "position": 4,
+     "points": 3,
+     "gd": -2,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Jordan",
+     "name": "Jordan",
+     "matched": true,
+     "tla": "JOR",
+     "crest": "https://crests.football-data.org/8049.png",
+     "group": "J",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 0,
+   "totalPoints": 3,
+   "totalGd": -6
   },
   {
    "name": "Tony T",
@@ -2669,8 +2669,27 @@ window.DATA = {
    "utc": "2026-06-28T02:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
+   "hs": 1,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Group J",
+   "home": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "crest": "https://crests.football-data.org/algeria.svg"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-06-28T02:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 2,
+   "as": 2,
    "note": "FT"
   }
  ],
@@ -3235,11 +3254,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/762.png"
      },
      "p": 3,
-     "w": 2,
-     "d": 1,
+     "w": 3,
+     "d": 0,
      "l": 0,
-     "gd": 5,
-     "pts": 7
+     "gd": 6,
+     "pts": 9
     },
     {
      "pos": 2,
@@ -3278,10 +3297,10 @@ window.DATA = {
      },
      "p": 3,
      "w": 0,
-     "d": 1,
-     "l": 2,
-     "gd": -3,
-     "pts": 1
+     "d": 0,
+     "l": 3,
+     "gd": -4,
+     "pts": 0
     }
    ]
   },
