@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-28T20:31:41",
+ "updated": "2026-06-28T21:09:38",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 26,
+ "playersIn": 25,
  "playersTotal": 31,
  "players": [
   {
@@ -530,14 +530,14 @@ window.DATA = {
      "points": 4,
      "gd": -1,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 6,
    "totalGd": -5
   },
@@ -1658,49 +1658,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Chris",
-   "teams": [
-    {
-     "display": "Saudi Arabia",
-     "name": "Saudi Arabia",
-     "matched": true,
-     "tla": "KSA",
-     "crest": "https://crests.football-data.org/saudi_arabia.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 2,
-     "gd": -4,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "South Africa",
-     "name": "South Africa",
-     "matched": true,
-     "tla": "RSA",
-     "crest": "https://crests.football-data.org/9396.svg",
-     "group": "A",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 4,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": -5
-  },
-  {
    "name": "Laura H",
    "teams": [
     {
@@ -2062,6 +2019,49 @@ window.DATA = {
    "totalGd": -7
   },
   {
+   "name": "Chris",
+   "teams": [
+    {
+     "display": "Saudi Arabia",
+     "name": "Saudi Arabia",
+     "matched": true,
+     "tla": "KSA",
+     "crest": "https://crests.football-data.org/saudi_arabia.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 2,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "South Africa",
+     "name": "South Africa",
+     "matched": true,
+     "tla": "RSA",
+     "crest": "https://crests.football-data.org/9396.svg",
+     "group": "A",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 4,
+     "gd": -1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 6,
+   "totalGd": -5
+  },
+  {
    "name": "Shelly",
    "teams": [
     {
@@ -2230,6 +2230,25 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "South Africa",
+    "tla": "RSA",
+    "crest": "https://crests.football-data.org/9396.svg"
+   },
+   "away": {
+    "name": "Canada",
+    "tla": "CAN",
+    "crest": "https://crests.football-data.org/canada.svg"
+   },
+   "utc": "2026-06-28T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
   {
    "stage": "Group J",
    "home": {
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 4,
    "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "away": {
-    "name": "Iraq",
-    "tla": "IRQ",
-    "crest": "https://crests.football-data.org/iraq.svg"
-   },
-   "utc": "2026-06-26T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 5,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "Canada",
-    "tla": "CAN",
-    "crest": "https://crests.football-data.org/canada.svg"
-   },
-   "utc": "2026-06-28T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3437,11 +3417,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/canada.svg"
      },
      "hs": 0,
-     "as": 0,
-     "winner": "DRAW",
-     "status": "IN_PLAY",
+     "as": 1,
+     "winner": "AWAY_TEAM",
+     "status": "FINISHED",
      "utc": "2026-06-28T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
