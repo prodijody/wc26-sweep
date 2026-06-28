@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-27T23:37:11",
+ "updated": "2026-06-28T00:09:24",
  "phase": "Group stage · matchday 3",
  "champion": null,
  "runnerUp": null,
@@ -553,12 +553,12 @@ window.DATA = {
      "group": "K",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -7,
+     "position": 3,
+     "points": 3,
+     "gd": -6,
      "played": 3,
      "in": true,
-     "brink": true
+     "brink": false
     },
     {
      "display": "Senegal",
@@ -581,8 +581,8 @@ window.DATA = {
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -5
+   "totalPoints": 6,
+   "totalGd": -4
   },
   {
    "name": "Brandon B",
@@ -811,20 +811,20 @@ window.DATA = {
      "group": "K",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
+     "position": 4,
+     "points": 1,
+     "gd": -2,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 8,
-   "totalGd": -1
+   "totalPoints": 7,
+   "totalGd": -2
   },
   {
    "name": "Michael",
@@ -1642,6 +1642,33 @@ window.DATA = {
    "totalGd": 0
   },
   {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 4
+  },
+  {
    "name": "Jonny",
    "teams": [
     {
@@ -1669,47 +1696,20 @@ window.DATA = {
      "group": "K",
      "stage": 0,
      "stageLabel": "Group stage",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
+     "position": 4,
+     "points": 1,
+     "gd": -2,
      "played": 3,
      "in": true,
-     "brink": false
+     "brink": true
     }
    ],
    "in": true,
    "bestStage": 0,
    "bestStageLabel": "Group stage",
    "aliveCount": 2,
-   "totalPoints": 8,
-   "totalGd": -1
-  },
-  {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 1,
    "totalPoints": 7,
-   "totalGd": 4
+   "totalGd": -2
   },
   {
    "name": "Louise",
@@ -1753,6 +1753,49 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 6,
    "totalGd": 0
+  },
+  {
+   "name": "Jess",
+   "teams": [
+    {
+     "display": "Uzbekistan",
+     "name": "Uzbekistan",
+     "matched": true,
+     "tla": "UZB",
+     "crest": "https://crests.football-data.org/8070.png",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": -6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Senegal",
+     "name": "Senegal",
+     "matched": true,
+     "tla": "SEN",
+     "crest": "https://crests.football-data.org/senegal.svg",
+     "group": "I",
+     "stage": 0,
+     "stageLabel": "Group stage",
+     "position": 3,
+     "points": 3,
+     "gd": 2,
+     "played": 3,
+     "in": true,
+     "brink": true
+    }
+   ],
+   "in": true,
+   "bestStage": 0,
+   "bestStageLabel": "Group stage",
+   "aliveCount": 2,
+   "totalPoints": 6,
+   "totalGd": -4
   },
   {
    "name": "Laura H",
@@ -1904,49 +1947,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": 0
-  },
-  {
-   "name": "Jess",
-   "teams": [
-    {
-     "display": "Uzbekistan",
-     "name": "Uzbekistan",
-     "matched": true,
-     "tla": "UZB",
-     "crest": "https://crests.football-data.org/8070.png",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 4,
-     "points": 1,
-     "gd": -7,
-     "played": 3,
-     "in": true,
-     "brink": true
-    },
-    {
-     "display": "Senegal",
-     "name": "Senegal",
-     "matched": true,
-     "tla": "SEN",
-     "crest": "https://crests.football-data.org/senegal.svg",
-     "group": "I",
-     "stage": 0,
-     "stageLabel": "Group stage",
-     "position": 3,
-     "points": 3,
-     "gd": 2,
-     "played": 3,
-     "in": true,
-     "brink": true
-    }
-   ],
-   "in": true,
-   "bestStage": 0,
-   "bestStageLabel": "Group stage",
-   "aliveCount": 2,
-   "totalPoints": 4,
-   "totalGd": -5
   },
   {
    "name": "Thomas",
@@ -3299,29 +3299,29 @@ window.DATA = {
     {
      "pos": 3,
      "team": {
+      "name": "Uzbekistan",
+      "tla": "UZB",
+      "crest": "https://crests.football-data.org/8070.png"
+     },
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gd": -6,
+     "pts": 3
+    },
+    {
+     "pos": 4,
+     "team": {
       "name": "Congo DR",
       "tla": "COD",
       "crest": "https://crests.football-data.org/congo_dr.svg"
      },
      "p": 3,
      "w": 0,
-     "d": 2,
-     "l": 1,
-     "gd": -1,
-     "pts": 2
-    },
-    {
-     "pos": 4,
-     "team": {
-      "name": "Uzbekistan",
-      "tla": "UZB",
-      "crest": "https://crests.football-data.org/8070.png"
-     },
-     "p": 3,
-     "w": 0,
      "d": 1,
      "l": 2,
-     "gd": -7,
+     "gd": -2,
      "pts": 1
     }
    ]
