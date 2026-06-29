@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-29T05:42:22",
+ "updated": "2026-06-29T07:16:59",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -438,8 +438,8 @@ window.DATA = {
      "tla": "CAN",
      "crest": "https://crests.football-data.org/canada.svg",
      "group": "B",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 2,
      "points": 4,
      "gd": 5,
@@ -449,8 +449,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 2,
    "totalPoints": 11,
    "totalGd": 8
@@ -1120,6 +1120,49 @@ window.DATA = {
  ],
  "leaderboard": [
   {
+   "name": "David",
+   "teams": [
+    {
+     "display": "Morocco",
+     "name": "Morocco",
+     "matched": true,
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Canada",
+     "name": "Canada",
+     "matched": true,
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 4,
+     "gd": 5,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 2,
+   "totalPoints": 11,
+   "totalGd": 8
+  },
+  {
    "name": "Barry",
    "teams": [
     {
@@ -1246,49 +1289,6 @@ window.DATA = {
    "bestStageLabel": "Round of 32",
    "aliveCount": 2,
    "totalPoints": 14,
-   "totalGd": 8
-  },
-  {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Canada",
-     "name": "Canada",
-     "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 4,
-     "gd": 5,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
-   "totalPoints": 11,
    "totalGd": 8
   },
   {
@@ -3713,9 +3713,9 @@ window.DATA = {
    "LAST_16": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Canada",
+      "tla": "CAN",
+      "crest": "https://crests.football-data.org/canada.svg"
      },
      "away": {
       "name": null,
@@ -3728,7 +3728,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-04T17:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
