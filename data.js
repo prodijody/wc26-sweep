@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-29T18:30:44",
+ "updated": "2026-06-29T19:23:12",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -471,7 +471,7 @@ window.DATA = {
      "points": 5,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -494,7 +494,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
   },
@@ -1178,7 +1178,7 @@ window.DATA = {
      "points": 5,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1201,7 +1201,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
   },
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Brazil",
+    "tla": "BRA",
+    "crest": "https://crests.football-data.org/764.svg"
+   },
+   "away": {
+    "name": "Japan",
+    "tla": "JPN",
+    "crest": "https://crests.football-data.org/766.svg"
+   },
+   "utc": "2026-06-29T17:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "South Africa",
     "tla": "RSA",
     "crest": "https://crests.football-data.org/9396.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group I",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "utc": "2026-06-26T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 4,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
-   },
-   "away": {
-    "name": "Japan",
-    "tla": "JPN",
-    "crest": "https://crests.football-data.org/766.svg"
-   },
-   "utc": "2026-06-29T17:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3455,12 +3435,12 @@ window.DATA = {
       "tla": "JPN",
       "crest": "https://crests.football-data.org/766.svg"
      },
-     "hs": 1,
+     "hs": 2,
      "as": 1,
-     "winner": "DRAW",
-     "status": "IN_PLAY",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-06-29T17:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
