@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-29T23:08:46",
+ "updated": "2026-06-29T23:41:01",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Germany",
+    "tla": "GER",
+    "crest": "https://crests.football-data.org/759.svg"
+   },
+   "away": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "utc": "2026-06-29T20:30:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 5,
+   "as": 6,
+   "note": "PENS"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Brazil",
     "tla": "BRA",
     "crest": "https://crests.football-data.org/764.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group H",
-   "home": {
-    "name": "Cape Verde Islands",
-    "tla": "CPV",
-    "crest": "https://crests.football-data.org/cape_verde.svg"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "tla": "KSA",
-    "crest": "https://crests.football-data.org/saudi_arabia.svg"
-   },
-   "utc": "2026-06-27T00:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Germany",
-    "tla": "GER",
-    "crest": "https://crests.football-data.org/759.svg"
-   },
-   "away": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "utc": "2026-06-29T20:30:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 2,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3474,12 +3454,12 @@ window.DATA = {
       "tla": "PAR",
       "crest": "https://crests.football-data.org/761.svg"
      },
-     "hs": 2,
-     "as": 1,
-     "winner": "HOME_TEAM",
-     "status": "PAUSED",
+     "hs": 5,
+     "as": 6,
+     "winner": null,
+     "status": "FINISHED",
      "utc": "2026-06-29T20:30:00Z",
-     "note": null,
+     "note": "PENS",
      "sweep": true
     },
     {
