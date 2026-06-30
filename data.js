@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-30T02:23:33",
+ "updated": "2026-06-30T03:48:12",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2668,10 +2668,10 @@ window.DATA = {
    },
    "utc": "2026-06-30T01:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
+   "status": "PAUSED",
+   "hs": 1,
+   "as": 1,
+   "note": "AET"
   }
  ],
  "groups": [
@@ -3493,10 +3493,10 @@ window.DATA = {
       "tla": "MAR",
       "crest": "https://crests.football-data.org/morocco.svg"
      },
-     "hs": 0,
-     "as": 0,
+     "hs": 1,
+     "as": 1,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "PAUSED",
      "utc": "2026-06-30T01:00:00Z",
      "note": null,
      "sweep": true
