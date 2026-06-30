@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-30T03:48:12",
+ "updated": "2026-06-30T05:29:40",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-06-30T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 4,
+   "as": 4,
+   "note": "PENS"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Germany",
     "tla": "GER",
     "crest": "https://crests.football-data.org/759.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group H",
-   "home": {
-    "name": "Uruguay",
-    "tla": "URU",
-    "crest": "https://crests.football-data.org/758.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-06-27T00:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Netherlands",
-    "tla": "NED",
-    "crest": "https://crests.football-data.org/8601.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-06-30T01:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
-   "as": 1,
-   "note": "AET"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3493,12 +3473,12 @@ window.DATA = {
       "tla": "MAR",
       "crest": "https://crests.football-data.org/morocco.svg"
      },
-     "hs": 1,
-     "as": 1,
-     "winner": "DRAW",
-     "status": "PAUSED",
+     "hs": 4,
+     "as": 4,
+     "winner": null,
+     "status": "FINISHED",
      "utc": "2026-06-30T01:00:00Z",
-     "note": null,
+     "note": "PENS",
      "sweep": true
     },
     {
