@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-30T16:55:33",
+ "updated": "2026-06-30T17:42:07",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "away": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "utc": "2026-06-30T17:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "France",
     "tla": "FRA",
     "crest": "https://crests.football-data.org/773.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-04T01:30:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": "Canada",
+    "tla": "CAN",
+    "crest": "https://crests.football-data.org/canada.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-07-04T17:00:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
+   },
+   "away": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "utc": "2026-06-30T17:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3492,10 +3512,10 @@ window.DATA = {
       "tla": "NOR",
       "crest": "https://crests.football-data.org/813.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-06-30T17:00:00Z",
      "note": null,
      "sweep": true
