@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-30T05:29:40",
+ "updated": "2026-06-30T06:55:23",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -51,7 +51,7 @@ window.DATA = {
      "points": 6,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -74,7 +74,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": 6
   },
@@ -422,8 +422,8 @@ window.DATA = {
      "tla": "MAR",
      "crest": "https://crests.football-data.org/morocco.svg",
      "group": "C",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 2,
      "points": 7,
      "gd": 3,
@@ -600,7 +600,7 @@ window.DATA = {
      "points": 7,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -623,7 +623,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 10
   },
@@ -960,8 +960,8 @@ window.DATA = {
      "tla": "BRA",
      "crest": "https://crests.football-data.org/764.svg",
      "group": "C",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 7,
      "gd": 6,
@@ -971,8 +971,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 6
@@ -1084,8 +1084,8 @@ window.DATA = {
      "tla": "PAR",
      "crest": "https://crests.football-data.org/761.svg",
      "group": "D",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 3,
      "points": 4,
      "gd": -2,
@@ -1111,8 +1111,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": -6
@@ -1129,8 +1129,8 @@ window.DATA = {
      "tla": "MAR",
      "crest": "https://crests.football-data.org/morocco.svg",
      "group": "C",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 2,
      "points": 7,
      "gd": 3,
@@ -1161,6 +1161,76 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 11,
    "totalGd": 8
+  },
+  {
+   "name": "Nicole",
+   "teams": [
+    {
+     "display": "Brazil",
+     "name": "Brazil",
+     "matched": true,
+     "tla": "BRA",
+     "crest": "https://crests.football-data.org/764.svg",
+     "group": "C",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 6
+  },
+  {
+   "name": "Thomas",
+   "teams": [
+    {
+     "display": "Paraguay",
+     "name": "Paraguay",
+     "matched": true,
+     "tla": "PAR",
+     "crest": "https://crests.football-data.org/761.svg",
+     "group": "D",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 3,
+     "points": 4,
+     "gd": -2,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Panama",
+     "name": "Panama",
+     "matched": true,
+     "tla": "PAN",
+     "crest": "https://crests.football-data.org/panama.svg",
+     "group": "L",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 4,
+   "totalGd": -6
   },
   {
    "name": "Barry",
@@ -1221,7 +1291,7 @@ window.DATA = {
      "points": 7,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1244,7 +1314,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 10
   },
@@ -1307,7 +1377,7 @@ window.DATA = {
      "points": 6,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1330,7 +1400,7 @@ window.DATA = {
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": 6
   },
@@ -1489,33 +1559,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 8,
    "totalGd": 0
-  },
-  {
-   "name": "Nicole",
-   "teams": [
-    {
-     "display": "Brazil",
-     "name": "Brazil",
-     "matched": true,
-     "tla": "BRA",
-     "crest": "https://crests.football-data.org/764.svg",
-     "group": "C",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 6
   },
   {
    "name": "Lynn",
@@ -1931,49 +1974,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": -1
-  },
-  {
-   "name": "Thomas",
-   "teams": [
-    {
-     "display": "Paraguay",
-     "name": "Paraguay",
-     "matched": true,
-     "tla": "PAR",
-     "crest": "https://crests.football-data.org/761.svg",
-     "group": "D",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 4,
-     "gd": -2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Panama",
-     "name": "Panama",
-     "matched": true,
-     "tla": "PAN",
-     "crest": "https://crests.football-data.org/panama.svg",
-     "group": "L",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 0,
-     "gd": -4,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": -6
   },
   {
    "name": "Jess",
@@ -2245,7 +2245,7 @@ window.DATA = {
    "utc": "2026-06-30T01:00:00Z",
    "sweep": true,
    "status": "FINISHED",
-   "hs": 4,
+   "hs": 3,
    "as": 4,
    "note": "PENS"
   },
@@ -3456,7 +3456,7 @@ window.DATA = {
      },
      "hs": 4,
      "as": 5,
-     "winner": null,
+     "winner": "AWAY_TEAM",
      "status": "FINISHED",
      "utc": "2026-06-29T20:30:00Z",
      "note": "PENS",
@@ -3473,9 +3473,9 @@ window.DATA = {
       "tla": "MAR",
       "crest": "https://crests.football-data.org/morocco.svg"
      },
-     "hs": 4,
+     "hs": 3,
      "as": 4,
-     "winner": null,
+     "winner": "AWAY_TEAM",
      "status": "FINISHED",
      "utc": "2026-06-30T01:00:00Z",
      "note": "PENS",
@@ -3718,9 +3718,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/canada.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Morocco",
+      "tla": "MAR",
+      "crest": "https://crests.football-data.org/morocco.svg"
      },
      "hs": null,
      "as": null,
@@ -3732,9 +3732,9 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Paraguay",
+      "tla": "PAR",
+      "crest": "https://crests.football-data.org/761.svg"
      },
      "away": {
       "name": null,
@@ -3747,13 +3747,13 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-04T21:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Brazil",
+      "tla": "BRA",
+      "crest": "https://crests.football-data.org/764.svg"
      },
      "away": {
       "name": null,
@@ -3766,7 +3766,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-05T20:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
