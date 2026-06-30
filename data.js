@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-06-30T00:11:01",
+ "updated": "2026-06-30T01:19:27",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2245,8 +2245,8 @@ window.DATA = {
    "utc": "2026-06-29T20:30:00Z",
    "sweep": true,
    "status": "FINISHED",
-   "hs": 5,
-   "as": 6,
+   "hs": 4,
+   "as": 5,
    "note": "PENS"
   },
   {
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Netherlands",
-    "tla": "NED",
-    "crest": "https://crests.football-data.org/8601.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-06-30T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Ivory Coast",
     "tla": "CIV",
     "crest": "https://crests.football-data.org/787.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-03T22:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "away": {
+    "name": "Ghana",
+    "tla": "GHA",
+    "crest": "https://crests.football-data.org/ghana.svg"
+   },
+   "utc": "2026-07-04T01:30:00Z",
+   "sweep": true,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Netherlands",
+    "tla": "NED",
+    "crest": "https://crests.football-data.org/8601.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-06-30T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3454,8 +3474,8 @@ window.DATA = {
       "tla": "PAR",
       "crest": "https://crests.football-data.org/761.svg"
      },
-     "hs": 5,
-     "as": 6,
+     "hs": 4,
+     "as": 5,
      "winner": null,
      "status": "FINISHED",
      "utc": "2026-06-29T20:30:00Z",
@@ -3473,10 +3493,10 @@ window.DATA = {
       "tla": "MAR",
       "crest": "https://crests.football-data.org/morocco.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-06-30T01:00:00Z",
      "note": null,
      "sweep": true
