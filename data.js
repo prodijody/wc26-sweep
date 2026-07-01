@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T01:24:23",
+ "updated": "2026-07-01T02:23:52",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "utc": "2026-07-01T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3553,7 +3533,7 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "LIVE",
      "utc": "2026-07-01T01:00:00Z",
      "note": null,
      "sweep": true
