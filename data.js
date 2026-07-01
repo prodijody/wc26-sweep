@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T17:17:52",
+ "updated": "2026-07-01T18:13:06",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -815,14 +815,14 @@ window.DATA = {
      "points": 4,
      "gd": 1,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": 1
   },
@@ -1436,14 +1436,14 @@ window.DATA = {
      "points": 4,
      "gd": 1,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
    "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": 1
   },
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "away": {
+    "name": "Congo DR",
+    "tla": "COD",
+    "crest": "https://crests.football-data.org/congo_dr.svg"
+   },
+   "utc": "2026-07-01T16:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Mexico",
     "tla": "MEX",
     "crest": "https://crests.football-data.org/769.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group L",
-   "home": {
-    "name": "Panama",
-    "tla": "PAN",
-    "crest": "https://crests.football-data.org/panama.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-06-27T21:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "utc": "2026-07-01T16:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3569,12 +3549,12 @@ window.DATA = {
       "tla": "COD",
       "crest": "https://crests.football-data.org/congo_dr.svg"
      },
-     "hs": 0,
+     "hs": 2,
      "as": 1,
-     "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-01T16:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
