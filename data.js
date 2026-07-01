@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T00:10:00",
+ "updated": "2026-07-01T01:24:23",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 23,
+ "playersIn": 24,
  "playersTotal": 31,
  "players": [
   {
@@ -643,7 +643,7 @@ window.DATA = {
      "points": 6,
      "gd": 2,
      "played": 3,
-     "in": false,
+     "in": true,
      "brink": false
     },
     {
@@ -663,10 +663,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": false,
+   "in": true,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 0,
+   "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": -6
   },
@@ -1545,6 +1545,49 @@ window.DATA = {
    "totalGd": 4
   },
   {
+   "name": "Barry B",
+   "teams": [
+    {
+     "display": "Ivory Coast",
+     "name": "Ivory Coast",
+     "matched": true,
+     "tla": "CIV",
+     "crest": "https://crests.football-data.org/787.svg",
+     "group": "E",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 6,
+     "gd": 2,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Qatar",
+     "name": "Qatar",
+     "matched": true,
+     "tla": "QAT",
+     "crest": "https://crests.football-data.org/8030.svg",
+     "group": "B",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -8,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": -6
+  },
+  {
    "name": "Rooney",
    "teams": [
     {
@@ -1976,49 +2019,6 @@ window.DATA = {
    "totalGd": 6
   },
   {
-   "name": "Barry B",
-   "teams": [
-    {
-     "display": "Ivory Coast",
-     "name": "Ivory Coast",
-     "matched": true,
-     "tla": "CIV",
-     "crest": "https://crests.football-data.org/787.svg",
-     "group": "E",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 6,
-     "gd": 2,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Qatar",
-     "name": "Qatar",
-     "matched": true,
-     "tla": "QAT",
-     "crest": "https://crests.football-data.org/8030.svg",
-     "group": "B",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 1,
-     "gd": -8,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": false,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 0,
-   "totalPoints": 7,
-   "totalGd": -6
-  },
-  {
    "name": "Chris",
    "teams": [
     {
@@ -2252,25 +2252,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "away": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "utc": "2026-06-30T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 2,
-   "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Netherlands",
     "tla": "NED",
     "crest": "https://crests.football-data.org/8601.svg"
@@ -2457,22 +2438,41 @@ window.DATA = {
    "hs": 2,
    "as": 1,
    "note": "FT"
+  },
+  {
+   "stage": "Group G",
+   "home": {
+    "name": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://crests.football-data.org/783.svg"
+   },
+   "away": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "utc": "2026-06-27T03:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 5,
+   "note": "FT"
   }
  ],
  "fixtures": [
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
+    "name": "Ivory Coast",
+    "tla": "CIV",
+    "crest": "https://crests.football-data.org/787.svg"
    },
    "away": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
    },
-   "utc": "2026-07-01T01:00:00Z",
+   "utc": "2026-06-30T17:00:00Z",
    "sweep": true,
    "status": "TIMED"
   },
@@ -2653,7 +2653,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "away": {
+    "name": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://crests.football-data.org/791.svg"
+   },
+   "utc": "2026-07-01T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3492,12 +3512,12 @@ window.DATA = {
       "tla": "NOR",
       "crest": "https://crests.football-data.org/813.svg"
      },
-     "hs": 1,
-     "as": 2,
-     "winner": "AWAY_TEAM",
-     "status": "FINISHED",
+     "hs": null,
+     "as": null,
+     "winner": null,
+     "status": "TIMED",
      "utc": "2026-06-30T17:00:00Z",
-     "note": "FT",
+     "note": null,
      "sweep": true
     },
     {
@@ -3530,10 +3550,10 @@ window.DATA = {
       "tla": "ECU",
       "crest": "https://crests.football-data.org/791.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-01T01:00:00Z",
      "note": null,
      "sweep": true
