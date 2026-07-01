@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T22:34:11",
+ "updated": "2026-07-01T23:11:15",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 22,
+ "playersIn": 21,
  "playersTotal": 31,
  "players": [
   {
@@ -573,14 +573,14 @@ window.DATA = {
      "points": 3,
      "gd": 2,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 3,
    "totalGd": -7
   },
@@ -1863,49 +1863,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Jess",
-   "teams": [
-    {
-     "display": "Uzbekistan",
-     "name": "Uzbekistan",
-     "matched": true,
-     "tla": "UZB",
-     "crest": "https://crests.football-data.org/8070.png",
-     "group": "K",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 0,
-     "gd": -9,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Senegal",
-     "name": "Senegal",
-     "matched": true,
-     "tla": "SEN",
-     "crest": "https://crests.football-data.org/senegal.svg",
-     "group": "I",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 3,
-     "gd": 2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 3,
-   "totalGd": -7
-  },
-  {
    "name": "Mark",
    "teams": [
     {
@@ -2060,6 +2017,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": 0
+  },
+  {
+   "name": "Jess",
+   "teams": [
+    {
+     "display": "Uzbekistan",
+     "name": "Uzbekistan",
+     "matched": true,
+     "tla": "UZB",
+     "crest": "https://crests.football-data.org/8070.png",
+     "group": "K",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -9,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Senegal",
+     "name": "Senegal",
+     "matched": true,
+     "tla": "SEN",
+     "crest": "https://crests.football-data.org/senegal.svg",
+     "group": "I",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 3,
+     "gd": 2,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 3,
+   "totalGd": -7
   },
   {
    "name": "Shelly",
@@ -2230,6 +2230,25 @@ window.DATA = {
   }
  ],
  "recent": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "away": {
+    "name": "Senegal",
+    "tla": "SEN",
+    "crest": "https://crests.football-data.org/senegal.svg"
+   },
+   "utc": "2026-07-01T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 2,
+   "note": "FT"
+  },
   {
    "stage": "Round of 32",
    "home": {
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "tla": "UZB",
-    "crest": "https://crests.football-data.org/8070.png"
-   },
-   "utc": "2026-06-27T23:30:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "away": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "utc": "2026-07-01T20:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 2,
-   "as": 2,
-   "note": "AET"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3588,12 +3568,12 @@ window.DATA = {
       "tla": "SEN",
       "crest": "https://crests.football-data.org/senegal.svg"
      },
-     "hs": 2,
+     "hs": 3,
      "as": 2,
-     "winner": "DRAW",
-     "status": "PAUSED",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-01T20:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
