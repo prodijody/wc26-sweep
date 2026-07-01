@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T21:47:59",
+ "updated": "2026-07-01T22:34:11",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2668,10 +2668,10 @@ window.DATA = {
    },
    "utc": "2026-07-01T20:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
+   "status": "PAUSED",
+   "hs": 2,
    "as": 2,
-   "note": "FT"
+   "note": "AET"
   }
  ],
  "groups": [
@@ -3588,10 +3588,10 @@ window.DATA = {
       "tla": "SEN",
       "crest": "https://crests.football-data.org/senegal.svg"
      },
-     "hs": 0,
+     "hs": 2,
      "as": 2,
-     "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "winner": "DRAW",
+     "status": "PAUSED",
      "utc": "2026-07-01T20:00:00Z",
      "note": null,
      "sweep": true
