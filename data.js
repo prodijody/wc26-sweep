@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T16:22:15",
+ "updated": "2026-07-01T17:17:52",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2653,7 +2653,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "away": {
+    "name": "Congo DR",
+    "tla": "COD",
+    "crest": "https://crests.football-data.org/congo_dr.svg"
+   },
+   "utc": "2026-07-01T16:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3552,7 +3572,7 @@ window.DATA = {
      "hs": 0,
      "as": 1,
      "winner": "AWAY_TEAM",
-     "status": "LIVE",
+     "status": "IN_PLAY",
      "utc": "2026-07-01T16:00:00Z",
      "note": null,
      "sweep": true
