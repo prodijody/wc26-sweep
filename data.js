@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T05:39:47",
+ "updated": "2026-07-01T07:11:08",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -287,8 +287,8 @@ window.DATA = {
      "tla": "NOR",
      "crest": "https://crests.football-data.org/813.svg",
      "group": "I",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 2,
      "points": 6,
      "gd": 1,
@@ -298,8 +298,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 8,
    "totalGd": 0
@@ -481,8 +481,8 @@ window.DATA = {
      "tla": "FRA",
      "crest": "https://crests.football-data.org/773.svg",
      "group": "I",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 9,
      "gd": 8,
@@ -492,8 +492,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
@@ -1120,6 +1120,49 @@ window.DATA = {
  ],
  "leaderboard": [
   {
+   "name": "Barry",
+   "teams": [
+    {
+     "display": "Japan",
+     "name": "Japan",
+     "matched": true,
+     "tla": "JPN",
+     "crest": "https://crests.football-data.org/766.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "France",
+     "name": "France",
+     "matched": true,
+     "tla": "FRA",
+     "crest": "https://crests.football-data.org/773.svg",
+     "group": "I",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 9,
+     "gd": 8,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 14,
+   "totalGd": 12
+  },
+  {
    "name": "David",
    "teams": [
     {
@@ -1161,6 +1204,49 @@ window.DATA = {
    "aliveCount": 2,
    "totalPoints": 11,
    "totalGd": 8
+  },
+  {
+   "name": "Jack",
+   "teams": [
+    {
+     "display": "Uruguay",
+     "name": "Uruguay",
+     "matched": true,
+     "tla": "URU",
+     "crest": "https://crests.football-data.org/758.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 3,
+     "points": 2,
+     "gd": -1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Norway",
+     "name": "Norway",
+     "matched": true,
+     "tla": "NOR",
+     "crest": "https://crests.football-data.org/813.svg",
+     "group": "I",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 6,
+     "gd": 1,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 8,
+   "totalGd": 0
   },
   {
    "name": "Nicole",
@@ -1231,49 +1317,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 4,
    "totalGd": -6
-  },
-  {
-   "name": "Barry",
-   "teams": [
-    {
-     "display": "Japan",
-     "name": "Japan",
-     "matched": true,
-     "tla": "JPN",
-     "crest": "https://crests.football-data.org/766.svg",
-     "group": "F",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "France",
-     "name": "France",
-     "matched": true,
-     "tla": "FRA",
-     "crest": "https://crests.football-data.org/773.svg",
-     "group": "I",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 9,
-     "gd": 8,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 14,
-   "totalGd": 12
   },
   {
    "name": "Brandon B",
@@ -1473,49 +1516,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 9,
    "totalGd": 6
-  },
-  {
-   "name": "Jack",
-   "teams": [
-    {
-     "display": "Uruguay",
-     "name": "Uruguay",
-     "matched": true,
-     "tla": "URU",
-     "crest": "https://crests.football-data.org/758.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Norway",
-     "name": "Norway",
-     "matched": true,
-     "tla": "NOR",
-     "crest": "https://crests.football-data.org/813.svg",
-     "group": "I",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 6,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 8,
-   "totalGd": 0
   },
   {
    "name": "Lynn",
@@ -2628,9 +2628,9 @@ window.DATA = {
     "crest": "https://crests.football-data.org/761.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
    },
    "utc": "2026-07-04T21:00:00Z",
    "sweep": true,
@@ -2644,9 +2644,9 @@ window.DATA = {
     "crest": "https://crests.football-data.org/764.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
    },
    "utc": "2026-07-05T20:00:00Z",
    "sweep": true,
@@ -3737,9 +3737,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/761.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "France",
+      "tla": "FRA",
+      "crest": "https://crests.football-data.org/773.svg"
      },
      "hs": null,
      "as": null,
@@ -3756,9 +3756,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/764.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Norway",
+      "tla": "NOR",
+      "crest": "https://crests.football-data.org/813.svg"
      },
      "hs": null,
      "as": null,
