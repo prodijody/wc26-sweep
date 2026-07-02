@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T01:58:09",
+ "updated": "2026-07-02T03:18:38",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 21,
+ "playersIn": 20,
  "playersTotal": 31,
  "players": [
   {
@@ -24,14 +24,14 @@ window.DATA = {
      "points": 4,
      "gd": -1,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": -1
   },
@@ -1836,33 +1836,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Finlay",
-   "teams": [
-    {
-     "display": "Bosnia-Herzegovina",
-     "name": "Bosnia-Herzegovina",
-     "matched": true,
-     "tla": "BIH",
-     "crest": "https://crests.football-data.org/bosnia.svg",
-     "group": "B",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 4,
-     "gd": -1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": -1
-  },
-  {
    "name": "Mark",
    "teams": [
     {
@@ -2017,6 +1990,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": 0
+  },
+  {
+   "name": "Finlay",
+   "teams": [
+    {
+     "display": "Bosnia-Herzegovina",
+     "name": "Bosnia-Herzegovina",
+     "matched": true,
+     "tla": "BIH",
+     "crest": "https://crests.football-data.org/bosnia.svg",
+     "group": "B",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 4,
+     "gd": -1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 4,
+   "totalGd": -1
   },
   {
    "name": "Jess",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "away": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "utc": "2026-07-02T00:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Belgium",
     "tla": "BEL",
     "crest": "https://crests.football-data.org/805.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 3,
    "note": "FT"
-  },
-  {
-   "stage": "Group K",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "utc": "2026-06-27T23:30:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-07-02T00:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 2,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3610,9 +3590,9 @@ window.DATA = {
      "hs": 2,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-02T00:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
