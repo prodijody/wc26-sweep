@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-01T23:47:34",
+ "updated": "2026-07-02T01:01:38",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2247,7 +2247,7 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 3,
    "as": 2,
-   "note": "AET"
+   "note": "FT"
   },
   {
    "stage": "Round of 32",
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-07-02T00:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Spain",
     "tla": "ESP",
     "crest": "https://crests.football-data.org/760.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-06T19:00:00Z",
    "sweep": false,
    "status": "TIMED"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-07T00:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "away": {
+    "name": "Bosnia-Herzegovina",
+    "tla": "BIH",
+    "crest": "https://crests.football-data.org/bosnia.svg"
+   },
+   "utc": "2026-07-02T00:00:00Z",
+   "sweep": true,
+   "status": "PAUSED",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3573,7 +3593,7 @@ window.DATA = {
      "winner": "HOME_TEAM",
      "status": "FINISHED",
      "utc": "2026-07-01T20:00:00Z",
-     "note": "AET",
+     "note": "FT",
      "sweep": true
     },
     {
@@ -3587,10 +3607,10 @@ window.DATA = {
       "tla": "BIH",
       "crest": "https://crests.football-data.org/bosnia.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 1,
+     "as": 0,
+     "winner": "HOME_TEAM",
+     "status": "PAUSED",
      "utc": "2026-07-02T00:00:00Z",
      "note": null,
      "sweep": true
