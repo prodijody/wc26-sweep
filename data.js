@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T04:50:38",
+ "updated": "2026-07-02T07:42:55",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -88,8 +88,8 @@ window.DATA = {
      "tla": "ENG",
      "crest": "https://crests.football-data.org/770.svg",
      "group": "L",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -99,8 +99,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 4
@@ -158,8 +158,8 @@ window.DATA = {
      "tla": "MEX",
      "crest": "https://crests.football-data.org/769.svg",
      "group": "A",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 9,
      "gd": 6,
@@ -169,8 +169,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 9,
    "totalGd": 6
@@ -314,8 +314,8 @@ window.DATA = {
      "tla": "USA",
      "crest": "https://crests.football-data.org/usa.svg",
      "group": "D",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 6,
      "gd": 4,
@@ -325,8 +325,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 6,
    "totalGd": 4
@@ -1057,8 +1057,8 @@ window.DATA = {
      "tla": "BEL",
      "crest": "https://crests.football-data.org/805.svg",
      "group": "G",
-     "stage": 1,
-     "stageLabel": "Round of 32",
+     "stage": 2,
+     "stageLabel": "Round of 16",
      "position": 1,
      "points": 5,
      "gd": 4,
@@ -1068,8 +1068,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
@@ -1206,6 +1206,33 @@ window.DATA = {
    "totalGd": 8
   },
   {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 9,
+     "gd": 6,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 9,
+   "totalGd": 6
+  },
+  {
    "name": "Jack",
    "teams": [
     {
@@ -1274,6 +1301,103 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 6
+  },
+  {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 4
+  },
+  {
+   "name": "Rooney",
+   "teams": [
+    {
+     "display": "United States",
+     "name": "United States",
+     "matched": true,
+     "tla": "USA",
+     "crest": "https://crests.football-data.org/usa.svg",
+     "group": "D",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 6,
+   "totalGd": 4
+  },
+  {
+   "name": "Jambo",
+   "teams": [
+    {
+     "display": "Haiti",
+     "name": "Haiti",
+     "matched": true,
+     "tla": "HAI",
+     "crest": "https://crests.football-data.org/haiti.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Belgium",
+     "name": "Belgium",
+     "matched": true,
+     "tla": "BEL",
+     "crest": "https://crests.football-data.org/805.svg",
+     "group": "G",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 1,
+   "totalPoints": 5,
+   "totalGd": -2
   },
   {
    "name": "Thomas",
@@ -1491,87 +1615,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 9,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 9,
-   "totalGd": 6
-  },
-  {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 4
-  },
-  {
-   "name": "Rooney",
-   "teams": [
-    {
-     "display": "United States",
-     "name": "United States",
-     "matched": true,
-     "tla": "USA",
-     "crest": "https://crests.football-data.org/usa.svg",
-     "group": "D",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 6,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": 4
-  },
-  {
    "name": "Louise",
    "teams": [
     {
@@ -1667,49 +1710,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": 2
-  },
-  {
-   "name": "Jambo",
-   "teams": [
-    {
-     "display": "Haiti",
-     "name": "Haiti",
-     "matched": true,
-     "tla": "HAI",
-     "crest": "https://crests.football-data.org/haiti.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Belgium",
-     "name": "Belgium",
-     "matched": true,
-     "tla": "BEL",
-     "crest": "https://crests.football-data.org/805.svg",
-     "group": "G",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": -2
   },
   {
    "name": "Sammy",
@@ -2607,17 +2607,17 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
    },
    "utc": "2026-07-06T00:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -2639,17 +2639,17 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
    },
    "utc": "2026-07-07T00:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   }
  ],
@@ -3770,14 +3770,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Mexico",
+      "tla": "MEX",
+      "crest": "https://crests.football-data.org/769.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
      },
      "hs": null,
      "as": null,
@@ -3785,7 +3785,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-06T00:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
@@ -3808,14 +3808,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "United States",
+      "tla": "USA",
+      "crest": "https://crests.football-data.org/usa.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Belgium",
+      "tla": "BEL",
+      "crest": "https://crests.football-data.org/805.svg"
      },
      "hs": null,
      "as": null,
@@ -3823,7 +3823,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-07T00:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
