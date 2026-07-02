@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T19:51:48",
+ "updated": "2026-07-02T20:32:38",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-07-02T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Portugal",
     "tla": "POR",
     "crest": "https://crests.football-data.org/765.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-07T00:00:00Z",
    "sweep": true,
    "status": "TIMED"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-07T16:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-07-02T19:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3609,7 +3629,7 @@ window.DATA = {
      "hs": 1,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "TIMED",
+     "status": "IN_PLAY",
      "utc": "2026-07-02T19:00:00Z",
      "note": null,
      "sweep": true
