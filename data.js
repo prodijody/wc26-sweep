@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T01:01:38",
+ "updated": "2026-07-02T01:58:09",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2668,8 +2668,8 @@ window.DATA = {
    },
    "utc": "2026-07-02T00:00:00Z",
    "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
+   "status": "IN_PLAY",
+   "hs": 2,
    "as": 0,
    "note": "FT"
   }
@@ -3607,10 +3607,10 @@ window.DATA = {
       "tla": "BIH",
       "crest": "https://crests.football-data.org/bosnia.svg"
      },
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "PAUSED",
+     "status": "IN_PLAY",
      "utc": "2026-07-02T00:00:00Z",
      "note": null,
      "sweep": true
