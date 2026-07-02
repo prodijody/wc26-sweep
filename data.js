@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T20:32:38",
+ "updated": "2026-07-02T21:10:20",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 20,
+ "playersIn": 19,
  "playersTotal": 31,
  "players": [
   {
@@ -993,14 +993,14 @@ window.DATA = {
      "points": 4,
      "gd": 0,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": 0
   },
@@ -1809,33 +1809,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Edwina",
-   "teams": [
-    {
-     "display": "Austria",
-     "name": "Austria",
-     "matched": true,
-     "tla": "AUT",
-     "crest": "https://crests.football-data.org/816.svg",
-     "group": "J",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 4,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 0
-  },
-  {
    "name": "Mark",
    "teams": [
     {
@@ -1963,6 +1936,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 6,
    "totalGd": -5
+  },
+  {
+   "name": "Edwina",
+   "teams": [
+    {
+     "display": "Austria",
+     "name": "Austria",
+     "matched": true,
+     "tla": "AUT",
+     "crest": "https://crests.football-data.org/816.svg",
+     "group": "J",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 4,
+   "totalGd": 0
   },
   {
    "name": "Ross",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Austria",
+    "tla": "AUT",
+    "crest": "https://crests.football-data.org/816.svg"
+   },
+   "utc": "2026-07-02T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "United States",
     "tla": "USA",
     "crest": "https://crests.football-data.org/usa.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 3,
    "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-06-28T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 3,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-07-02T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3626,12 +3606,12 @@ window.DATA = {
       "tla": "AUT",
       "crest": "https://crests.football-data.org/816.svg"
      },
-     "hs": 1,
+     "hs": 3,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-02T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
