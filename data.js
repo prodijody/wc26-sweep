@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T22:41:10",
+ "updated": "2026-07-02T23:11:43",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-07-02T23:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Switzerland",
     "tla": "SUI",
     "crest": "https://crests.football-data.org/788.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-07T16:00:00Z",
    "sweep": false,
    "status": "TIMED"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-07T20:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "away": {
+    "name": "Croatia",
+    "tla": "CRO",
+    "crest": "https://crests.football-data.org/799.svg"
+   },
+   "utc": "2026-07-02T23:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3625,10 +3645,10 @@ window.DATA = {
       "tla": "CRO",
       "crest": "https://crests.football-data.org/799.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-02T23:00:00Z",
      "note": null,
      "sweep": true
