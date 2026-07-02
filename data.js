@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T03:18:38",
+ "updated": "2026-07-02T04:50:38",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2266,7 +2266,7 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 3,
    "as": 2,
-   "note": "FT"
+   "note": "AET"
   },
   {
    "stage": "Round of 32",
@@ -2299,7 +2299,7 @@ window.DATA = {
     "tla": "ECU",
     "crest": "https://crests.football-data.org/791.svg"
    },
-   "utc": "2026-07-01T01:00:00Z",
+   "utc": "2026-07-01T02:00:00Z",
    "sweep": true,
    "status": "FINISHED",
    "hs": 2,
@@ -3534,7 +3534,7 @@ window.DATA = {
      "as": 0,
      "winner": "HOME_TEAM",
      "status": "FINISHED",
-     "utc": "2026-07-01T01:00:00Z",
+     "utc": "2026-07-01T02:00:00Z",
      "note": "FT",
      "sweep": true
     },
@@ -3573,7 +3573,7 @@ window.DATA = {
      "winner": "HOME_TEAM",
      "status": "FINISHED",
      "utc": "2026-07-01T20:00:00Z",
-     "note": "FT",
+     "note": "AET",
      "sweep": true
     },
     {
