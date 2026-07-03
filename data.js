@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-03T22:10:10",
+ "updated": "2026-07-03T22:37:55",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2669,7 +2669,7 @@ window.DATA = {
    "utc": "2026-07-03T22:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 0,
+   "hs": 1,
    "as": 0,
    "note": "FT"
   }
@@ -3702,9 +3702,9 @@ window.DATA = {
       "tla": "CPV",
       "crest": "https://crests.football-data.org/cape_verde.svg"
      },
-     "hs": 0,
+     "hs": 1,
      "as": 0,
-     "winner": "DRAW",
+     "winner": "HOME_TEAM",
      "status": "IN_PLAY",
      "utc": "2026-07-03T22:00:00Z",
      "note": null,
