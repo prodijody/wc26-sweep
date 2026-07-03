@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-02T23:40:38",
+ "updated": "2026-07-03T00:10:37",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-07-02T23:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3648,7 +3628,7 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "LIVE",
      "utc": "2026-07-02T23:00:00Z",
      "note": null,
      "sweep": true
