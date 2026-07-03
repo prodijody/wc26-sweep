@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-03T20:39:45",
+ "updated": "2026-07-03T21:10:22",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Australia",
+    "tla": "AUS",
+    "crest": "https://crests.football-data.org/779.svg"
+   },
+   "away": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "utc": "2026-07-03T18:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 5,
+   "note": "PENS"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Switzerland",
     "tla": "SUI",
     "crest": "https://crests.football-data.org/788.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 4,
    "as": 5,
    "note": "PENS"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
-   },
-   "away": {
-    "name": "Japan",
-    "tla": "JPN",
-    "crest": "https://crests.football-data.org/766.svg"
-   },
-   "utc": "2026-06-29T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-03T18:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
-   "as": 1,
-   "note": "AET"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3683,12 +3663,12 @@ window.DATA = {
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg"
      },
-     "hs": 1,
-     "as": 1,
-     "winner": "DRAW",
-     "status": "PAUSED",
+     "hs": 3,
+     "as": 5,
+     "winner": null,
+     "status": "FINISHED",
      "utc": "2026-07-03T18:00:00Z",
-     "note": null,
+     "note": "PENS",
      "sweep": true
     },
     {
