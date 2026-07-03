@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-03T01:01:38",
+ "updated": "2026-07-03T01:57:29",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 19,
+ "playersIn": 18,
  "playersTotal": 31,
  "players": [
   {
@@ -799,7 +799,7 @@ window.DATA = {
      "points": 6,
      "gd": 0,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -819,10 +819,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 10,
    "totalGd": 1
   },
@@ -1529,49 +1529,6 @@ window.DATA = {
    "totalGd": 8
   },
   {
-   "name": "Jonny",
-   "teams": [
-    {
-     "display": "Croatia",
-     "name": "Croatia",
-     "matched": true,
-     "tla": "CRO",
-     "crest": "https://crests.football-data.org/799.svg",
-     "group": "L",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 6,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Congo DR",
-     "name": "Congo DR",
-     "matched": true,
-     "tla": "COD",
-     "crest": "https://crests.football-data.org/congo_dr.svg",
-     "group": "K",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 4,
-     "gd": 1,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 10,
-   "totalGd": 1
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1850,6 +1807,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 10,
    "totalGd": 6
+  },
+  {
+   "name": "Jonny",
+   "teams": [
+    {
+     "display": "Croatia",
+     "name": "Croatia",
+     "matched": true,
+     "tla": "CRO",
+     "crest": "https://crests.football-data.org/799.svg",
+     "group": "L",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 6,
+     "gd": 0,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Congo DR",
+     "name": "Congo DR",
+     "matched": true,
+     "tla": "COD",
+     "crest": "https://crests.football-data.org/congo_dr.svg",
+     "group": "K",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 4,
+     "gd": 1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 10,
+   "totalGd": 1
   },
   {
    "name": "Barry B",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "away": {
+    "name": "Croatia",
+    "tla": "CRO",
+    "crest": "https://crests.football-data.org/799.svg"
+   },
+   "utc": "2026-07-02T23:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Spain",
     "tla": "ESP",
     "crest": "https://crests.football-data.org/760.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Group J",
-   "home": {
-    "name": "Jordan",
-    "tla": "JOR",
-    "crest": "https://crests.football-data.org/8049.png"
-   },
-   "away": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "utc": "2026-06-28T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 3,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-07-02T23:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 2,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3648,9 +3628,9 @@ window.DATA = {
      "hs": 2,
      "as": 1,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-02T23:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
