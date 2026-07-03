@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-03T17:33:21",
+ "updated": "2026-07-03T18:11:00",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-03T18:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
     "name": "Argentina",
     "tla": "ARG",
     "crest": "https://crests.football-data.org/762.png"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-09T20:00:00Z",
    "sweep": false,
    "status": "TIMED"
+  },
+  {
+   "stage": "Quarter-final",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-10T19:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Australia",
+    "tla": "AUS",
+    "crest": "https://crests.football-data.org/779.svg"
+   },
+   "away": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "utc": "2026-07-03T18:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3663,10 +3683,10 @@ window.DATA = {
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-03T18:00:00Z",
      "note": null,
      "sweep": true
