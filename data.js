@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-03T04:47:14",
+ "updated": "2026-07-03T06:15:23",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 18,
+ "playersIn": 17,
  "playersTotal": 31,
  "players": [
   {
@@ -207,14 +207,14 @@ window.DATA = {
      "points": 4,
      "gd": -2,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": -8
   },
@@ -1669,49 +1669,6 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Sammy",
-   "teams": [
-    {
-     "display": "New Zealand",
-     "name": "New Zealand",
-     "matched": true,
-     "tla": "NZL",
-     "crest": "https://crests.football-data.org/783.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 1,
-     "gd": -6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Algeria",
-     "name": "Algeria",
-     "matched": true,
-     "tla": "ALG",
-     "crest": "https://crests.football-data.org/algeria.svg",
-     "group": "J",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 4,
-     "gd": -2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": -8
-  },
-  {
    "name": "Blake",
    "teams": [
     {
@@ -1936,6 +1893,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 6,
    "totalGd": -5
+  },
+  {
+   "name": "Sammy",
+   "teams": [
+    {
+     "display": "New Zealand",
+     "name": "New Zealand",
+     "matched": true,
+     "tla": "NZL",
+     "crest": "https://crests.football-data.org/783.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Algeria",
+     "name": "Algeria",
+     "matched": true,
+     "tla": "ALG",
+     "crest": "https://crests.football-data.org/algeria.svg",
+     "group": "J",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 4,
+     "gd": -2,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 5,
+   "totalGd": -8
   },
   {
    "name": "Edwina",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Algeria",
+    "tla": "ALG",
+    "crest": "https://crests.football-data.org/algeria.svg"
+   },
+   "utc": "2026-07-03T03:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Portugal",
     "tla": "POR",
     "crest": "https://crests.football-data.org/765.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "South Africa",
-    "tla": "RSA",
-    "crest": "https://crests.football-data.org/9396.svg"
-   },
-   "away": {
-    "name": "Canada",
-    "tla": "CAN",
-    "crest": "https://crests.football-data.org/canada.svg"
-   },
-   "utc": "2026-06-28T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-07-03T03:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 2,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3667,9 +3647,9 @@ window.DATA = {
      "hs": 2,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-03T03:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
