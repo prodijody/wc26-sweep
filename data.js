@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T00:59:40",
+ "updated": "2026-07-04T01:42:48",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "utc": "2026-07-04T01:30:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Round of 16",
    "home": {
     "name": "Canada",
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-11T21:00:00Z",
    "sweep": false,
    "status": "TIMED"
+  },
+  {
+   "stage": "Quarter-final",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-12T01:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 32",
+   "home": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "away": {
+    "name": "Ghana",
+    "tla": "GHA",
+    "crest": "https://crests.football-data.org/ghana.svg"
+   },
+   "utc": "2026-07-04T01:30:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3701,10 +3721,10 @@ window.DATA = {
       "tla": "GHA",
       "crest": "https://crests.football-data.org/ghana.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-04T01:30:00Z",
      "note": null,
      "sweep": true
