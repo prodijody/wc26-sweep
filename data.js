@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T20:36:33",
+ "updated": "2026-07-04T21:08:46",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "away": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "utc": "2026-07-04T21:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
     "name": "Brazil",
     "tla": "BRA",
     "crest": "https://crests.football-data.org/764.svg"
@@ -2651,9 +2635,45 @@ window.DATA = {
    "utc": "2026-07-14T19:00:00Z",
    "sweep": false,
    "status": "TIMED"
+  },
+  {
+   "stage": "Semi-final",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-15T19:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "away": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "utc": "2026-07-04T21:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3741,10 +3761,10 @@ window.DATA = {
       "tla": "FRA",
       "crest": "https://crests.football-data.org/773.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-04T21:00:00Z",
      "note": null,
      "sweep": true
