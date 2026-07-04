@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T02:44:59",
+ "updated": "2026-07-04T04:06:46",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 16,
+ "playersIn": 15,
  "playersTotal": 31,
  "players": [
   {
@@ -401,14 +401,14 @@ window.DATA = {
      "points": 4,
      "gd": 0,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": 0
   },
@@ -1626,33 +1626,6 @@ window.DATA = {
    "totalGd": 2
   },
   {
-   "name": "Blake",
-   "teams": [
-    {
-     "display": "Ghana",
-     "name": "Ghana",
-     "matched": true,
-     "tla": "GHA",
-     "crest": "https://crests.football-data.org/ghana.svg",
-     "group": "L",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 3,
-     "points": 4,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 4,
-   "totalGd": 0
-  },
-  {
    "name": "Brandon",
    "teams": [
     {
@@ -1936,6 +1909,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": -8
+  },
+  {
+   "name": "Blake",
+   "teams": [
+    {
+     "display": "Ghana",
+     "name": "Ghana",
+     "matched": true,
+     "tla": "GHA",
+     "crest": "https://crests.football-data.org/ghana.svg",
+     "group": "L",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 3,
+     "points": 4,
+     "gd": 0,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 4,
+   "totalGd": 0
   },
   {
    "name": "Edwina",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "away": {
+    "name": "Ghana",
+    "tla": "GHA",
+    "crest": "https://crests.football-data.org/ghana.svg"
+   },
+   "utc": "2026-07-04T01:30:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Argentina",
     "tla": "ARG",
     "crest": "https://crests.football-data.org/762.png"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 2,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Netherlands",
-    "tla": "NED",
-    "crest": "https://crests.football-data.org/8601.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-06-30T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 4,
-   "note": "PENS"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "utc": "2026-07-04T01:30:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3724,9 +3704,9 @@ window.DATA = {
      "hs": 1,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-04T01:30:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     }
    ],
