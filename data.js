@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T00:09:45",
+ "updated": "2026-07-04T00:59:40",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 17,
+ "playersIn": 16,
  "playersTotal": 31,
  "players": [
   {
@@ -234,7 +234,7 @@ window.DATA = {
      "points": 3,
      "gd": 0,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -254,10 +254,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 1,
    "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 6,
    "totalGd": 0
   },
@@ -1572,49 +1572,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Louise",
-   "teams": [
-    {
-     "display": "Cape Verde Islands",
-     "name": "Cape Verde Islands",
-     "matched": true,
-     "tla": "CPV",
-     "crest": "https://crests.football-data.org/cape_verde.svg",
-     "group": "H",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 3,
-     "gd": 0,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Iran",
-     "name": "Iran",
-     "matched": true,
-     "tla": "IRN",
-     "crest": "https://crests.football-data.org/iran.svg",
-     "group": "G",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 3,
-     "points": 3,
-     "gd": 0,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 1,
-   "bestStageLabel": "Round of 32",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": 0
-  },
-  {
    "name": "Laura H",
    "teams": [
     {
@@ -1850,6 +1807,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 7,
    "totalGd": -6
+  },
+  {
+   "name": "Louise",
+   "teams": [
+    {
+     "display": "Cape Verde Islands",
+     "name": "Cape Verde Islands",
+     "matched": true,
+     "tla": "CPV",
+     "crest": "https://crests.football-data.org/cape_verde.svg",
+     "group": "H",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 3,
+     "gd": 0,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Iran",
+     "name": "Iran",
+     "matched": true,
+     "tla": "IRN",
+     "crest": "https://crests.football-data.org/iran.svg",
+     "group": "G",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 3,
+     "points": 3,
+     "gd": 0,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 1,
+   "bestStageLabel": "Round of 32",
+   "aliveCount": 0,
+   "totalPoints": 6,
+   "totalGd": 0
   },
   {
    "name": "Chris",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 32",
    "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Cape Verde Islands",
+    "tla": "CPV",
+    "crest": "https://crests.football-data.org/cape_verde.svg"
+   },
+   "utc": "2026-07-03T22:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 2,
+   "note": "AET"
+  },
+  {
+   "stage": "Round of 32",
+   "home": {
     "name": "Australia",
     "tla": "AUS",
     "crest": "https://crests.football-data.org/779.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 4,
    "note": "PENS"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Germany",
-    "tla": "GER",
-    "crest": "https://crests.football-data.org/759.svg"
-   },
-   "away": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "utc": "2026-06-29T20:30:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 4,
-   "as": 5,
-   "note": "PENS"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Cape Verde Islands",
-    "tla": "CPV",
-    "crest": "https://crests.football-data.org/cape_verde.svg"
-   },
-   "utc": "2026-07-03T22:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3702,12 +3682,12 @@ window.DATA = {
       "tla": "CPV",
       "crest": "https://crests.football-data.org/cape_verde.svg"
      },
-     "hs": 1,
-     "as": 1,
-     "winner": "DRAW",
-     "status": "PAUSED",
+     "hs": 3,
+     "as": 2,
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-03T22:00:00Z",
-     "note": null,
+     "note": "AET",
      "sweep": true
     },
     {
