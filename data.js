@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T18:36:08",
+ "updated": "2026-07-04T19:10:55",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -444,14 +444,14 @@ window.DATA = {
      "points": 4,
      "gd": 5,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
    "in": true,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 11,
    "totalGd": 8
   },
@@ -1280,14 +1280,14 @@ window.DATA = {
      "points": 4,
      "gd": 5,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
    "in": true,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 11,
    "totalGd": 8
   },
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Round of 16",
+   "home": {
+    "name": "Canada",
+    "tla": "CAN",
+    "crest": "https://crests.football-data.org/canada.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-07-04T17:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 3,
+   "note": "FT"
+  },
+  {
    "stage": "Round of 32",
    "home": {
     "name": "Colombia",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Ivory Coast",
-    "tla": "CIV",
-    "crest": "https://crests.football-data.org/787.svg"
-   },
-   "away": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "utc": "2026-06-30T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Canada",
-    "tla": "CAN",
-    "crest": "https://crests.football-data.org/canada.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-07-04T17:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3743,11 +3723,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/morocco.svg"
      },
      "hs": 0,
-     "as": 1,
+     "as": 3,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-04T17:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
