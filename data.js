@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T01:42:48",
+ "updated": "2026-07-04T02:44:59",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2669,7 +2669,7 @@ window.DATA = {
    "utc": "2026-07-04T01:30:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 0,
+   "hs": 1,
    "as": 0,
    "note": "FT"
   }
@@ -3721,9 +3721,9 @@ window.DATA = {
       "tla": "GHA",
       "crest": "https://crests.football-data.org/ghana.svg"
      },
-     "hs": 0,
+     "hs": 1,
      "as": 0,
-     "winner": "DRAW",
+     "winner": "HOME_TEAM",
      "status": "IN_PLAY",
      "utc": "2026-07-04T01:30:00Z",
      "note": null,
