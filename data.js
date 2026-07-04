@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T17:37:32",
+ "updated": "2026-07-04T18:09:04",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2668,7 +2668,7 @@ window.DATA = {
    },
    "utc": "2026-07-04T17:00:00Z",
    "sweep": true,
-   "status": "IN_PLAY",
+   "status": "PAUSED",
    "hs": 0,
    "as": 0,
    "note": "FT"
@@ -3745,7 +3745,7 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "PAUSED",
      "utc": "2026-07-04T17:00:00Z",
      "note": null,
      "sweep": true
