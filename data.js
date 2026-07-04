@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T21:35:54",
+ "updated": "2026-07-04T22:07:28",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2653,7 +2653,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "away": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "utc": "2026-07-04T21:00:00Z",
+   "sweep": true,
+   "status": "PAUSED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3744,7 +3764,7 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "LIVE",
+     "status": "PAUSED",
      "utc": "2026-07-04T21:00:00Z",
      "note": null,
      "sweep": true
