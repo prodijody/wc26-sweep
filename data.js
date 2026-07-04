@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-04T23:07:51",
+ "updated": "2026-07-04T23:37:25",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 14,
+ "playersIn": 13,
  "playersTotal": 31,
  "players": [
   {
@@ -1090,7 +1090,7 @@ window.DATA = {
      "points": 4,
      "gd": -2,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1110,10 +1110,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": -6
   }
@@ -1598,7 +1598,7 @@ window.DATA = {
      "points": 4,
      "gd": -2,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1618,10 +1618,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 4,
    "totalGd": -6
   },
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://crests.football-data.org/761.svg"
+   },
+   "away": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "utc": "2026-07-04T21:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Canada",
     "tla": "CAN",
     "crest": "https://crests.football-data.org/canada.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "Sweden",
-    "tla": "SWE",
-    "crest": "https://crests.football-data.org/792.svg"
-   },
-   "utc": "2026-06-30T21:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "away": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "utc": "2026-07-04T21:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3764,9 +3744,9 @@ window.DATA = {
      "hs": 0,
      "as": 1,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-04T21:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
