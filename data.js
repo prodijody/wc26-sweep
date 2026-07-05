@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-05T23:26:34",
+ "updated": "2026-07-05T23:52:36",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-07-06T00:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
     "name": "Portugal",
     "tla": "POR",
     "crest": "https://crests.football-data.org/765.svg"
@@ -2649,6 +2633,22 @@ window.DATA = {
     "crest": null
    },
    "utc": "2026-07-18T21:00:00Z",
+   "sweep": false,
+   "status": "TIMED"
+  },
+  {
+   "stage": "Final",
+   "home": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "away": {
+    "name": null,
+    "tla": null,
+    "crest": null
+   },
+   "utc": "2026-07-19T19:00:00Z",
    "sweep": false,
    "status": "TIMED"
   }
@@ -3782,8 +3782,8 @@ window.DATA = {
      "hs": null,
      "as": null,
      "winner": null,
-     "status": "TIMED",
-     "utc": "2026-07-06T00:00:00Z",
+     "status": "2026-07-06 01:00:00Z",
+     "utc": "2026-07-06T01:00:00Z",
      "note": null,
      "sweep": true
     },
