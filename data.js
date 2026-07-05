@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-05T21:26:05",
+ "updated": "2026-07-05T21:51:21",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -3761,8 +3761,8 @@ window.DATA = {
       "crest": "https://crests.football-data.org/813.svg"
      },
      "hs": 0,
-     "as": 0,
-     "winner": "DRAW",
+     "as": 1,
+     "winner": "AWAY_TEAM",
      "status": "LIVE",
      "utc": "2026-07-05T20:00:00Z",
      "note": null,
