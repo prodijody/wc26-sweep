@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-05T04:50:02",
+ "updated": "2026-07-05T06:21:04",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -422,8 +422,8 @@ window.DATA = {
      "tla": "MAR",
      "crest": "https://crests.football-data.org/morocco.svg",
      "group": "C",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 2,
      "points": 7,
      "gd": 3,
@@ -449,8 +449,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 11,
    "totalGd": 8
@@ -481,8 +481,8 @@ window.DATA = {
      "tla": "FRA",
      "crest": "https://crests.football-data.org/773.svg",
      "group": "I",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 9,
      "gd": 8,
@@ -492,8 +492,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
@@ -1145,8 +1145,8 @@ window.DATA = {
      "tla": "FRA",
      "crest": "https://crests.football-data.org/773.svg",
      "group": "I",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 9,
      "gd": 8,
@@ -1156,11 +1156,54 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
+  },
+  {
+   "name": "David",
+   "teams": [
+    {
+     "display": "Morocco",
+     "name": "Morocco",
+     "matched": true,
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 2,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Canada",
+     "name": "Canada",
+     "matched": true,
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 4,
+     "gd": 5,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 11,
+   "totalGd": 8
   },
   {
    "name": "Brandon B",
@@ -1246,49 +1289,6 @@ window.DATA = {
    "bestStageLabel": "Round of 16",
    "aliveCount": 2,
    "totalPoints": 14,
-   "totalGd": 8
-  },
-  {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Canada",
-     "name": "Canada",
-     "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 4,
-     "gd": 5,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 11,
    "totalGd": 8
   },
   {
@@ -2559,17 +2559,17 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
    },
    "utc": "2026-07-09T20:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3867,14 +3867,14 @@ window.DATA = {
    "QUARTER_FINALS": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "France",
+      "tla": "FRA",
+      "crest": "https://crests.football-data.org/773.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Morocco",
+      "tla": "MAR",
+      "crest": "https://crests.football-data.org/morocco.svg"
      },
      "hs": null,
      "as": null,
@@ -3882,7 +3882,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-09T20:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
