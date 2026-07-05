@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-05T21:51:21",
+ "updated": "2026-07-05T22:24:17",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 13,
+ "playersIn": 12,
  "playersTotal": 31,
  "players": [
   {
@@ -966,14 +966,14 @@ window.DATA = {
      "points": 7,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 7,
    "totalGd": 6
   },
@@ -1405,33 +1405,6 @@ window.DATA = {
    "totalGd": 0
   },
   {
-   "name": "Nicole",
-   "teams": [
-    {
-     "display": "Brazil",
-     "name": "Brazil",
-     "matched": true,
-     "tla": "BRA",
-     "crest": "https://crests.football-data.org/764.svg",
-     "group": "C",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 6
-  },
-  {
    "name": "Lynn",
    "teams": [
     {
@@ -1581,6 +1554,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
+  },
+  {
+   "name": "Nicole",
+   "teams": [
+    {
+     "display": "Brazil",
+     "name": "Brazil",
+     "matched": true,
+     "tla": "BRA",
+     "crest": "https://crests.football-data.org/764.svg",
+     "group": "C",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 7,
+   "totalGd": 6
   },
   {
    "name": "Thomas",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Brazil",
+    "tla": "BRA",
+    "crest": "https://crests.football-data.org/764.svg"
+   },
+   "away": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "utc": "2026-07-05T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Paraguay",
     "tla": "PAR",
     "crest": "https://crests.football-data.org/761.svg"
@@ -2437,25 +2456,6 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 2,
    "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "Ecuador",
-    "tla": "ECU",
-    "crest": "https://crests.football-data.org/791.svg"
-   },
-   "utc": "2026-07-01T02:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 0,
    "note": "FT"
   }
  ],
@@ -3760,12 +3760,12 @@ window.DATA = {
       "tla": "NOR",
       "crest": "https://crests.football-data.org/813.svg"
      },
-     "hs": 0,
-     "as": 1,
+     "hs": 1,
+     "as": 2,
      "winner": "AWAY_TEAM",
-     "status": "LIVE",
+     "status": "FINISHED",
      "utc": "2026-07-05T20:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
