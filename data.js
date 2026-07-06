@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-06T02:42:23",
+ "updated": "2026-07-06T04:12:51",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 12,
+ "playersIn": 11,
  "playersTotal": 31,
  "players": [
   {
@@ -164,14 +164,14 @@ window.DATA = {
      "points": 9,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 9,
    "totalGd": 6
   },
@@ -1335,33 +1335,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 9,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 9,
-   "totalGd": 6
-  },
-  {
    "name": "Jack",
    "teams": [
     {
@@ -1554,6 +1527,33 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
+  },
+  {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 9,
+     "gd": 6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Nicole",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-07-06T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Brazil",
     "tla": "BRA",
     "crest": "https://crests.football-data.org/764.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 2,
    "note": "AET"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Congo DR",
-    "tla": "COD",
-    "crest": "https://crests.football-data.org/congo_dr.svg"
-   },
-   "utc": "2026-07-01T16:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2653,27 +2653,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-07-06T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 2,
-   "as": 3,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3802,9 +3782,9 @@ window.DATA = {
      "hs": 2,
      "as": 3,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-06T01:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
