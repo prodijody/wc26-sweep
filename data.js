@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-06T05:46:50",
+ "updated": "2026-07-06T07:43:13",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -88,8 +88,8 @@ window.DATA = {
      "tla": "ENG",
      "crest": "https://crests.football-data.org/770.svg",
      "group": "L",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -99,8 +99,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 4
@@ -287,8 +287,8 @@ window.DATA = {
      "tla": "NOR",
      "crest": "https://crests.football-data.org/813.svg",
      "group": "I",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 2,
      "points": 6,
      "gd": 1,
@@ -298,8 +298,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 8,
    "totalGd": 0
@@ -1206,6 +1206,76 @@ window.DATA = {
    "totalGd": 8
   },
   {
+   "name": "Jack",
+   "teams": [
+    {
+     "display": "Uruguay",
+     "name": "Uruguay",
+     "matched": true,
+     "tla": "URU",
+     "crest": "https://crests.football-data.org/758.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 3,
+     "points": 2,
+     "gd": -1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Norway",
+     "name": "Norway",
+     "matched": true,
+     "tla": "NOR",
+     "crest": "https://crests.football-data.org/813.svg",
+     "group": "I",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 2,
+     "points": 6,
+     "gd": 1,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 8,
+   "totalGd": 0
+  },
+  {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 7,
+   "totalGd": 4
+  },
+  {
    "name": "Brandon B",
    "teams": [
     {
@@ -1333,76 +1403,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
-  },
-  {
-   "name": "Jack",
-   "teams": [
-    {
-     "display": "Uruguay",
-     "name": "Uruguay",
-     "matched": true,
-     "tla": "URU",
-     "crest": "https://crests.football-data.org/758.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Norway",
-     "name": "Norway",
-     "matched": true,
-     "tla": "NOR",
-     "crest": "https://crests.football-data.org/813.svg",
-     "group": "I",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 6,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 8,
-   "totalGd": 0
-  },
-  {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 4
   },
   {
    "name": "Rooney",
@@ -2559,17 +2559,17 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
    },
    "utc": "2026-07-11T21:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3905,14 +3905,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Norway",
+      "tla": "NOR",
+      "crest": "https://crests.football-data.org/813.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
      },
      "hs": null,
      "as": null,
@@ -3920,7 +3920,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-11T21:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
