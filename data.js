@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-06T18:18:18",
+ "updated": "2026-07-06T19:08:53",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-07-06T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
     "name": "United States",
     "tla": "USA",
     "crest": "https://crests.football-data.org/usa.svg"
@@ -3798,10 +3782,10 @@ window.DATA = {
       "tla": "ESP",
       "crest": "https://crests.football-data.org/760.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "LIVE",
      "utc": "2026-07-06T19:00:00Z",
      "note": null,
      "sweep": true
