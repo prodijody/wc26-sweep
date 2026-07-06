@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-06T20:44:08",
+ "updated": "2026-07-06T21:18:48",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 11,
+ "playersIn": 10,
  "playersTotal": 31,
  "players": [
   {
@@ -729,14 +729,14 @@ window.DATA = {
      "points": 5,
      "gd": 5,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": 5
   },
@@ -1432,33 +1432,6 @@ window.DATA = {
    "totalGd": 4
   },
   {
-   "name": "Laura H",
-   "teams": [
-    {
-     "display": "Portugal",
-     "name": "Portugal",
-     "matched": true,
-     "tla": "POR",
-     "crest": "https://crests.football-data.org/765.svg",
-     "group": "K",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 5,
-     "gd": 5,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 5
-  },
-  {
    "name": "Laura McM",
    "teams": [
     {
@@ -1581,6 +1554,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 7,
    "totalGd": 6
+  },
+  {
+   "name": "Laura H",
+   "teams": [
+    {
+     "display": "Portugal",
+     "name": "Portugal",
+     "matched": true,
+     "tla": "POR",
+     "crest": "https://crests.football-data.org/765.svg",
+     "group": "K",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 5,
+     "gd": 5,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 5,
+   "totalGd": 5
   },
   {
    "name": "Thomas",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Portugal",
+    "tla": "POR",
+    "crest": "https://crests.football-data.org/765.svg"
+   },
+   "away": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "utc": "2026-07-06T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Mexico",
     "tla": "MEX",
     "crest": "https://crests.football-data.org/769.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "away": {
-    "name": "Senegal",
-    "tla": "SEN",
-    "crest": "https://crests.football-data.org/senegal.svg"
-   },
-   "utc": "2026-07-01T20:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 2,
-   "note": "AET"
   }
  ],
  "fixtures": [
@@ -2637,27 +2637,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-07-06T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3803,11 +3783,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/760.svg"
      },
      "hs": 0,
-     "as": 0,
-     "winner": "DRAW",
-     "status": "IN_PLAY",
+     "as": 1,
+     "winner": "AWAY_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-06T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
