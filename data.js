@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T20:00:14",
+ "updated": "2026-07-07T20:54:08",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "utc": "2026-07-07T20:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Quarter-final",
    "home": {
     "name": "France",
@@ -2605,7 +2589,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Round of 16",
+   "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "utc": "2026-07-07T20:00:00Z",
+   "sweep": true,
+   "status": "PAUSED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3807,10 +3811,10 @@ window.DATA = {
       "tla": "COL",
       "crest": "https://crests.football-data.org/818.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "PAUSED",
      "utc": "2026-07-07T20:00:00Z",
      "note": null,
      "sweep": true
