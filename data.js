@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T01:57:48",
+ "updated": "2026-07-07T03:15:47",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 10,
+ "playersIn": 9,
  "playersTotal": 31,
  "players": [
   {
@@ -320,14 +320,14 @@ window.DATA = {
      "points": 6,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 6,
    "totalGd": 4
   },
@@ -1405,33 +1405,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Rooney",
-   "teams": [
-    {
-     "display": "United States",
-     "name": "United States",
-     "matched": true,
-     "tla": "USA",
-     "crest": "https://crests.football-data.org/usa.svg",
-     "group": "D",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 6,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 6,
-   "totalGd": 4
-  },
-  {
    "name": "Laura McM",
    "teams": [
     {
@@ -1554,6 +1527,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 7,
    "totalGd": 6
+  },
+  {
+   "name": "Rooney",
+   "teams": [
+    {
+     "display": "United States",
+     "name": "United States",
+     "matched": true,
+     "tla": "USA",
+     "crest": "https://crests.football-data.org/usa.svg",
+     "group": "D",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 6,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 6,
+   "totalGd": 4
   },
   {
    "name": "Laura H",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "United States",
+    "tla": "USA",
+    "crest": "https://crests.football-data.org/usa.svg"
+   },
+   "away": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "utc": "2026-07-07T00:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 4,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Portugal",
     "tla": "POR",
     "crest": "https://crests.football-data.org/765.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Bosnia-Herzegovina",
-    "tla": "BIH",
-    "crest": "https://crests.football-data.org/bosnia.svg"
-   },
-   "utc": "2026-07-02T00:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2621,27 +2621,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "United States",
-    "tla": "USA",
-    "crest": "https://crests.football-data.org/usa.svg"
-   },
-   "away": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "utc": "2026-07-07T00:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 3,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3806,11 +3786,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/805.svg"
      },
      "hs": 1,
-     "as": 3,
+     "as": 4,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-07T00:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
