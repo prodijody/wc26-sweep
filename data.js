@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T04:48:54",
+ "updated": "2026-07-07T06:24:40",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -852,8 +852,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -863,8 +863,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 2,
    "totalPoints": 14,
    "totalGd": 8
@@ -1057,8 +1057,8 @@ window.DATA = {
      "tla": "BEL",
      "crest": "https://crests.football-data.org/805.svg",
      "group": "G",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 5,
      "gd": 4,
@@ -1068,8 +1068,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
@@ -1161,6 +1161,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
+  },
+  {
+   "name": "Michael",
+   "teams": [
+    {
+     "display": "Colombia",
+     "name": "Colombia",
+     "matched": true,
+     "tla": "COL",
+     "crest": "https://crests.football-data.org/818.svg",
+     "group": "K",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": true,
+     "brink": false
+    },
+    {
+     "display": "Spain",
+     "name": "Spain",
+     "matched": true,
+     "tla": "ESP",
+     "crest": "https://crests.football-data.org/760.svg",
+     "group": "H",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 7,
+     "gd": 5,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 2,
+   "totalPoints": 14,
+   "totalGd": 8
   },
   {
    "name": "David",
@@ -1276,6 +1319,49 @@ window.DATA = {
    "totalGd": 4
   },
   {
+   "name": "Jambo",
+   "teams": [
+    {
+     "display": "Haiti",
+     "name": "Haiti",
+     "matched": true,
+     "tla": "HAI",
+     "crest": "https://crests.football-data.org/haiti.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Belgium",
+     "name": "Belgium",
+     "matched": true,
+     "tla": "BEL",
+     "crest": "https://crests.football-data.org/805.svg",
+     "group": "G",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 5,
+   "totalGd": -2
+  },
+  {
    "name": "Brandon B",
    "teams": [
     {
@@ -1317,49 +1403,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 10
-  },
-  {
-   "name": "Michael",
-   "teams": [
-    {
-     "display": "Colombia",
-     "name": "Colombia",
-     "matched": true,
-     "tla": "COL",
-     "crest": "https://crests.football-data.org/818.svg",
-     "group": "K",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Spain",
-     "name": "Spain",
-     "matched": true,
-     "tla": "ESP",
-     "crest": "https://crests.football-data.org/760.svg",
-     "group": "H",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 5,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 2,
-   "totalPoints": 14,
-   "totalGd": 8
   },
   {
    "name": "Paul Mc",
@@ -1430,49 +1473,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": 2
-  },
-  {
-   "name": "Jambo",
-   "teams": [
-    {
-     "display": "Haiti",
-     "name": "Haiti",
-     "matched": true,
-     "tla": "HAI",
-     "crest": "https://crests.football-data.org/haiti.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Belgium",
-     "name": "Belgium",
-     "matched": true,
-     "tla": "BEL",
-     "crest": "https://crests.football-data.org/805.svg",
-     "group": "G",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": -2
   },
   {
    "name": "Sharon",
@@ -2511,17 +2511,17 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
    },
    "utc": "2026-07-10T19:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3854,14 +3854,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Belgium",
+      "tla": "BEL",
+      "crest": "https://crests.football-data.org/805.svg"
      },
      "hs": null,
      "as": null,
@@ -3869,7 +3869,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-10T19:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
