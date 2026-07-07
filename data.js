@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T17:29:12",
+ "updated": "2026-07-07T18:18:20",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 9,
+ "playersIn": 8,
  "playersTotal": 31,
  "players": [
   {
@@ -1020,14 +1020,14 @@ window.DATA = {
      "points": 5,
      "gd": 2,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": 2
   },
@@ -1448,33 +1448,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Laura McM",
-   "teams": [
-    {
-     "display": "Egypt",
-     "name": "Egypt",
-     "matched": true,
-     "tla": "EGY",
-     "crest": "https://crests.football-data.org/825.svg",
-     "group": "G",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 5,
-     "gd": 2,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": 2
-  },
-  {
    "name": "Sharon",
    "teams": [
     {
@@ -1581,6 +1554,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": 5
+  },
+  {
+   "name": "Laura McM",
+   "teams": [
+    {
+     "display": "Egypt",
+     "name": "Egypt",
+     "matched": true,
+     "tla": "EGY",
+     "crest": "https://crests.football-data.org/825.svg",
+     "group": "G",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 5,
+     "gd": 2,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 5,
+   "totalGd": 2
   },
   {
    "name": "Thomas",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Egypt",
+    "tla": "EGY",
+    "crest": "https://crests.football-data.org/825.svg"
+   },
+   "utc": "2026-07-07T16:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "United States",
     "tla": "USA",
     "crest": "https://crests.football-data.org/usa.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Austria",
-    "tla": "AUT",
-    "crest": "https://crests.football-data.org/816.svg"
-   },
-   "utc": "2026-07-02T19:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2605,27 +2605,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-07T16:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 2,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3808,12 +3788,12 @@ window.DATA = {
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg"
      },
-     "hs": 0,
+     "hs": 3,
      "as": 2,
-     "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-07T16:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
