@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T21:32:39",
+ "updated": "2026-07-07T22:10:45",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "away": {
+    "name": "Colombia",
+    "tla": "COL",
+    "crest": "https://crests.football-data.org/818.svg"
+   },
+   "utc": "2026-07-07T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Argentina",
     "tla": "ARG",
     "crest": "https://crests.football-data.org/762.png"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Portugal",
-    "tla": "POR",
-    "crest": "https://crests.football-data.org/765.svg"
-   },
-   "away": {
-    "name": "Croatia",
-    "tla": "CRO",
-    "crest": "https://crests.football-data.org/799.svg"
-   },
-   "utc": "2026-07-02T23:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2589,27 +2589,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "utc": "2026-07-07T20:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3814,9 +3794,9 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-07T20:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     }
    ],
