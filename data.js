@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-07T15:31:26",
+ "updated": "2026-07-07T16:38:17",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-07T16:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
     "name": "Switzerland",
     "tla": "SUI",
     "crest": "https://crests.football-data.org/788.svg"
@@ -3804,10 +3788,10 @@ window.DATA = {
       "tla": "EGY",
       "crest": "https://crests.football-data.org/825.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 1,
+     "winner": "AWAY_TEAM",
+     "status": "LIVE",
      "utc": "2026-07-07T16:00:00Z",
      "note": null,
      "sweep": true
