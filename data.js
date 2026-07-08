@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-08T06:11:41",
+ "updated": "2026-07-08T07:09:42",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -610,8 +610,8 @@ window.DATA = {
      "tla": "SUI",
      "crest": "https://crests.football-data.org/788.svg",
      "group": "B",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -621,8 +621,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 10
@@ -766,8 +766,8 @@ window.DATA = {
      "tla": "ARG",
      "crest": "https://crests.football-data.org/762.png",
      "group": "J",
-     "stage": 2,
-     "stageLabel": "Round of 16",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
      "position": 1,
      "points": 9,
      "gd": 7,
@@ -777,8 +777,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
@@ -842,7 +842,7 @@ window.DATA = {
      "points": 7,
      "gd": 3,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -865,7 +865,7 @@ window.DATA = {
    "in": true,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
   },
@@ -1163,6 +1163,49 @@ window.DATA = {
    "totalGd": 12
   },
   {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
+     "group": "B",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 14,
+   "totalGd": 10
+  },
+  {
    "name": "Michael",
    "teams": [
     {
@@ -1178,7 +1221,7 @@ window.DATA = {
      "points": 7,
      "gd": 3,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -1201,7 +1244,7 @@ window.DATA = {
    "in": true,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 2,
+   "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
   },
@@ -1247,6 +1290,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 11,
    "totalGd": 8
+  },
+  {
+   "name": "Paul Mc",
+   "teams": [
+    {
+     "display": "Curaçao",
+     "name": "Curaçao",
+     "matched": true,
+     "tla": "CUW",
+     "crest": "https://crests.football-data.org/curacao.svg",
+     "group": "E",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 1,
+     "gd": -8,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Argentina",
+     "name": "Argentina",
+     "matched": true,
+     "tla": "ARG",
+     "crest": "https://crests.football-data.org/762.png",
+     "group": "J",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 9,
+     "gd": 7,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 1,
+   "totalPoints": 10,
+   "totalGd": -1
   },
   {
    "name": "Jack",
@@ -1360,92 +1446,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
-  },
-  {
-   "name": "Brandon B",
-   "teams": [
-    {
-     "display": "Netherlands",
-     "name": "Netherlands",
-     "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 14,
-   "totalGd": 10
-  },
-  {
-   "name": "Paul Mc",
-   "teams": [
-    {
-     "display": "Curaçao",
-     "name": "Curaçao",
-     "matched": true,
-     "tla": "CUW",
-     "crest": "https://crests.football-data.org/curacao.svg",
-     "group": "E",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 1,
-     "gd": -8,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Argentina",
-     "name": "Argentina",
-     "matched": true,
-     "tla": "ARG",
-     "crest": "https://crests.football-data.org/762.png",
-     "group": "J",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 9,
-     "gd": 7,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 10,
-   "totalGd": -1
   },
   {
    "name": "Sharon",
@@ -2511,17 +2511,17 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
    },
    "utc": "2026-07-12T01:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3793,7 +3793,7 @@ window.DATA = {
      },
      "hs": 4,
      "as": 3,
-     "winner": null,
+     "winner": "HOME_TEAM",
      "status": "FINISHED",
      "utc": "2026-07-07T20:00:00Z",
      "note": "PENS",
@@ -3860,14 +3860,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Argentina",
+      "tla": "ARG",
+      "crest": "https://crests.football-data.org/762.png"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://crests.football-data.org/788.svg"
      },
      "hs": null,
      "as": null,
@@ -3875,7 +3875,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-12T01:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     }
    ],
    "SEMI_FINALS": [
