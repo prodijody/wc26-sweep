@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-09T21:33:24",
+ "updated": "2026-07-09T22:12:31",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 8,
+ "playersIn": 7,
  "playersTotal": 31,
  "players": [
   {
@@ -428,7 +428,7 @@ window.DATA = {
      "points": 7,
      "gd": 3,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     },
     {
@@ -448,10 +448,10 @@ window.DATA = {
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 11,
    "totalGd": 8
   },
@@ -1249,49 +1249,6 @@ window.DATA = {
    "totalGd": 8
   },
   {
-   "name": "David",
-   "teams": [
-    {
-     "display": "Morocco",
-     "name": "Morocco",
-     "matched": true,
-     "tla": "MAR",
-     "crest": "https://crests.football-data.org/morocco.svg",
-     "group": "C",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
-     "position": 2,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": true,
-     "brink": false
-    },
-    {
-     "display": "Canada",
-     "name": "Canada",
-     "matched": true,
-     "tla": "CAN",
-     "crest": "https://crests.football-data.org/canada.svg",
-     "group": "B",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 2,
-     "points": 4,
-     "gd": 5,
-     "played": 3,
-     "in": false,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
-   "totalPoints": 11,
-   "totalGd": 8
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1446,6 +1403,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 5,
    "totalGd": -2
+  },
+  {
+   "name": "David",
+   "teams": [
+    {
+     "display": "Morocco",
+     "name": "Morocco",
+     "matched": true,
+     "tla": "MAR",
+     "crest": "https://crests.football-data.org/morocco.svg",
+     "group": "C",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 2,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Canada",
+     "name": "Canada",
+     "matched": true,
+     "tla": "CAN",
+     "crest": "https://crests.football-data.org/canada.svg",
+     "group": "B",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 2,
+     "points": 4,
+     "gd": 5,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 0,
+   "totalPoints": 11,
+   "totalGd": 8
   },
   {
    "name": "Sharon",
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Quarter-final",
+   "home": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "away": {
+    "name": "Morocco",
+    "tla": "MAR",
+    "crest": "https://crests.football-data.org/morocco.svg"
+   },
+   "utc": "2026-07-09T20:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 0,
+   "note": "FT"
+  },
+  {
    "stage": "Round of 16",
    "home": {
     "name": "Switzerland",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 5,
    "note": "PENS"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "away": {
-    "name": "Algeria",
-    "tla": "ALG",
-    "crest": "https://crests.football-data.org/algeria.svg"
-   },
-   "utc": "2026-07-03T03:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2573,27 +2573,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Quarter-final",
-   "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-07-09T20:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3816,12 +3796,12 @@ window.DATA = {
       "tla": "MAR",
       "crest": "https://crests.football-data.org/morocco.svg"
      },
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-09T20:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
