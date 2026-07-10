@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-10T20:46:44",
+ "updated": "2026-07-10T21:26:24",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 7,
+ "playersIn": 6,
  "playersTotal": 31,
  "players": [
   {
@@ -1063,14 +1063,14 @@ window.DATA = {
      "points": 5,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": -2
   },
@@ -1362,49 +1362,6 @@ window.DATA = {
    "totalGd": 4
   },
   {
-   "name": "Jambo",
-   "teams": [
-    {
-     "display": "Haiti",
-     "name": "Haiti",
-     "matched": true,
-     "tla": "HAI",
-     "crest": "https://crests.football-data.org/haiti.svg",
-     "group": "C",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 4,
-     "points": 0,
-     "gd": -6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Belgium",
-     "name": "Belgium",
-     "matched": true,
-     "tla": "BEL",
-     "crest": "https://crests.football-data.org/805.svg",
-     "group": "G",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
-     "position": 1,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
-   "totalPoints": 5,
-   "totalGd": -2
-  },
-  {
    "name": "David",
    "teams": [
     {
@@ -1446,6 +1403,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 11,
    "totalGd": 8
+  },
+  {
+   "name": "Jambo",
+   "teams": [
+    {
+     "display": "Haiti",
+     "name": "Haiti",
+     "matched": true,
+     "tla": "HAI",
+     "crest": "https://crests.football-data.org/haiti.svg",
+     "group": "C",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 4,
+     "points": 0,
+     "gd": -6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Belgium",
+     "name": "Belgium",
+     "matched": true,
+     "tla": "BEL",
+     "crest": "https://crests.football-data.org/805.svg",
+     "group": "G",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 0,
+   "totalPoints": 5,
+   "totalGd": -2
   },
   {
    "name": "Sharon",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Belgium",
+    "tla": "BEL",
+    "crest": "https://crests.football-data.org/805.svg"
+   },
+   "utc": "2026-07-10T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 1,
+   "note": "FT"
+  },
+  {
+   "stage": "Quarter-final",
+   "home": {
     "name": "France",
     "tla": "FRA",
     "crest": "https://crests.football-data.org/773.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 2,
    "note": "AET"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-03T18:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 5,
-   "note": "PENS"
   }
  ],
  "fixtures": [
@@ -2557,27 +2557,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Quarter-final",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Belgium",
-    "tla": "BEL",
-    "crest": "https://crests.football-data.org/805.svg"
-   },
-   "utc": "2026-07-10T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3819,12 +3799,12 @@ window.DATA = {
       "tla": "BEL",
       "crest": "https://crests.football-data.org/805.svg"
      },
-     "hs": 1,
+     "hs": 2,
      "as": 1,
-     "winner": "DRAW",
-     "status": "IN_PLAY",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-10T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
