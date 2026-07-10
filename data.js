@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-10T05:50:25",
+ "updated": "2026-07-10T07:18:14",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -481,8 +481,8 @@ window.DATA = {
      "tla": "FRA",
      "crest": "https://crests.football-data.org/773.svg",
      "group": "I",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 9,
      "gd": 8,
@@ -492,8 +492,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
@@ -1145,8 +1145,8 @@ window.DATA = {
      "tla": "FRA",
      "crest": "https://crests.football-data.org/773.svg",
      "group": "I",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 9,
      "gd": 8,
@@ -1156,8 +1156,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 12
@@ -2511,9 +2511,9 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
    },
    "away": {
     "name": null,
@@ -2521,7 +2521,7 @@ window.DATA = {
     "crest": null
    },
    "utc": "2026-07-14T19:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3865,9 +3865,9 @@ window.DATA = {
    "SEMI_FINALS": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "France",
+      "tla": "FRA",
+      "crest": "https://crests.football-data.org/773.svg"
      },
      "away": {
       "name": null,
@@ -3880,7 +3880,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-14T19:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     },
     {
      "home": {
