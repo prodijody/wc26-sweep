@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-10T22:24:50",
+ "updated": "2026-07-10T22:50:12",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
