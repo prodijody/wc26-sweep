@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-11T05:40:48",
+ "updated": "2026-07-11T06:32:24",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -852,8 +852,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -863,8 +863,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
@@ -1163,6 +1163,49 @@ window.DATA = {
    "totalGd": 12
   },
   {
+   "name": "Michael",
+   "teams": [
+    {
+     "display": "Colombia",
+     "name": "Colombia",
+     "matched": true,
+     "tla": "COL",
+     "crest": "https://crests.football-data.org/818.svg",
+     "group": "K",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 7,
+     "gd": 3,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Spain",
+     "name": "Spain",
+     "matched": true,
+     "tla": "ESP",
+     "crest": "https://crests.football-data.org/760.svg",
+     "group": "H",
+     "stage": 4,
+     "stageLabel": "Semi-final",
+     "position": 1,
+     "points": 7,
+     "gd": 5,
+     "played": 3,
+     "in": true,
+     "brink": false
+    }
+   ],
+   "in": true,
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
+   "aliveCount": 1,
+   "totalPoints": 14,
+   "totalGd": 8
+  },
+  {
    "name": "Brandon B",
    "teams": [
     {
@@ -1204,49 +1247,6 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 10
-  },
-  {
-   "name": "Michael",
-   "teams": [
-    {
-     "display": "Colombia",
-     "name": "Colombia",
-     "matched": true,
-     "tla": "COL",
-     "crest": "https://crests.football-data.org/818.svg",
-     "group": "K",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 7,
-     "gd": 3,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Spain",
-     "name": "Spain",
-     "matched": true,
-     "tla": "ESP",
-     "crest": "https://crests.football-data.org/760.svg",
-     "group": "H",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
-     "position": 1,
-     "points": 7,
-     "gd": 5,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
-   "totalPoints": 14,
-   "totalGd": 8
   },
   {
    "name": "Paul Mc",
@@ -2500,9 +2500,9 @@ window.DATA = {
     "crest": "https://crests.football-data.org/773.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
    },
    "utc": "2026-07-14T19:00:00Z",
    "sweep": true,
@@ -3854,9 +3854,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/773.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg"
      },
      "hs": null,
      "as": null,
