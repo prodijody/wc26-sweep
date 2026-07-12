@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-12T05:26:15",
+ "updated": "2026-07-12T06:22:42",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 5,
+ "playersIn": 4,
  "playersTotal": 31,
  "players": [
   {
@@ -88,8 +88,8 @@ window.DATA = {
      "tla": "ENG",
      "crest": "https://crests.football-data.org/770.svg",
      "group": "L",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -99,8 +99,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 4
@@ -164,14 +164,14 @@ window.DATA = {
      "points": 9,
      "gd": 6,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 2,
    "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 9,
    "totalGd": 6
   },
@@ -766,8 +766,8 @@ window.DATA = {
      "tla": "ARG",
      "crest": "https://crests.football-data.org/762.png",
      "group": "J",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 9,
      "gd": 7,
@@ -777,8 +777,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
@@ -1231,8 +1231,8 @@ window.DATA = {
      "tla": "ARG",
      "crest": "https://crests.football-data.org/762.png",
      "group": "J",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 9,
      "gd": 7,
@@ -1242,8 +1242,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
@@ -1258,8 +1258,8 @@ window.DATA = {
      "tla": "ENG",
      "crest": "https://crests.football-data.org/770.svg",
      "group": "L",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
+     "stage": 4,
+     "stageLabel": "Semi-final",
      "position": 1,
      "points": 7,
      "gd": 4,
@@ -1269,38 +1269,11 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 4
-  },
-  {
-   "name": "Sharon",
-   "teams": [
-    {
-     "display": "Mexico",
-     "name": "Mexico",
-     "matched": true,
-     "tla": "MEX",
-     "crest": "https://crests.football-data.org/769.svg",
-     "group": "A",
-     "stage": 2,
-     "stageLabel": "Round of 16",
-     "position": 1,
-     "points": 9,
-     "gd": 6,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 2,
-   "bestStageLabel": "Round of 16",
-   "aliveCount": 1,
-   "totalPoints": 9,
-   "totalGd": 6
   },
   {
    "name": "Brandon B",
@@ -1473,6 +1446,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 5,
    "totalGd": -2
+  },
+  {
+   "name": "Sharon",
+   "teams": [
+    {
+     "display": "Mexico",
+     "name": "Mexico",
+     "matched": true,
+     "tla": "MEX",
+     "crest": "https://crests.football-data.org/769.svg",
+     "group": "A",
+     "stage": 2,
+     "stageLabel": "Round of 16",
+     "position": 1,
+     "points": 9,
+     "gd": 6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 2,
+   "bestStageLabel": "Round of 16",
+   "aliveCount": 0,
+   "totalPoints": 9,
+   "totalGd": 6
   },
   {
    "name": "Nicole",
@@ -2385,6 +2385,25 @@ window.DATA = {
   {
    "stage": "Round of 16",
    "home": {
+    "name": "Mexico",
+    "tla": "MEX",
+    "crest": "https://crests.football-data.org/769.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-07-06T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 2,
+   "as": 3,
+   "note": "FT"
+  },
+  {
+   "stage": "Round of 16",
+   "home": {
     "name": "Brazil",
     "tla": "BRA",
     "crest": "https://crests.football-data.org/764.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 3,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Colombia",
-    "tla": "COL",
-    "crest": "https://crests.football-data.org/818.svg"
-   },
-   "away": {
-    "name": "Ghana",
-    "tla": "GHA",
-    "crest": "https://crests.football-data.org/ghana.svg"
-   },
-   "utc": "2026-07-04T01:30:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2479,17 +2479,17 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
    },
    "utc": "2026-07-15T19:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
@@ -3654,9 +3654,9 @@ window.DATA = {
      "hs": 2,
      "as": 3,
      "winner": "AWAY_TEAM",
-     "status": "2026-07-06 01:00:00Z",
+     "status": "FINISHED",
      "utc": "2026-07-06T01:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
@@ -3836,14 +3836,14 @@ window.DATA = {
     },
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Argentina",
+      "tla": "ARG",
+      "crest": "https://crests.football-data.org/762.png"
      },
      "hs": null,
      "as": null,
@@ -3851,7 +3851,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-15T19:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     }
    ],
    "FINAL": [
