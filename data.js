@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-12T02:40:54",
+ "updated": "2026-07-12T04:02:08",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 6,
+ "playersIn": 5,
  "playersTotal": 31,
  "players": [
   {
@@ -616,14 +616,14 @@ window.DATA = {
      "points": 7,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 14,
    "totalGd": 10
   },
@@ -1206,49 +1206,6 @@ window.DATA = {
    "totalGd": 8
   },
   {
-   "name": "Brandon B",
-   "teams": [
-    {
-     "display": "Netherlands",
-     "name": "Netherlands",
-     "matched": true,
-     "tla": "NED",
-     "crest": "https://crests.football-data.org/8601.svg",
-     "group": "F",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 1,
-     "points": 7,
-     "gd": 6,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Switzerland",
-     "name": "Switzerland",
-     "matched": true,
-     "tla": "SUI",
-     "crest": "https://crests.football-data.org/788.svg",
-     "group": "B",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
-   "totalPoints": 14,
-   "totalGd": 10
-  },
-  {
    "name": "Paul Mc",
    "teams": [
     {
@@ -1344,6 +1301,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 9,
    "totalGd": 6
+  },
+  {
+   "name": "Brandon B",
+   "teams": [
+    {
+     "display": "Netherlands",
+     "name": "Netherlands",
+     "matched": true,
+     "tla": "NED",
+     "crest": "https://crests.football-data.org/8601.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 1,
+     "points": 7,
+     "gd": 6,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Switzerland",
+     "name": "Switzerland",
+     "matched": true,
+     "tla": "SUI",
+     "crest": "https://crests.football-data.org/788.svg",
+     "group": "B",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 0,
+   "totalPoints": 14,
+   "totalGd": 10
   },
   {
    "name": "David",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "utc": "2026-07-12T01:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 3,
+   "as": 1,
+   "note": "AET"
+  },
+  {
+   "stage": "Quarter-final",
+   "home": {
     "name": "Norway",
     "tla": "NOR",
     "crest": "https://crests.football-data.org/813.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 0,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Cape Verde Islands",
-    "tla": "CPV",
-    "crest": "https://crests.football-data.org/cape_verde.svg"
-   },
-   "utc": "2026-07-03T22:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 2,
-   "note": "AET"
   }
  ],
  "fixtures": [
@@ -2525,27 +2525,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Quarter-final",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "utc": "2026-07-12T01:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 1,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3825,12 +3805,12 @@ window.DATA = {
       "tla": "SUI",
       "crest": "https://crests.football-data.org/788.svg"
      },
-     "hs": 1,
+     "hs": 3,
      "as": 1,
-     "winner": "DRAW",
-     "status": "IN_PLAY",
+     "winner": "HOME_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-12T01:00:00Z",
-     "note": null,
+     "note": "AET",
      "sweep": true
     }
    ],
