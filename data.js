@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-12T00:46:37",
+ "updated": "2026-07-12T01:38:13",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2461,22 +2461,6 @@ window.DATA = {
  ],
  "fixtures": [
   {
-   "stage": "Quarter-final",
-   "home": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "away": {
-    "name": "Switzerland",
-    "tla": "SUI",
-    "crest": "https://crests.football-data.org/788.svg"
-   },
-   "utc": "2026-07-12T01:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
    "stage": "Semi-final",
    "home": {
     "name": "France",
@@ -2541,7 +2525,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Quarter-final",
+   "home": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "away": {
+    "name": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://crests.football-data.org/788.svg"
+   },
+   "utc": "2026-07-12T01:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 1,
+   "as": 0,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3821,10 +3825,10 @@ window.DATA = {
       "tla": "SUI",
       "crest": "https://crests.football-data.org/788.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 1,
+     "as": 0,
+     "winner": "HOME_TEAM",
+     "status": "IN_PLAY",
      "utc": "2026-07-12T01:00:00Z",
      "note": null,
      "sweep": true
