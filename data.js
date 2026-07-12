@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-11T23:49:09",
+ "updated": "2026-07-12T00:46:37",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 7,
+ "playersIn": 6,
  "playersTotal": 31,
  "players": [
   {
@@ -293,14 +293,14 @@ window.DATA = {
      "points": 6,
      "gd": 1,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 3,
    "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 8,
    "totalGd": 0
   },
@@ -1292,49 +1292,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Jack",
-   "teams": [
-    {
-     "display": "Uruguay",
-     "name": "Uruguay",
-     "matched": true,
-     "tla": "URU",
-     "crest": "https://crests.football-data.org/758.svg",
-     "group": "H",
-     "stage": 0,
-     "stageLabel": "Eliminated",
-     "position": 3,
-     "points": 2,
-     "gd": -1,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "Norway",
-     "name": "Norway",
-     "matched": true,
-     "tla": "NOR",
-     "crest": "https://crests.football-data.org/813.svg",
-     "group": "I",
-     "stage": 3,
-     "stageLabel": "Quarter-final",
-     "position": 2,
-     "points": 6,
-     "gd": 1,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 3,
-   "bestStageLabel": "Quarter-final",
-   "aliveCount": 1,
-   "totalPoints": 8,
-   "totalGd": 0
-  },
-  {
    "name": "Lynn",
    "teams": [
     {
@@ -1430,6 +1387,49 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 11,
    "totalGd": 8
+  },
+  {
+   "name": "Jack",
+   "teams": [
+    {
+     "display": "Uruguay",
+     "name": "Uruguay",
+     "matched": true,
+     "tla": "URU",
+     "crest": "https://crests.football-data.org/758.svg",
+     "group": "H",
+     "stage": 0,
+     "stageLabel": "Eliminated",
+     "position": 3,
+     "points": 2,
+     "gd": -1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "Norway",
+     "name": "Norway",
+     "matched": true,
+     "tla": "NOR",
+     "crest": "https://crests.football-data.org/813.svg",
+     "group": "I",
+     "stage": 3,
+     "stageLabel": "Quarter-final",
+     "position": 2,
+     "points": 6,
+     "gd": 1,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 3,
+   "bestStageLabel": "Quarter-final",
+   "aliveCount": 0,
+   "totalPoints": 8,
+   "totalGd": 0
   },
   {
    "name": "Jambo",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Quarter-final",
    "home": {
+    "name": "Norway",
+    "tla": "NOR",
+    "crest": "https://crests.football-data.org/813.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-07-11T21:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 2,
+   "note": "AET"
+  },
+  {
+   "stage": "Quarter-final",
+   "home": {
     "name": "Spain",
     "tla": "ESP",
     "crest": "https://crests.football-data.org/760.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 3,
    "as": 2,
    "note": "AET"
-  },
-  {
-   "stage": "Round of 32",
-   "home": {
-    "name": "Australia",
-    "tla": "AUS",
-    "crest": "https://crests.football-data.org/779.svg"
-   },
-   "away": {
-    "name": "Egypt",
-    "tla": "EGY",
-    "crest": "https://crests.football-data.org/825.svg"
-   },
-   "utc": "2026-07-03T18:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 3,
-   "as": 5,
-   "note": "PENS"
   }
  ],
  "fixtures": [
@@ -2541,27 +2541,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Quarter-final",
-   "home": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-07-11T21:00:00Z",
-   "sweep": true,
-   "status": "PAUSED",
-   "hs": 1,
-   "as": 2,
-   "note": "AET"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3825,9 +3805,9 @@ window.DATA = {
      "hs": 1,
      "as": 2,
      "winner": "AWAY_TEAM",
-     "status": "PAUSED",
+     "status": "FINISHED",
      "utc": "2026-07-11T21:00:00Z",
-     "note": null,
+     "note": "AET",
      "sweep": true
     },
     {
