@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-14T20:39:51",
+ "updated": "2026-07-14T21:08:29",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 4,
+ "playersIn": 3,
  "playersTotal": 31,
  "players": [
   {
@@ -487,14 +487,14 @@ window.DATA = {
      "points": 9,
      "gd": 8,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 4,
    "bestStageLabel": "Semi-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 14,
    "totalGd": 12
   },
@@ -1120,49 +1120,6 @@ window.DATA = {
  ],
  "leaderboard": [
   {
-   "name": "Barry",
-   "teams": [
-    {
-     "display": "Japan",
-     "name": "Japan",
-     "matched": true,
-     "tla": "JPN",
-     "crest": "https://crests.football-data.org/766.svg",
-     "group": "F",
-     "stage": 1,
-     "stageLabel": "Round of 32",
-     "position": 2,
-     "points": 5,
-     "gd": 4,
-     "played": 3,
-     "in": false,
-     "brink": false
-    },
-    {
-     "display": "France",
-     "name": "France",
-     "matched": true,
-     "tla": "FRA",
-     "crest": "https://crests.football-data.org/773.svg",
-     "group": "I",
-     "stage": 4,
-     "stageLabel": "Semi-final",
-     "position": 1,
-     "points": 9,
-     "gd": 8,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
-   "aliveCount": 1,
-   "totalPoints": 14,
-   "totalGd": 12
-  },
-  {
    "name": "Michael",
    "teams": [
     {
@@ -1274,6 +1231,49 @@ window.DATA = {
    "aliveCount": 1,
    "totalPoints": 7,
    "totalGd": 4
+  },
+  {
+   "name": "Barry",
+   "teams": [
+    {
+     "display": "Japan",
+     "name": "Japan",
+     "matched": true,
+     "tla": "JPN",
+     "crest": "https://crests.football-data.org/766.svg",
+     "group": "F",
+     "stage": 1,
+     "stageLabel": "Round of 32",
+     "position": 2,
+     "points": 5,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    },
+    {
+     "display": "France",
+     "name": "France",
+     "matched": true,
+     "tla": "FRA",
+     "crest": "https://crests.football-data.org/773.svg",
+     "group": "I",
+     "stage": 4,
+     "stageLabel": "Semi-final",
+     "position": 1,
+     "points": 9,
+     "gd": 8,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
+   "aliveCount": 0,
+   "totalPoints": 14,
+   "totalGd": 12
   },
   {
    "name": "Brandon B",
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Semi-final",
+   "home": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "away": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "utc": "2026-07-14T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 0,
+   "as": 2,
+   "note": "FT"
+  },
+  {
    "stage": "Quarter-final",
    "home": {
     "name": "Argentina",
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 0,
    "as": 1,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Canada",
-    "tla": "CAN",
-    "crest": "https://crests.football-data.org/canada.svg"
-   },
-   "away": {
-    "name": "Morocco",
-    "tla": "MAR",
-    "crest": "https://crests.football-data.org/morocco.svg"
-   },
-   "utc": "2026-07-04T17:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 3,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2509,27 +2509,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Semi-final",
-   "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-07-14T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 2,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3833,9 +3813,9 @@ window.DATA = {
      "hs": 0,
      "as": 2,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-14T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     },
     {
