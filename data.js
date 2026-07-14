@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-14T18:56:24",
+ "updated": "2026-07-14T19:34:25",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2463,22 +2463,6 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "utc": "2026-07-14T19:00:00Z",
-   "sweep": true,
-   "status": "TIMED"
-  },
-  {
-   "stage": "Semi-final",
-   "home": {
     "name": "England",
     "tla": "ENG",
     "crest": "https://crests.football-data.org/770.svg"
@@ -2525,7 +2509,27 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [],
+ "live": [
+  {
+   "stage": "Semi-final",
+   "home": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "away": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "utc": "2026-07-14T19:00:00Z",
+   "sweep": true,
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 1,
+   "note": "FT"
+  }
+ ],
  "groups": [
   {
    "group": "A",
@@ -3826,10 +3830,10 @@ window.DATA = {
       "tla": "ESP",
       "crest": "https://crests.football-data.org/760.svg"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 1,
+     "winner": "AWAY_TEAM",
+     "status": "IN_PLAY",
      "utc": "2026-07-14T19:00:00Z",
      "note": null,
      "sweep": true
