@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-15T20:50:25",
+ "updated": "2026-07-15T21:23:35",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
- "playersIn": 3,
+ "playersIn": 2,
  "playersTotal": 31,
  "players": [
   {
@@ -94,14 +94,14 @@ window.DATA = {
      "points": 7,
      "gd": 4,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 4,
    "bestStageLabel": "Semi-final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 7,
    "totalGd": 4
   },
@@ -1206,33 +1206,6 @@ window.DATA = {
    "totalGd": -1
   },
   {
-   "name": "Lynn",
-   "teams": [
-    {
-     "display": "England",
-     "name": "England",
-     "matched": true,
-     "tla": "ENG",
-     "crest": "https://crests.football-data.org/770.svg",
-     "group": "L",
-     "stage": 4,
-     "stageLabel": "Semi-final",
-     "position": 1,
-     "points": 7,
-     "gd": 4,
-     "played": 3,
-     "in": true,
-     "brink": false
-    }
-   ],
-   "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
-   "aliveCount": 1,
-   "totalPoints": 7,
-   "totalGd": 4
-  },
-  {
    "name": "Barry",
    "teams": [
     {
@@ -1274,6 +1247,33 @@ window.DATA = {
    "aliveCount": 0,
    "totalPoints": 14,
    "totalGd": 12
+  },
+  {
+   "name": "Lynn",
+   "teams": [
+    {
+     "display": "England",
+     "name": "England",
+     "matched": true,
+     "tla": "ENG",
+     "crest": "https://crests.football-data.org/770.svg",
+     "group": "L",
+     "stage": 4,
+     "stageLabel": "Semi-final",
+     "position": 1,
+     "points": 7,
+     "gd": 4,
+     "played": 3,
+     "in": false,
+     "brink": false
+    }
+   ],
+   "in": false,
+   "bestStage": 4,
+   "bestStageLabel": "Semi-final",
+   "aliveCount": 0,
+   "totalPoints": 7,
+   "totalGd": 4
   },
   {
    "name": "Brandon B",
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "away": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "utc": "2026-07-15T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 2,
+   "note": "FT"
+  },
+  {
+   "stage": "Semi-final",
+   "home": {
     "name": "France",
     "tla": "FRA",
     "crest": "https://crests.football-data.org/773.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 1,
    "as": 2,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Paraguay",
-    "tla": "PAR",
-    "crest": "https://crests.football-data.org/761.svg"
-   },
-   "away": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "utc": "2026-07-04T21:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 0,
-   "as": 1,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2493,27 +2493,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Semi-final",
-   "home": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "away": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "utc": "2026-07-15T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 1,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3834,11 +3814,11 @@ window.DATA = {
       "crest": "https://crests.football-data.org/762.png"
      },
      "hs": 1,
-     "as": 0,
-     "winner": "HOME_TEAM",
-     "status": "IN_PLAY",
+     "as": 2,
+     "winner": "AWAY_TEAM",
+     "status": "FINISHED",
      "utc": "2026-07-15T19:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     }
    ],
