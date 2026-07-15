@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-15T06:01:08",
+ "updated": "2026-07-15T07:01:12",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -852,8 +852,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 4,
-     "stageLabel": "Semi-final",
+     "stage": 5,
+     "stageLabel": "Final",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -863,8 +863,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
+   "bestStage": 5,
+   "bestStageLabel": "Final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
@@ -1145,8 +1145,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 4,
-     "stageLabel": "Semi-final",
+     "stage": 5,
+     "stageLabel": "Final",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -1156,8 +1156,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
+   "bestStage": 5,
+   "bestStageLabel": "Final",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
@@ -2479,9 +2479,9 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
    },
    "away": {
     "name": null,
@@ -2489,15 +2489,15 @@ window.DATA = {
     "crest": null
    },
    "utc": "2026-07-18T21:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   },
   {
    "stage": "Final",
    "home": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
    },
    "away": {
     "name": null,
@@ -2505,7 +2505,7 @@ window.DATA = {
     "crest": null
    },
    "utc": "2026-07-19T19:00:00Z",
-   "sweep": false,
+   "sweep": true,
    "status": "TIMED"
   }
  ],
@@ -3841,9 +3841,9 @@ window.DATA = {
    "FINAL": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg"
      },
      "away": {
       "name": null,
@@ -3856,15 +3856,15 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-19T19:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     }
    ],
    "THIRD_PLACE": [
     {
      "home": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "France",
+      "tla": "FRA",
+      "crest": "https://crests.football-data.org/773.svg"
      },
      "away": {
       "name": null,
@@ -3877,7 +3877,7 @@ window.DATA = {
      "status": "TIMED",
      "utc": "2026-07-18T21:00:00Z",
      "note": null,
-     "sweep": false
+     "sweep": true
     }
    ]
   },
