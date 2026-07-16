@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-16T05:40:47",
+ "updated": "2026-07-16T06:32:44",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -766,8 +766,8 @@ window.DATA = {
      "tla": "ARG",
      "crest": "https://crests.football-data.org/762.png",
      "group": "J",
-     "stage": 4,
-     "stageLabel": "Semi-final",
+     "stage": 5,
+     "stageLabel": "Final",
      "position": 1,
      "points": 9,
      "gd": 7,
@@ -777,8 +777,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
+   "bestStage": 5,
+   "bestStageLabel": "Final",
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
@@ -1188,8 +1188,8 @@ window.DATA = {
      "tla": "ARG",
      "crest": "https://crests.football-data.org/762.png",
      "group": "J",
-     "stage": 4,
-     "stageLabel": "Semi-final",
+     "stage": 5,
+     "stageLabel": "Final",
      "position": 1,
      "points": 9,
      "gd": 7,
@@ -1199,8 +1199,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 4,
-   "bestStageLabel": "Semi-final",
+   "bestStage": 5,
+   "bestStageLabel": "Final",
    "aliveCount": 1,
    "totalPoints": 10,
    "totalGd": -1
@@ -2468,9 +2468,9 @@ window.DATA = {
     "crest": "https://crests.football-data.org/773.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
    },
    "utc": "2026-07-18T21:00:00Z",
    "sweep": true,
@@ -2484,9 +2484,9 @@ window.DATA = {
     "crest": "https://crests.football-data.org/760.svg"
    },
    "away": {
-    "name": null,
-    "tla": null,
-    "crest": null
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
    },
    "utc": "2026-07-19T19:00:00Z",
    "sweep": true,
@@ -3830,9 +3830,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/760.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "Argentina",
+      "tla": "ARG",
+      "crest": "https://crests.football-data.org/762.png"
      },
      "hs": null,
      "as": null,
@@ -3851,9 +3851,9 @@ window.DATA = {
       "crest": "https://crests.football-data.org/773.svg"
      },
      "away": {
-      "name": null,
-      "tla": null,
-      "crest": null
+      "name": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
      },
      "hs": null,
      "as": null,
