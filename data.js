@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-18T21:48:22",
+ "updated": "2026-07-18T22:19:48",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2493,8 +2493,8 @@ window.DATA = {
    "utc": "2026-07-18T21:00:00Z",
    "sweep": true,
    "status": "IN_PLAY",
-   "hs": 0,
-   "as": 3,
+   "hs": 1,
+   "as": 4,
    "note": "FT"
   }
  ],
@@ -3859,8 +3859,8 @@ window.DATA = {
       "tla": "ENG",
       "crest": "https://crests.football-data.org/770.svg"
      },
-     "hs": 0,
-     "as": 3,
+     "hs": 1,
+     "as": 4,
      "winner": "AWAY_TEAM",
      "status": "IN_PLAY",
      "utc": "2026-07-18T21:00:00Z",
