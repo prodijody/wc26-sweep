@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-18T22:48:25",
+ "updated": "2026-07-18T23:21:28",
  "phase": "Final to come",
  "champion": null,
  "runnerUp": null,
@@ -2233,6 +2233,25 @@ window.DATA = {
   {
    "stage": "Semi-final",
    "home": {
+    "name": "France",
+    "tla": "FRA",
+    "crest": "https://crests.football-data.org/773.svg"
+   },
+   "away": {
+    "name": "England",
+    "tla": "ENG",
+    "crest": "https://crests.football-data.org/770.svg"
+   },
+   "utc": "2026-07-18T21:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 4,
+   "as": 6,
+   "note": "FT"
+  },
+  {
+   "stage": "Semi-final",
+   "home": {
     "name": "England",
     "tla": "ENG",
     "crest": "https://crests.football-data.org/770.svg"
@@ -2438,25 +2457,6 @@ window.DATA = {
    "hs": 2,
    "as": 3,
    "note": "FT"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Brazil",
-    "tla": "BRA",
-    "crest": "https://crests.football-data.org/764.svg"
-   },
-   "away": {
-    "name": "Norway",
-    "tla": "NOR",
-    "crest": "https://crests.football-data.org/813.svg"
-   },
-   "utc": "2026-07-05T20:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 1,
-   "as": 2,
-   "note": "FT"
   }
  ],
  "fixtures": [
@@ -2477,27 +2477,7 @@ window.DATA = {
    "status": "TIMED"
   }
  ],
- "live": [
-  {
-   "stage": "Semi-final",
-   "home": {
-    "name": "France",
-    "tla": "FRA",
-    "crest": "https://crests.football-data.org/773.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-07-18T21:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 3,
-   "as": 4,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3859,12 +3839,12 @@ window.DATA = {
       "tla": "ENG",
       "crest": "https://crests.football-data.org/770.svg"
      },
-     "hs": 3,
-     "as": 4,
+     "hs": 4,
+     "as": 6,
      "winner": "AWAY_TEAM",
-     "status": "IN_PLAY",
+     "status": "FINISHED",
      "utc": "2026-07-18T21:00:00Z",
-     "note": null,
+     "note": "FT",
      "sweep": true
     }
    ]
