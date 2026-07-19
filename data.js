@@ -1,8 +1,8 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-19T18:35:02",
- "phase": "Final to come",
+ "updated": "2026-07-19T19:09:59",
+ "phase": "Knockout stage",
  "champion": null,
  "runnerUp": null,
  "playersIn": 2,
@@ -2459,7 +2459,8 @@ window.DATA = {
    "note": "FT"
   }
  ],
- "fixtures": [
+ "fixtures": [],
+ "live": [
   {
    "stage": "Final",
    "home": {
@@ -2474,10 +2475,12 @@ window.DATA = {
    },
    "utc": "2026-07-19T19:00:00Z",
    "sweep": true,
-   "status": "TIMED"
+   "status": "IN_PLAY",
+   "hs": 0,
+   "as": 0,
+   "note": "FT"
   }
  ],
- "live": [],
  "groups": [
   {
    "group": "A",
@@ -3818,10 +3821,10 @@ window.DATA = {
       "tla": "ARG",
       "crest": "https://crests.football-data.org/762.png"
      },
-     "hs": null,
-     "as": null,
-     "winner": null,
-     "status": "TIMED",
+     "hs": 0,
+     "as": 0,
+     "winner": "DRAW",
+     "status": "IN_PLAY",
      "utc": "2026-07-19T19:00:00Z",
      "note": null,
      "sweep": true
