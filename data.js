@@ -1,11 +1,11 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-19T22:05:30",
- "phase": "Knockout stage",
- "champion": null,
- "runnerUp": null,
- "playersIn": 2,
+ "updated": "2026-07-19T22:33:47",
+ "phase": "Tournament complete",
+ "champion": "Spain",
+ "runnerUp": "Argentina",
+ "playersIn": 1,
  "playersTotal": 31,
  "players": [
   {
@@ -772,14 +772,14 @@ window.DATA = {
      "points": 9,
      "gd": 7,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 5,
    "bestStageLabel": "Final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 10,
    "totalGd": -1
   },
@@ -852,8 +852,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 5,
-     "stageLabel": "Final",
+     "stage": 6,
+     "stageLabel": "Champion 🏆",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -863,8 +863,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 5,
-   "bestStageLabel": "Final",
+   "bestStage": 6,
+   "bestStageLabel": "Champion 🏆",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
@@ -1145,8 +1145,8 @@ window.DATA = {
      "tla": "ESP",
      "crest": "https://crests.football-data.org/760.svg",
      "group": "H",
-     "stage": 5,
-     "stageLabel": "Final",
+     "stage": 6,
+     "stageLabel": "Champion 🏆",
      "position": 1,
      "points": 7,
      "gd": 5,
@@ -1156,8 +1156,8 @@ window.DATA = {
     }
    ],
    "in": true,
-   "bestStage": 5,
-   "bestStageLabel": "Final",
+   "bestStage": 6,
+   "bestStageLabel": "Champion 🏆",
    "aliveCount": 1,
    "totalPoints": 14,
    "totalGd": 8
@@ -1194,14 +1194,14 @@ window.DATA = {
      "points": 9,
      "gd": 7,
      "played": 3,
-     "in": true,
+     "in": false,
      "brink": false
     }
    ],
-   "in": true,
+   "in": false,
    "bestStage": 5,
    "bestStageLabel": "Final",
-   "aliveCount": 1,
+   "aliveCount": 0,
    "totalPoints": 10,
    "totalGd": -1
   },
@@ -2231,6 +2231,25 @@ window.DATA = {
  ],
  "recent": [
   {
+   "stage": "Final",
+   "home": {
+    "name": "Spain",
+    "tla": "ESP",
+    "crest": "https://crests.football-data.org/760.svg"
+   },
+   "away": {
+    "name": "Argentina",
+    "tla": "ARG",
+    "crest": "https://crests.football-data.org/762.png"
+   },
+   "utc": "2026-07-19T19:00:00Z",
+   "sweep": true,
+   "status": "FINISHED",
+   "hs": 1,
+   "as": 0,
+   "note": "AET"
+  },
+  {
    "stage": "Semi-final",
    "home": {
     "name": "France",
@@ -2437,25 +2456,6 @@ window.DATA = {
    "status": "FINISHED",
    "hs": 0,
    "as": 1,
-   "note": "FT"
-  },
-  {
-   "stage": "Round of 16",
-   "home": {
-    "name": "Mexico",
-    "tla": "MEX",
-    "crest": "https://crests.football-data.org/769.svg"
-   },
-   "away": {
-    "name": "England",
-    "tla": "ENG",
-    "crest": "https://crests.football-data.org/770.svg"
-   },
-   "utc": "2026-07-06T01:00:00Z",
-   "sweep": true,
-   "status": "FINISHED",
-   "hs": 2,
-   "as": 3,
    "note": "FT"
   }
  ],
@@ -3804,9 +3804,9 @@ window.DATA = {
      "hs": 1,
      "as": 0,
      "winner": "HOME_TEAM",
-     "status": "LIVE",
+     "status": "FINISHED",
      "utc": "2026-07-19T19:00:00Z",
-     "note": null,
+     "note": "AET",
      "sweep": true
     }
    ],
