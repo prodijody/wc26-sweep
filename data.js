@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-19T19:09:59",
+ "updated": "2026-07-19T19:40:34",
  "phase": "Knockout stage",
  "champion": null,
  "runnerUp": null,
@@ -2460,27 +2460,7 @@ window.DATA = {
   }
  ],
  "fixtures": [],
- "live": [
-  {
-   "stage": "Final",
-   "home": {
-    "name": "Spain",
-    "tla": "ESP",
-    "crest": "https://crests.football-data.org/760.svg"
-   },
-   "away": {
-    "name": "Argentina",
-    "tla": "ARG",
-    "crest": "https://crests.football-data.org/762.png"
-   },
-   "utc": "2026-07-19T19:00:00Z",
-   "sweep": true,
-   "status": "IN_PLAY",
-   "hs": 0,
-   "as": 0,
-   "note": "FT"
-  }
- ],
+ "live": [],
  "groups": [
   {
    "group": "A",
@@ -3824,7 +3804,7 @@ window.DATA = {
      "hs": 0,
      "as": 0,
      "winner": "DRAW",
-     "status": "IN_PLAY",
+     "status": "LIVE",
      "utc": "2026-07-19T19:00:00Z",
      "note": null,
      "sweep": true
