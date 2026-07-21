@@ -1,7 +1,7 @@
 window.DATA = {
  "demo": false,
  "title": "WC 2026 Office Sweep",
- "updated": "2026-07-21T13:35:39",
+ "updated": "2026-07-21T14:29:33",
  "phase": "Tournament complete",
  "champion": "Spain",
  "runnerUp": "Argentina",
